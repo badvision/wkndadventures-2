@@ -1,0 +1,61 @@
+{
+  "templates": [
+    {
+      "name": "blog-article",
+      "description": "Blog article: hero-section (image + title), blog-article-section body with pull quote and gear lists, secondary related-articles, inverse image grid, plain closing section.",
+      "urls": [
+        "https://wknd-adventures.com/blog/alpine-cycling",
+        "https://wknd-adventures.com/blog/desert-survival-guide",
+        "https://wknd-adventures.com/blog/kayaking-norway",
+        "https://wknd-adventures.com/blog/mountain-photography",
+        "https://wknd-adventures.com/blog/patagonia-trek",
+        "https://wknd-adventures.com/blog/surfing-costa-rica",
+        "https://wknd-adventures.com/blog/ultralight-backpacking",
+        "https://wknd-adventures.com/blog/wild-swimming-guide",
+        "https://wknd-adventures.com/blog/winter-mountaineering",
+        "https://wknd-adventures.com/blog/yosemite-rock-climbing"
+      ],
+      "representativeUrl": "https://wknd-adventures.com/blog/patagonia-trek",
+      "urlPattern": "/blog/*",
+      "blocks": []
+    },
+    {
+      "name": "content-page",
+      "description": "Top-level content page: full-bleed hero with h1/lead/tag/buttons, mix of accent, secondary, inverse and plain sections with article cards, section headings, editorial index, tab menus, FAQ items, image grids.",
+      "urls": [
+        "https://wknd-adventures.com/",
+        "https://wknd-adventures.com/about",
+        "https://wknd-adventures.com/adventures",
+        "https://wknd-adventures.com/community",
+        "https://wknd-adventures.com/destinations",
+        "https://wknd-adventures.com/expeditions",
+        "https://wknd-adventures.com/faq",
+        "https://wknd-adventures.com/gear",
+        "https://wknd-adventures.com/sustainability"
+      ],
+      "representativeUrl": "https://wknd-adventures.com/",
+      "urlPattern": "/*",
+      "blocks": []
+    },
+    {
+      "name": "field-notes",
+      "description": "Field notes landing: full-bleed hero followed by inverse/secondary/plain sections with article cards and featured article image.",
+      "urls": [
+        "https://wknd-adventures.com/field-notes"
+      ],
+      "representativeUrl": "https://wknd-adventures.com/field-notes",
+      "urlPattern": "/field-notes",
+      "blocks": []
+    },
+    {
+      "name": "basecamp",
+      "description": "Basecamp: full-bleed hero followed by two plain sections containing ticker, tab menu, article cards and FAQ items.",
+      "urls": [
+        "https://wknd-adventures.com/basecamp"
+      ],
+      "representativeUrl": "https://wknd-adventures.com/basecamp",
+      "urlPattern": "/basecamp",
+      "blocks": []
+    }
+  ]
+}
