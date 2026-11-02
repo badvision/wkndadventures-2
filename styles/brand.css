@@ -63,7 +63,7 @@
   --transition-fast: 0.15s ease;
 
   /* nav height */
-  --nav-height: 72px;
+  --nav-height: 75px;
 }
 
 @media (width >= 769px) {
