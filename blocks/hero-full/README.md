@@ -6,7 +6,7 @@ Custom **hero** block. Purpose: Full-viewport-width photo hero with a dark overl
 
 Model: `standalone`
 
-Single block table. Content: row 1: background image; row 2: eyebrow paragraph, H1 title, lead paragraph, CTA links (bold link = primary button, italic link = secondary button).
+Single block table. Content: row 1: background image; row 2: eyebrow paragraph, H1 title, lead paragraph, CTA links (bold link = primary button, italic link = secondary button), optional byline (avatar image, name paragraph, meta paragraph).
 
 ## Supported variations
 

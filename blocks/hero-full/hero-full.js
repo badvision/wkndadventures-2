@@ -4,15 +4,68 @@ import { createOptimizedPicture } from '../../scripts/aem.js';
  * Optimize same-origin, non-SVG images only. External (not yet uploaded) and SVG
  * images keep their authored <picture>.
  */
-function optimizeImages(root, eager) {
+function optimizeImages(root, eager, breakpoints = [
+  { media: '(min-width: 900px)', width: '2000' },
+  { width: '900' },
+]) {
   root.querySelectorAll('picture > img').forEach((img) => {
     const url = new URL(img.src, window.location.href);
     if (url.origin !== window.location.origin || /\.svg$/i.test(url.pathname)) return;
-    img.closest('picture').replaceWith(createOptimizedPicture(img.src, img.alt, eager, [
-      { media: '(min-width: 900px)', width: '2000' },
-      { width: '900' },
-    ]));
+    img.closest('picture').replaceWith(createOptimizedPicture(img.src, img.alt, eager, breakpoints));
   });
+}
+
+const BYLINE_TEXT_MAX = 120;
+
+function isBylineText(el) {
+  return el && el.tagName === 'P' && !el.querySelector('a, picture, img')
+    && el.textContent.trim() && el.textContent.trim().length <= BYLINE_TEXT_MAX;
+}
+
+/**
+ * Group the first picture after the heading plus the short non-link paragraphs that
+ * follow it into a .hero-full-byline row. Leaves the content untouched when the
+ * pattern is absent (heroes without a byline).
+ */
+function buildByline(content, heading) {
+  const avatarPic = [...content.querySelectorAll('picture')]
+    // eslint-disable-next-line no-bitwise
+    .find((pic) => heading.compareDocumentPosition(pic) & Node.DOCUMENT_POSITION_FOLLOWING);
+  if (!avatarPic) return;
+
+  // the top-level content child that holds the avatar; it must hold nothing else
+  let avatarEl = avatarPic;
+  while (avatarEl.parentElement && avatarEl.parentElement !== content) {
+    avatarEl = avatarEl.parentElement;
+  }
+  if (avatarEl.parentElement !== content) return;
+  if (avatarEl !== avatarPic && (avatarEl.textContent.trim()
+    || avatarEl.querySelectorAll('picture').length !== 1)) return;
+
+  const texts = [];
+  let next = avatarEl.nextElementSibling;
+  while (isBylineText(next) && texts.length < 3) {
+    texts.push(next);
+    next = next.nextElementSibling;
+  }
+  if (!texts.length) return;
+
+  const byline = document.createElement('div');
+  byline.className = 'hero-full-byline';
+  const avatar = document.createElement('div');
+  avatar.className = 'hero-full-byline-avatar';
+  const text = document.createElement('div');
+  text.className = 'hero-full-byline-text';
+
+  avatarEl.before(byline);
+  avatar.append(avatarPic);
+  if (avatarEl !== avatarPic) avatarEl.remove();
+  texts[0].classList.add('hero-full-byline-name');
+  texts.slice(1).forEach((p) => p.classList.add('hero-full-byline-meta'));
+  text.append(...texts);
+  byline.append(avatar, text);
+
+  optimizeImages(avatar, true, [{ width: '96' }]);
 }
 
 /**
@@ -49,6 +102,12 @@ export default function decorate(block) {
     if (prev && prev.tagName === 'P' && !prev.querySelector('a, picture')) {
       prev.classList.add('hero-full-eyebrow');
     }
+  }
+
+  // optional byline: a picture after the heading followed by short plain paragraphs
+  // (name, date · read time) becomes an avatar + text row
+  if (heading) {
+    buildByline(content, heading);
   }
 
   // group consecutive CTA paragraphs

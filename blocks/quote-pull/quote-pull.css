@@ -1,0 +1,37 @@
+.quote-pull .quote-pull-figure {
+  margin: 32px 0;
+  padding-left: 24px;
+  border-left: 4px solid #f60;
+}
+
+.quote-pull .quote-pull-quotation {
+  margin: 0;
+  padding: 0;
+  font-style: italic;
+}
+
+.quote-pull .quote-pull-quotation p {
+  margin: 0 0 0.5em;
+}
+
+.quote-pull .quote-pull-quotation p:last-child {
+  margin-bottom: 0;
+}
+
+.quote-pull .quote-pull-attribution {
+  margin-top: 16px;
+}
+
+.quote-pull .quote-pull-attribution cite {
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.quote-pull .quote-pull-attribution cite::before {
+  content: '— ';
+}
+
+/* standalone in a split-section column: larger quotation */
+.split .quote-pull .quote-pull-quotation {
+  font-size: 1.25em;
+}

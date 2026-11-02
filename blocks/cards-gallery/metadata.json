@@ -9,11 +9,29 @@
   },
   "contentPattern": {
     "structure": "one row per item, one image cell (optional second caption cell)",
-    "rows": [["image"], ["image"], ["image"]],
+    "rows": [
+      [
+        "image"
+      ],
+      [
+        "image"
+      ],
+      [
+        "image"
+      ]
+    ],
     "notes": "The section heading and 'Field Notes' link are default content above the block; the dark band comes from Section Metadata (style: inverse). When the item count is 4, 7, 10, ... the last item spans the full row."
   },
   "options": [],
   "memberVariantIds": [],
-  "usage": "In the Field section on the WKND Adventures homepage.",
+  "usage": {
+    "description": "In the Field section on the WKND Adventures homepage.",
+    "pagesUsing": [
+      "/index",
+      "/blog/patagonia-trek"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-11-02"
+  },
   "reuseGuidance": "Use for photo galleries or image grids with no per-item text. For cards with text use a text-bearing cards variant."
 }
