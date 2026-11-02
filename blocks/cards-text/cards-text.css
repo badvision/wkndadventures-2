@@ -1,52 +1,103 @@
+/* source: .grid-layout.desktop-3-column.grid-gap-lg / .grid-layout--2col (1 column at <= 768px) */
 .cards-text .cards-text-list {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 24px;
+  gap: var(--space-lg);
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
+/* source: .card */
 .cards-text .cards-text-card {
   display: flex;
   flex-direction: column;
-  border: 1px solid #dadada;
-  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--color-gray-200);
+  border-radius: var(--radius-card);
+  background-color: var(--color-white);
+  color: var(--text-color);
 }
 
+/* source: .card-body */
 .cards-text .cards-text-card-body {
   display: flex;
   flex: 1;
   flex-direction: column;
-  padding: 24px;
+  gap: var(--space-sm);
+  padding: var(--space-lg);
 }
 
 .cards-text .cards-text-card-body > :first-child {
   margin-top: 0;
 }
 
-.cards-text .cards-text-card-body > :last-child {
-  margin-bottom: 0;
+/* default cards: h3 styled as source .h4-heading */
+.cards-text .cards-text-card-body h3 {
+  margin: 0 0 var(--space-sm);
+  font-size: var(--heading-font-size-m);
 }
 
-.cards-text .cards-text-card-tag {
+/* source: .paragraph-lg.utility-text-secondary */
+.cards-text .cards-text-card-body p {
+  margin: 0 0 var(--space-md);
+  font-size: var(--body-font-size-l);
+  color: var(--text-secondary-color);
+}
+
+/* source: .card-body > .tag */
+.cards-text .cards-text-card-body p.cards-text-card-tag {
+  display: inline-flex;
+  align-items: center;
   align-self: flex-start;
-  margin: 0 0 8px;
+  margin: 0 0 var(--space-md);
+  border-radius: var(--radius-full);
+  padding: calc(var(--space-xxs) + 1px) var(--space-xs) calc(var(--space-xxs) - 1px);
+  background-color: var(--accent-color);
+  color: var(--color-white);
+  font-family: var(--heading-font-family);
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  line-height: 1.6;
 }
 
-/* the CTA sits at the bottom of the card so CTAs line up across a row */
-.cards-text .cards-text-card-cta {
-  margin-top: auto;
-  padding-top: 16px;
+/* source: .card-body > a.button--ghost, a flex item stretched to the card width */
+.cards-text .cards-text-card-body p.cards-text-card-cta {
+  display: flex;
+  margin: auto 0 0;
 }
 
-@media (width >= 600px) {
-  .cards-text .cards-text-list {
-    grid-template-columns: repeat(2, 1fr);
-  }
+main .cards-text .cards-text-card-cta a.button:any-link {
+  flex: 1;
+  width: 100%;
 }
 
-@media (width >= 900px) {
+/* two-col: h3 styled as source .h3-heading, body copy as .paragraph-lg */
+.cards-text.two-col .cards-text-card-body h3 {
+  font-size: var(--heading-font-size-l);
+}
+
+.cards-text.two-col .cards-text-card-body p:not(.cards-text-card-tag, .cards-text-card-cta) {
+  color: var(--text-color);
+}
+
+/* inverse section: source .inverse-section .card */
+main > .section.inverse .cards-text .cards-text-card {
+  border-color: rgb(255 255 255 / 12%);
+  background-color: rgb(255 255 255 / 6%);
+  color: var(--color-white);
+}
+
+main > .section.inverse .cards-text .cards-text-card-body p:not(.cards-text-card-tag, .cards-text-card-cta) {
+  color: rgb(255 255 255 / 55%);
+}
+
+main > .section.inverse .cards-text.two-col .cards-text-card-body p:not(.cards-text-card-tag, .cards-text-card-cta) {
+  color: rgb(255 255 255 / 85%);
+}
+
+@media (width >= 769px) {
   .cards-text .cards-text-list {
     grid-template-columns: repeat(3, 1fr);
   }

@@ -67,12 +67,33 @@ function collectSections(root, rules) {
   return top;
 }
 
+/**
+ * A source section holding several .container children (e.g. /adventures
+ * "How We Plan" + "Going further?") separates them with 64px margin + 64px
+ * padding. Two adjacent EDS sections with the same style give the same gap,
+ * so split each extra container into its own copy of the section element.
+ */
+function splitMultiContainerSections(root) {
+  root.querySelectorAll('section.section').forEach((section) => {
+    const containers = [...section.querySelectorAll(':scope > .container')];
+    if (containers.length < 2) return;
+    let anchor = section;
+    containers.slice(1).forEach((container) => {
+      const copy = section.cloneNode(false);
+      copy.append(container);
+      anchor.after(copy);
+      anchor = copy;
+    });
+  });
+}
+
 export default function transform(hookName, element, payload) {
   const document = element.ownerDocument || payload.document;
   const rules = payload && payload.template && payload.template.sections;
   if (!rules || rules.length < 2) return;
 
   if (hookName === 'beforeTransform') {
+    splitMultiContainerSections(element);
     const sections = collectSections(element, rules);
     if (!sections.length) return;
 
