@@ -3,7 +3,12 @@ import { createOptimizedPicture } from '../../scripts/aem.js';
 function optimizeImages(root) {
   root.querySelectorAll('picture > img').forEach((img) => {
     const url = new URL(img.src, window.location.href);
-    if (url.origin !== window.location.origin || /\.svg$/i.test(url.pathname)) return;
+    if (url.origin !== window.location.origin || /\.svg$/i.test(url.pathname)) {
+      // gallery sits below the fold: lazy-load images that are not re-rendered
+      if (!img.hasAttribute('loading')) img.loading = 'lazy';
+      img.decoding = 'async';
+      return;
+    }
     img.closest('picture').replaceWith(createOptimizedPicture(img.src, img.alt, false, [
       { media: '(min-width: 900px)', width: '1200' },
       { width: '750' },

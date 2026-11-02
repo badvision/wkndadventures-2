@@ -4,7 +4,7 @@
   "canonicalModel": "standalone",
   "visualCharacteristics": {
     "purpose": "Image-only cards in a 3-column grid of rounded photos",
-    "layout": "3-column grid on desktop (2 on tablet, 1 on mobile); a trailing single item spans the full width",
+    "layout": "1 column up to 768px, 3 columns above; 280px-tall images, 360px when a trailing single item spans the full width",
     "description": "Rounded photos in a wrapping 3-column grid on a very dark (inverse) section band; a fourth image renders as a full-width wide image below."
   },
   "contentPattern": {
