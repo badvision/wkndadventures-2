@@ -81,7 +81,14 @@ function makeCta(document, a, pageUrl) {
     const em = document.createElement('em');
     em.append(link);
     p.append(em);
-  } else if (a.matches('.button, .accent-button')) {
+  } else if (a.matches('.accent-button')) {
+    // accent (orange) CTA -> bold + italic, EDS "accent" button
+    const strong = document.createElement('strong');
+    const em = document.createElement('em');
+    em.append(link);
+    strong.append(em);
+    p.append(strong);
+  } else if (a.matches('.button')) {
     const strong = document.createElement('strong');
     strong.append(link);
     p.append(strong);

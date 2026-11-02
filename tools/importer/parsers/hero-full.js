@@ -8,7 +8,7 @@
  *   1. [background image]            (div.hero-bg img)
  *   2. [eyebrow p, h1, lead p, CTAs]  (p.tag, h1, p.hero-lead, a.button / a.accent-button /
  *                                       a.button--ghost / a.text-button)
- * CTA styles: primary (a.button, a.accent-button) -> <strong> link,
+ * CTA styles: primary (a.button) -> <strong>, accent (a.accent-button) -> <strong><em>,
  * ghost (a.button--ghost) -> <em> link, text (a.text-button) -> plain link.
  */
 
@@ -83,7 +83,14 @@ function makeCta(document, a, pageUrl) {
     const em = document.createElement('em');
     em.append(link);
     p.append(em);
-  } else if (a.matches('.button, .accent-button')) {
+  } else if (a.matches('.accent-button')) {
+    // accent (orange) CTA -> bold + italic, EDS "accent" button
+    const strong = document.createElement('strong');
+    const em = document.createElement('em');
+    em.append(link);
+    strong.append(em);
+    p.append(strong);
+  } else if (a.matches('.button')) {
     const strong = document.createElement('strong');
     strong.append(link);
     p.append(strong);

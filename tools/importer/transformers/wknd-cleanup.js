@@ -86,7 +86,8 @@ function normalizeLinks(root, base) {
 /**
  * Default-content CTAs (div.button-group, standalone a.button*) become one
  * paragraph per link so EDS decorateButtons can style them:
- * a.button / a.accent-button -> <strong> (primary), a.button--ghost -> <em>
+ * a.button -> <strong> (primary), a.accent-button -> <strong><em> (accent),
+ * a.button--ghost -> <em>
  * (secondary), a.text-button -> plain link. Block tables are left alone.
  */
 const BUTTON_SELECTOR = 'a.button, a.accent-button, a.button--ghost, a.text-button';
@@ -102,6 +103,12 @@ function buttonParagraph(document, a, label, ghost) {
     p.append(em);
   } else if (a.classList.contains('text-button')) {
     p.append(link);
+  } else if (a.classList.contains('accent-button')) {
+    const strong = document.createElement('strong');
+    const em = document.createElement('em');
+    em.append(link);
+    strong.append(em);
+    p.append(strong);
   } else {
     const strong = document.createElement('strong');
     strong.append(link);

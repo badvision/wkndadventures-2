@@ -5,7 +5,7 @@
  * Parser: cards-text
  * Source: div.grid-layout > div.card.card-body (p.tag, h3/h4, p, optional a.button--ghost)
  * Target: one row per card, one text cell: [tag p, heading, paragraph(s), CTA].
- *   a.button--ghost -> <em> link, a.button / a.accent-button -> <strong> link,
+ *   a.button--ghost -> <em> link, a.button -> <strong> link, a.accent-button -> <strong><em> link,
  *   a.text-button -> plain link.
  * Option: grid-layout--2col -> block "Cards Text (two-col)".
  */
@@ -63,7 +63,14 @@ function makeCta(document, a, pageUrl) {
     const em = document.createElement('em');
     em.append(link);
     p.append(em);
-  } else if (a.matches('.button, .accent-button')) {
+  } else if (a.matches('.accent-button')) {
+    // accent (orange) CTA -> bold + italic, EDS "accent" button
+    const strong = document.createElement('strong');
+    const em = document.createElement('em');
+    em.append(link);
+    strong.append(em);
+    p.append(strong);
+  } else if (a.matches('.button')) {
     const strong = document.createElement('strong');
     strong.append(link);
     p.append(strong);

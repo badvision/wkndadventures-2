@@ -172,6 +172,20 @@ function decorateSectionMetadata(main) {
 }
 
 /**
+ * Marks short eyebrow paragraphs (e.g. "Start Here") that directly precede
+ * a heading in default content, so they render as the brand tag pill.
+ * @param {Element} main The container element
+ */
+function decorateEyebrows(main) {
+  main.querySelectorAll('.default-content-wrapper > p + :is(h1, h2, h3)').forEach((heading) => {
+    const p = heading.previousElementSibling;
+    const text = p.textContent.trim();
+    if (!text || text.length > 60 || p.querySelector('a, img, picture')) return;
+    p.classList.add('eyebrow');
+  });
+}
+
+/**
  * Decorates the main element.
  * @param {Element} main The main element
  */
@@ -183,6 +197,7 @@ export function decorateMain(main) {
   decorateSectionMetadata(main);
   decorateBlocks(main);
   decorateButtons(main);
+  decorateEyebrows(main);
 }
 
 /**
