@@ -1,0 +1,19 @@
+{
+  "variantName": "cards-ticker",
+  "baseBlock": "cards",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Thin full-width strip of activity words scrolling horizontally in an infinite loop",
+    "layout": "Single-line marquee between top and bottom rules; items separated by dots",
+    "description": "Horizontally auto-scrolling uppercase activity words separated by orange dots. Pauses on hover/focus; static and scrollable when the user prefers reduced motion."
+  },
+  "contentPattern": {
+    "structure": "one row per item, one text cell (Cards no-images model): e.g. Climbing, Kayaking, Cycling, Desert, Photography, Hiking, Winter, Surfing, Expedition, Wild Swimming",
+    "rows": [["Climbing"], ["Kayaking"], ["Cycling"], ["..."]],
+    "notes": "Enter each item once; the block duplicates the list (hidden from assistive technology) for the seamless loop. Only text is kept; empty rows are ignored and extra cells in a row are joined."
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Activity Ticker strip on the WKND Adventures homepage.",
+  "reuseGuidance": "Use for decorative scrolling keyword or category strips. Not for content users must read or interact with."
+}

@@ -1,0 +1,19 @@
+{
+  "variantName": "accordion-faq",
+  "baseBlock": "accordion",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Collapsible FAQ rows with a plus icon in a narrow column",
+    "layout": "Narrow centred column of bordered rows stacked vertically",
+    "description": "Bordered collapsible question rows with an orange plus icon on the right that turns into a minus when open."
+  },
+  "contentPattern": {
+    "structure": "one row per question, two cells: [question] [answer]",
+    "rows": [["Who is WKND Adventures for?", "Answer paragraph(s)"]],
+    "notes": "Uses native details/summary, so items work without JavaScript state and are keyboard accessible. Rows with an empty question are dropped; a missing answer renders an empty body."
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Quick Answers section on the WKND Adventures homepage.",
+  "reuseGuidance": "Use for any FAQ or short question/answer list."
+}

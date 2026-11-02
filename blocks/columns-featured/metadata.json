@@ -1,0 +1,19 @@
+{
+  "variantName": "columns-featured",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Single featured-story row with a large rounded image on the left and eyebrow, heading, lead and button on the right",
+    "layout": "Two fixed columns side by side on desktop (image | text), stacked on mobile; never wraps into a grid",
+    "description": "Warm beige section band. Rounded image left; orange tag pill, uppercase h2, grey lead paragraph and dark filled 'Read the Story' button right."
+  },
+  "contentPattern": {
+    "structure": "one row with two cells: [image] [eyebrow paragraph, H2, lead paragraph, bold CTA link]",
+    "rows": [["Image", "Eyebrow paragraph, H2, paragraph, CTA link"]],
+    "notes": "The image cell is detected wherever it sits; the paragraph directly before the heading is the eyebrow. The section band colour comes from Section Metadata (style: secondary)."
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Featured Article section on the WKND Adventures homepage.",
+  "reuseGuidance": "Use for one highlighted story or promo with image beside text. For repeating items use a cards variant instead."
+}
