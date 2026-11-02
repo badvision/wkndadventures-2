@@ -206,7 +206,109 @@
       ],
       "representativeUrl": "https://wknd-adventures.com/blog/patagonia-trek",
       "urlPattern": "/blog/*",
-      "blocks": []
+      "blocks": [
+        {
+          "name": "hero-full",
+          "instances": [
+            "#main-content > section.hero-section"
+          ]
+        },
+        {
+          "name": "quote-pull",
+          "instances": [
+            "blockquote.pull-quote",
+            "div.blog-content-body blockquote"
+          ]
+        },
+        {
+          "name": "cards-gallery",
+          "instances": [
+            "div.grid-layout.grid-images"
+          ]
+        },
+        {
+          "name": "cards-article",
+          "instances": [
+            "div.grid-layout:has(> a.article-card):not(.tab-pane *)"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "hero",
+          "name": "Article hero",
+          "selector": [
+            "#main-content > section.hero-section"
+          ],
+          "style": null,
+          "blocks": [
+            "hero-full"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "article",
+          "name": "Article body",
+          "selector": [
+            "#main-content > section.blog-article-section"
+          ],
+          "style": "narrow",
+          "blocks": [
+            "quote-pull"
+          ],
+          "defaultContent": [
+            "h2",
+            "p",
+            "figure"
+          ]
+        },
+        {
+          "id": "secondary",
+          "name": "What we carried + pull quote",
+          "selector": [
+            "#main-content > section.secondary-section"
+          ],
+          "style": "secondary, split",
+          "blocks": [
+            "quote-pull"
+          ],
+          "defaultContent": [
+            "h3",
+            "ul.blog-gear-list"
+          ]
+        },
+        {
+          "id": "inverse",
+          "name": "Gallery",
+          "selector": [
+            "#main-content > section.inverse-section"
+          ],
+          "style": "inverse",
+          "blocks": [
+            "cards-gallery"
+          ],
+          "defaultContent": [
+            "div.section-heading",
+            "img.gallery-img--wide"
+          ]
+        },
+        {
+          "id": "plain",
+          "name": "Related articles",
+          "selector": [
+            "#main-content > section.section:not(.secondary-section):not(.inverse-section):not(.accent-section):not(.blog-article-section)"
+          ],
+          "style": null,
+          "blocks": [
+            "cards-article"
+          ],
+          "defaultContent": [
+            "div.section-heading"
+          ]
+        }
+      ],
+      "sectionRules": "Sections vary in order per page: apply EVERY entry to ALL matching elements (querySelectorAll), in document order. Style modifiers: append \"centered\" when the section contains .utility-text-align-center or .button-group--centered; append \"narrow\" when it contains .container--narrow (e.g. \"accent, centered\").",
+      "pageMetadata": "From div.article-byline: Author (p.article-byline-name), Publication Date + Reading Time (p.article-byline-meta split on ·), Tags (span.tag split on ·)."
     },
     {
       "name": "field-notes",
@@ -216,7 +318,124 @@
       ],
       "representativeUrl": "https://wknd-adventures.com/field-notes",
       "urlPattern": "/field-notes",
-      "blocks": []
+      "blocks": [
+        {
+          "name": "hero-full",
+          "instances": [
+            "section.hero-section--full"
+          ]
+        },
+        {
+          "name": "columns-featured",
+          "instances": [
+            "div.featured-article",
+            "div.grid-layout.tablet-1-column"
+          ]
+        },
+        {
+          "name": "cards-article",
+          "instances": [
+            "div.grid-layout:has(> a.article-card):not(.tab-pane *)"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "hero",
+          "name": "Hero (full-bleed)",
+          "selector": [
+            "#main-content > section.hero-section--full"
+          ],
+          "style": null,
+          "blocks": [
+            "hero-full"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "ticker",
+          "name": "Activity ticker strip",
+          "selector": [
+            "#main-content > div.ticker-strip"
+          ],
+          "style": null,
+          "blocks": [],
+          "defaultContent": []
+        },
+        {
+          "id": "secondary",
+          "name": "Secondary (warm beige) sections",
+          "selector": [
+            "#main-content > section.secondary-section"
+          ],
+          "style": "secondary",
+          "blocks": [
+            "columns-featured",
+            "cards-article"
+          ],
+          "defaultContent": [
+            "div.section-heading",
+            "h2",
+            "p",
+            "figure",
+            "div.button-group"
+          ]
+        },
+        {
+          "id": "inverse",
+          "name": "Inverse (dark green) sections",
+          "selector": [
+            "#main-content > section.inverse-section"
+          ],
+          "style": "inverse",
+          "blocks": [
+            "cards-article"
+          ],
+          "defaultContent": [
+            "div.section-heading",
+            "p.tag",
+            "h2",
+            "p",
+            "img.gallery-img--wide",
+            "div.button-group"
+          ]
+        },
+        {
+          "id": "accent",
+          "name": "Accent (orange) sections",
+          "selector": [
+            "#main-content > section.accent-section"
+          ],
+          "style": "accent",
+          "blocks": [],
+          "defaultContent": [
+            "h2",
+            "p",
+            "ul.blog-gear-list",
+            "div.button-group"
+          ]
+        },
+        {
+          "id": "plain",
+          "name": "Plain sections",
+          "selector": [
+            "#main-content > section.section:not(.secondary-section):not(.inverse-section):not(.accent-section)"
+          ],
+          "style": null,
+          "blocks": [
+            "cards-article",
+            "columns-featured"
+          ],
+          "defaultContent": [
+            "div.section-heading",
+            "h2",
+            "h3",
+            "p",
+            "ul.blog-gear-list"
+          ]
+        }
+      ],
+      "sectionRules": "Sections vary in order per page: apply EVERY entry to ALL matching elements (querySelectorAll), in document order. Style modifiers: append \"centered\" when the section contains .utility-text-align-center or .button-group--centered; append \"narrow\" when it contains .container--narrow (e.g. \"accent, centered\")."
     },
     {
       "name": "basecamp",
@@ -226,7 +445,128 @@
       ],
       "representativeUrl": "https://wknd-adventures.com/basecamp",
       "urlPattern": "/basecamp",
-      "blocks": []
+      "blocks": [
+        {
+          "name": "hero-full",
+          "instances": [
+            "section.hero-section--full"
+          ]
+        },
+        {
+          "name": "tabs-cards",
+          "instances": [
+            "div.tab-container"
+          ]
+        },
+        {
+          "name": "cards-ticker",
+          "instances": [
+            "div.ticker-strip"
+          ]
+        },
+        {
+          "name": "accordion-faq",
+          "instances": [
+            "div.faq-list"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "hero",
+          "name": "Hero (full-bleed)",
+          "selector": [
+            "#main-content > section.hero-section--full"
+          ],
+          "style": null,
+          "blocks": [
+            "hero-full"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "ticker",
+          "name": "Activity ticker strip",
+          "selector": [
+            "#main-content > div.ticker-strip"
+          ],
+          "style": null,
+          "blocks": [
+            "cards-ticker"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "secondary",
+          "name": "Secondary (warm beige) sections",
+          "selector": [
+            "#main-content > section.secondary-section"
+          ],
+          "style": "secondary",
+          "blocks": [
+            "accordion-faq"
+          ],
+          "defaultContent": [
+            "div.section-heading",
+            "h2",
+            "p",
+            "figure",
+            "div.button-group"
+          ]
+        },
+        {
+          "id": "inverse",
+          "name": "Inverse (dark green) sections",
+          "selector": [
+            "#main-content > section.inverse-section"
+          ],
+          "style": "inverse",
+          "blocks": [],
+          "defaultContent": [
+            "div.section-heading",
+            "p.tag",
+            "h2",
+            "p",
+            "img.gallery-img--wide",
+            "div.button-group"
+          ]
+        },
+        {
+          "id": "accent",
+          "name": "Accent (orange) sections",
+          "selector": [
+            "#main-content > section.accent-section"
+          ],
+          "style": "accent",
+          "blocks": [],
+          "defaultContent": [
+            "h2",
+            "p",
+            "ul.blog-gear-list",
+            "div.button-group"
+          ]
+        },
+        {
+          "id": "plain",
+          "name": "Plain sections",
+          "selector": [
+            "#main-content > section.section:not(.secondary-section):not(.inverse-section):not(.accent-section)"
+          ],
+          "style": null,
+          "blocks": [
+            "tabs-cards",
+            "accordion-faq"
+          ],
+          "defaultContent": [
+            "div.section-heading",
+            "h2",
+            "h3",
+            "p",
+            "ul.blog-gear-list"
+          ]
+        }
+      ],
+      "sectionRules": "Sections vary in order per page: apply EVERY entry to ALL matching elements (querySelectorAll), in document order. Style modifiers: append \"centered\" when the section contains .utility-text-align-center or .button-group--centered; append \"narrow\" when it contains .container--narrow (e.g. \"accent, centered\")."
     }
   ],
   "metadata": {

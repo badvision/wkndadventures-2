@@ -3,7 +3,7 @@
 
 /**
  * Parser: hero-full
- * Source: section.hero-section--full
+ * Source: section.hero-section--full, blog section.hero-section (with byline)
  * Target rows:
  *   1. [background image]            (div.hero-bg img)
  *   2. [eyebrow p, h1, lead p, CTAs]  (p.tag, h1, p.hero-lead, a.button / a.accent-button /
@@ -112,12 +112,18 @@ export default function parse(element, { document }) {
   // Row 2: text content
   const content = [];
   const inner = element.querySelector('.hero-content-inner, .hero-content') || element;
-  const parts = [...inner.querySelectorAll('p, h1, h2, h3, h4, h5, h6, a.button, a.accent-button, a.button--ghost, a.text-button')]
-    .filter((el) => !(bgImg && el.contains(bgImg)))
+  // span.tag is the eyebrow on blog heroes; .article-byline .avatar img is
+  // the author avatar (followed by name/meta paragraphs) on blog heroes.
+  const parts = [...inner.querySelectorAll('p, span.tag, h1, h2, h3, h4, h5, h6, .article-byline img, a.button, a.accent-button, a.button--ghost, a.text-button')]
+    .filter((el) => el !== bgImg && !(bgImg && el.contains(bgImg)))
     // drop nodes nested inside another matched node (e.g. a link inside a p)
     .filter((el, i, all) => !all.some((o) => o !== el && o.contains(el)));
 
   parts.forEach((el) => {
+    if (el.tagName === 'IMG') {
+      content.push(makeImg(document, el, pageUrl));
+      return;
+    }
     if (el.tagName === 'A') {
       const cta = makeCta(document, el, pageUrl);
       if (cta) content.push(cta);

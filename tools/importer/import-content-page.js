@@ -11,6 +11,7 @@ import columnsNumberedParser from './parsers/columns-numbered.js';
 import cardsGalleryParser from './parsers/cards-gallery.js';
 import cardsArticleParser from './parsers/cards-article.js';
 import cardsTextParser from './parsers/cards-text.js';
+import wkndArticleMetadataTransformer from './transformers/wknd-article-metadata.js';
 import wkndCleanupTransformer from './transformers/wknd-cleanup.js';
 import wkndSectionsTransformer from './transformers/wknd-sections.js';
 
@@ -217,10 +218,11 @@ const parsers = {
   'cards-text': cardsTextParser,
 };
 
-const transformers = [wkndCleanupTransformer, wkndSectionsTransformer];
+const transformers = [wkndArticleMetadataTransformer, wkndCleanupTransformer, wkndSectionsTransformer];
 
-function executeTransformers(hookName, element, payload) {
-  const enhancedPayload = { ...payload, template: PAGE_TEMPLATE };
+function executeTransformers(hookName, element, payload, pageMetadata) {
+  // Transformers may add page metadata fields (e.g. Author) via payload.metadata.
+  const enhancedPayload = { ...payload, template: PAGE_TEMPLATE, metadata: pageMetadata };
   transformers.forEach((fn) => {
     try { fn(hookName, element, enhancedPayload); }
     catch (e) { console.error(`Transformer failed at ${hookName}:`, e); }
@@ -244,7 +246,8 @@ export default {
     const { document, url, params } = payload;
     const main = document.body;
 
-    executeTransformers('beforeTransform', main, payload);
+    const pageMetadata = {};
+    executeTransformers('beforeTransform', main, payload, pageMetadata);
 
     const pageBlocks = findBlocksOnPage(document, PAGE_TEMPLATE);
     pageBlocks.forEach((block) => {
@@ -255,10 +258,11 @@ export default {
       catch (e) { console.error(`Failed to parse ${block.name} (${block.selector}):`, e); }
     });
 
-    executeTransformers('afterTransform', main, payload);
+    executeTransformers('afterTransform', main, payload, pageMetadata);
 
     main.appendChild(document.createElement('hr'));
-    WebImporter.rules.createMetadata(main, document);
+    const meta = { ...WebImporter.Blocks.getMetadata(document), ...pageMetadata };
+    if (Object.keys(meta).length) main.append(WebImporter.Blocks.getMetadataBlock(document, meta));
     WebImporter.rules.transformBackgroundImages(main, document);
     WebImporter.rules.adjustImageUrls(main, url, params.originalURL);
 
