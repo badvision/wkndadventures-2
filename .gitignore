@@ -15,3 +15,6 @@ helix-importer-ui
 # importer build artifacts
 tools/importer/*.bundle.js
 tools/importer/reports/
+
+# nav migration validation artifacts
+migration-work/navigation-validation/
