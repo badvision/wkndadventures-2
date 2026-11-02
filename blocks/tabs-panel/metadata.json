@@ -1,0 +1,19 @@
+{
+  "variantName": "tabs-panel",
+  "baseBlock": "tabs",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Tab switcher whose panels hold free-form content, such as team member profiles",
+    "layout": "Underlined horizontal tab bar; the active panel shows padded content. A profile panel puts a narrow column (circular photo, name, role) beside the remaining content on desktop and stacks on mobile",
+    "description": "Same uppercase underlined tab bar as tabs-cards. On the About page each panel is one team profile: circular photo with name and role on the left, bio paragraphs on the right."
+  },
+  "contentPattern": {
+    "structure": "one row per tab, two cells: [tab label] [free-form panel content]",
+    "rows": [["Jordan", "image / bold name paragraph / bio paragraph / bio paragraph"], ["Alex", "image / bold name paragraph / role paragraph / bio paragraph / bio paragraph"], ["Morgan", "..."], ["Taylor", "..."]],
+    "notes": "When the panel opens with an image followed by one or more short lines (80 characters or fewer), the image and those lines form the profile column and the rest of the content sits beside it. The first short line is the name. Any other panel renders as plain content. Arrow, Home and End keys move between tabs."
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "The Team section on the WKND Adventures About page.",
+  "reuseGuidance": "Use for any tab switcher with free-form panels, including people profiles. For panels that are grids of linked cards use tabs-cards."
+}

@@ -1,0 +1,37 @@
+{
+  "variantName": "cards-gallery",
+  "baseBlock": "cards",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Image-only cards in a 3-column grid of rounded photos",
+    "layout": "1 column up to 768px, 3 columns above; 280px-tall images, 360px when a trailing single item spans the full width",
+    "description": "Rounded photos in a wrapping 3-column grid on a very dark (inverse) section band; a fourth image renders as a full-width wide image below."
+  },
+  "contentPattern": {
+    "structure": "one row per item, one image cell (optional second caption cell)",
+    "rows": [
+      [
+        "image"
+      ],
+      [
+        "image"
+      ],
+      [
+        "image"
+      ]
+    ],
+    "notes": "The section heading and 'Field Notes' link are default content above the block; the dark band comes from Section Metadata (style: inverse). When the item count is 4, 7, 10, ... the last item spans the full row."
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "usage": {
+    "description": "In the Field section on the WKND Adventures homepage.",
+    "pagesUsing": [
+      "/index",
+      "/blog/patagonia-trek"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-11-02"
+  },
+  "reuseGuidance": "Use for photo galleries or image grids with no per-item text. For cards with text use a text-bearing cards variant."
+}

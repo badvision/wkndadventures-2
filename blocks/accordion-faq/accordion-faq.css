@@ -1,0 +1,66 @@
+.accordion-faq {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.accordion-faq .accordion-faq-item {
+  border: 1px solid #dadada;
+  border-radius: 4px;
+}
+
+.accordion-faq .accordion-faq-item + .accordion-faq-item {
+  margin-top: 12px;
+}
+
+.accordion-faq .accordion-faq-item-label {
+  position: relative;
+  display: block;
+  padding: 16px 48px 16px 16px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.accordion-faq .accordion-faq-item-label::-webkit-details-marker {
+  display: none;
+}
+
+/* plus icon; the vertical bar collapses into a minus when open */
+.accordion-faq .accordion-faq-item-label::before,
+.accordion-faq .accordion-faq-item-label::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 18px;
+  width: 12px;
+  height: 2px;
+  background: currentcolor;
+  transform: translateY(-50%);
+  transition: transform 0.2s;
+}
+
+.accordion-faq .accordion-faq-item-label::after {
+  transform: translateY(-50%) rotate(90deg);
+}
+
+.accordion-faq .accordion-faq-item[open] > .accordion-faq-item-label::after {
+  transform: translateY(-50%) rotate(0deg);
+}
+
+.accordion-faq .accordion-faq-item-body {
+  padding: 0 16px 16px;
+}
+
+.accordion-faq .accordion-faq-item-body > :first-child {
+  margin-top: 0;
+}
+
+.accordion-faq .accordion-faq-item-body > :last-child {
+  margin-bottom: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .accordion-faq .accordion-faq-item-label::before,
+  .accordion-faq .accordion-faq-item-label::after {
+    transition: none;
+  }
+}

@@ -1,0 +1,240 @@
+/* hero-full: source .hero-section (blog article) and .hero-section--full (content pages) */
+.hero-full {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 65vh;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+/* blog article hero (source .hero-section without --full): shorter, with author byline */
+.hero-full:has(.hero-full-byline) {
+  min-height: 55vh;
+}
+
+.hero-full .hero-full-media {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+
+/* source .overlay */
+.hero-full .hero-full-media::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(0deg, rgb(0 0 0 / 75%) 0, rgb(0 0 0 / 45%) 40%, rgb(0 0 0 / 25%));
+}
+
+.hero-full .hero-full-media picture,
+.hero-full .hero-full-media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* source .container.hero-content */
+.hero-full .hero-full-inner {
+  position: relative;
+  width: 100%;
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: var(--space-xl) var(--container-padding);
+  box-sizing: border-box;
+}
+
+/* source .hero-content-inner */
+.hero-full .hero-full-content {
+  max-width: 52rem;
+  color: var(--color-white);
+  text-align: left;
+  text-shadow: 0 1px 3px rgb(0 0 0 / 35%);
+}
+
+.hero-full:has(.hero-full-byline) .hero-full-content {
+  max-width: none;
+}
+
+/* source .tag */
+.hero-full .hero-full-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  margin: 0;
+  border-radius: var(--radius-full);
+  padding: calc(var(--space-xxs) + 1px) var(--space-xs) calc(var(--space-xxs) - 1px);
+  background-color: var(--accent-color);
+  color: var(--color-white);
+  font-family: var(--heading-font-family);
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  line-height: 1.6;
+  text-shadow: none;
+}
+
+.hero-full .hero-full-content h1 {
+  margin: 0 0 var(--space-lg);
+  color: var(--color-white);
+}
+
+.hero-full .hero-full-eyebrow + h1 {
+  margin-top: var(--space-md);
+}
+
+/* source .hero-lead.paragraph-xl */
+.hero-full .hero-full-content > p:not(.hero-full-eyebrow) {
+  max-width: 38rem;
+  margin: 0 0 var(--space-lg);
+  color: rgb(255 255 255 / 85%);
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
+/* source .button-group (stacked, full-width buttons on mobile) */
+.hero-full .hero-full-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-md);
+  margin-top: var(--space-lg);
+}
+
+.hero-full .hero-full-actions p.button-wrapper {
+  display: flex;
+  width: 100%;
+  margin: 0;
+}
+
+main .hero-full .hero-full-actions a.button:any-link {
+  width: 100%;
+}
+
+/* source .hero-section .button: white on dark imagery */
+main .hero-full a.button.primary:any-link {
+  border-color: var(--color-white);
+  background-color: var(--color-white);
+  box-shadow: 3px 3px 0 0 var(--color-amber);
+  color: var(--color-black);
+}
+
+main .hero-full a.button.primary:hover {
+  box-shadow: 5px 5px 0 0 var(--color-amber);
+  color: var(--color-black);
+}
+
+main .hero-full a.button.primary:active {
+  box-shadow: 1px 1px 0 0 var(--color-amber);
+}
+
+/* source .hero-section .button--ghost */
+main .hero-full a.button.secondary:any-link {
+  border-color: rgb(255 255 255 / 50%);
+  background-color: transparent;
+  box-shadow: 3px 3px 0 0 var(--color-black);
+  color: var(--color-white);
+}
+
+main .hero-full a.button.secondary:hover {
+  border-color: var(--color-amber);
+  background-color: var(--color-amber);
+  box-shadow: 5px 5px 0 0 var(--color-black);
+  color: var(--color-black);
+}
+
+main .hero-full a.button.secondary:active {
+  box-shadow: 1px 1px 0 0 var(--color-black);
+}
+
+/* source .accent-button */
+main .hero-full a.button.accent:any-link {
+  border-color: var(--color-amber);
+  background-color: var(--color-amber);
+  box-shadow: 3px 3px 0 0 var(--color-black);
+  color: var(--color-black);
+}
+
+main .hero-full a.button.accent:hover {
+  box-shadow: 5px 5px 0 0 var(--color-black);
+  color: var(--color-black);
+}
+
+main .hero-full a.button.accent:active {
+  box-shadow: 1px 1px 0 0 var(--color-black);
+}
+
+/* source .article-byline inside .hero-section */
+.hero-full .hero-full-byline {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-lg);
+  border-top: 1px solid var(--color-gray-200);
+  padding-top: var(--space-sm);
+}
+
+.hero-full .hero-full-byline-avatar {
+  flex-shrink: 0;
+  width: 5rem;
+  height: 5rem;
+  border-radius: var(--radius-full);
+  overflow: hidden;
+}
+
+.hero-full .hero-full-byline-avatar picture,
+.hero-full .hero-full-byline-avatar img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-full .hero-full-byline .hero-full-byline-text p {
+  margin: 0;
+}
+
+.hero-full .hero-full-byline-name {
+  color: var(--color-white);
+  font-size: var(--body-font-size-m);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  line-height: 1.6;
+}
+
+.hero-full .hero-full-byline-meta {
+  color: rgb(255 255 255 / 70%);
+  font-size: var(--body-font-size-s);
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  line-height: 1.6;
+}
+
+.hero-full.hero-full-no-image .hero-full-content {
+  color: inherit;
+  text-shadow: none;
+}
+
+.hero-full.hero-full-no-image .hero-full-content h1 {
+  color: inherit;
+}
+
+/* source breakpoint: desktop layout above 768px */
+@media (width >= 769px) {
+  .hero-full .hero-full-inner {
+    padding-block: var(--space-3xl);
+  }
+
+  .hero-full .hero-full-actions {
+    flex-flow: row wrap;
+  }
+
+  .hero-full .hero-full-actions p.button-wrapper {
+    display: inline-flex;
+    width: auto;
+  }
+
+  main .hero-full .hero-full-actions a.button:any-link {
+    width: auto;
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variantName": "columns-numbered",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Editorial index: stacked rows of a large accent number beside a heading and paragraph, separated by rules",
+    "layout": "Vertical list in a narrow column; each row is number | text side by side, stacked on small screens",
+    "description": "Warm beige section band, narrow column. Three numbered items separated by orange rules: large orange number (01/02/03) left, h3 + grey paragraph right."
+  },
+  "contentPattern": {
+    "structure": "one row per item, two cells: [number, e.g. 01] [H3, paragraph]",
+    "rows": [["01", "H3, paragraph"], ["02", "H3, paragraph"], ["03", "H3, paragraph"]],
+    "notes": "The number is decorative (aria-hidden) and is not part of the heading. If an author omits the number cell, the row position is used (01, 02, ...). Rendered as an ordered list."
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "How We Work section on the WKND Adventures homepage.",
+  "reuseGuidance": "Use for numbered principles, steps or process lists where each item has a short heading and body copy."
+}

@@ -1,0 +1,11 @@
+{
+  "type": "da",
+  "sites": {
+    "wkndadventures-2": {
+      "previewOrg": "badvision",
+      "previewSite": "wkndadventures-2",
+      "contentHostUrl": "https://content.da.live/badvision/wkndadventures-2/",
+      "libraryUrl": "https://main--sta-boilerplate--aemdemos.aem.page/tools/sidekick/library.json"
+    }
+  }
+}

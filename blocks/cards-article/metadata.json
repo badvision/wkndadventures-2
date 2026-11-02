@@ -1,0 +1,40 @@
+{
+  "variantName": "cards-article",
+  "baseBlock": "cards",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Grid of bordered article cards, each linking to a blog post or detail page",
+    "layout": "3-column grid on desktop (2 on tablet, 1 on mobile); wraps for any item count",
+    "description": "Each card has an image on top, a tag pill, an uppercase linked h3 and a short grey description. The whole card is clickable via the heading link."
+  },
+  "contentPattern": {
+    "structure": "one row per card, two cells: [image] [text: optional tag paragraph, H3 linked to the article, description paragraph]",
+    "rows": [
+      [
+        "image",
+        "tag paragraph / H3 link / paragraph"
+      ],
+      [
+        "image",
+        "tag paragraph / H3 link / paragraph"
+      ],
+      [
+        "image",
+        "tag paragraph / H3 link / paragraph"
+      ]
+    ],
+    "notes": "The paragraph directly before the heading is the tag. The heading link (or the first link in the text) stretches over the whole card; a card with no link is not clickable. The image cell is optional, and an image at the top of the text cell is used as the card image. The section heading is default content above the block."
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "usage": {
+    "description": "From Our Editors section on the WKND Adventures About page, and article listings across the blog template (the site's most common block, 117 instances on 21 pages).",
+    "pagesUsing": [
+      "/about",
+      "/blog/patagonia-trek"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-11-02"
+  },
+  "reuseGuidance": "Use for any list of linked article, story or product cards with an image, tag, title and teaser. For text-only cards use cards-text; for cards inside a tab switcher use tabs-cards; for image-only grids use cards-gallery."
+}

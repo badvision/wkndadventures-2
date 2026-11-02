@@ -1,0 +1,19 @@
+{
+  "variantName": "tabs-cards",
+  "baseBlock": "tabs",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Activity tab switcher whose panels each render a 3-column grid of bordered article cards",
+    "layout": "Underlined horizontal tab bar; active panel shows a 3-column card grid on desktop (2 on tablet, 1 on mobile)",
+    "description": "Tab bar of uppercase labels with an underline on the active tab; each card has an image, tag pill, uppercase h3 and a small grey description. The whole card links to the article."
+  },
+  "contentPattern": {
+    "structure": "one row per tab, two cells: [tab label] [repeating card groups: image, tag paragraph, H3 linked to the article, description paragraph]",
+    "rows": [["Climbing", "image / tag paragraph / H3 link / paragraph (x3)"], ["Water", "..."], ["Cycling", "..."], ["Hiking", "..."]],
+    "notes": "Blocks cannot nest, so the cards live inside each tab's content cell. A new card starts at every image (or at every heading when the cell has no images). The paragraph before the heading is the tag. The heading link stretches over the whole card. A content cell with no images or headings renders as plain panel content. Arrow, Home and End keys move between tabs."
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Browse by Activity section on the WKND Adventures homepage.",
+  "reuseGuidance": "Use when a tab switcher's panels each hold a set of linked article or product cards. For panels of free-form content use plain tabs."
+}

@@ -1,0 +1,35 @@
+{
+  "variantName": "hero-full",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Full-viewport-width photo hero with a dark overlay and left-aligned eyebrow, display H1, lead paragraph and two CTAs",
+    "layout": "Full-bleed background image, text overlaid left-aligned inside a 1200px content width",
+    "description": "Full-bleed photo background with dark overlay; left-aligned white text: eyebrow tag pill, very large uppercase display h1, lead paragraph, filled primary button + ghost outline button. Article variant: optional author byline row below the h1 with a small circular avatar (~48px) beside a bold name line and a smaller muted date · read-time line."
+  },
+  "contentPattern": {
+    "structure": "row 1: background image; row 2: eyebrow paragraph, H1 title, lead paragraph, CTA links (bold link = primary button, italic link = secondary button), optional byline (avatar image, name paragraph, meta paragraph)",
+    "rows": [
+      [
+        "Background image"
+      ],
+      [
+        "Eyebrow paragraph, H1, lead paragraph, CTA links, optional byline: avatar image + name paragraph + meta paragraph (e.g. \"February 2026 · 12 min read\")"
+      ]
+    ],
+    "notes": "The first picture in the block becomes the background, wherever it is authored. The paragraph directly before the heading is the eyebrow. Paragraphs containing only a link are grouped as the CTA row. Without an image the block renders as a plain text hero. Optional byline: the first image after the heading, followed by up to three short paragraphs with no links, becomes a byline row (circular avatar, then name, then meta lines). The background image must still come first, in row 1."
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "usage": {
+    "description": "Top-of-page hero on the WKND Adventures homepage.",
+    "pagesUsing": [
+      "/index",
+      "/about",
+      "/blog/patagonia-trek"
+    ],
+    "reuseCount": 2,
+    "lastUsed": "2026-11-02"
+  },
+  "reuseGuidance": "Use for any page-opening hero with a full-bleed photograph behind overlaid heading text and CTAs."
+}

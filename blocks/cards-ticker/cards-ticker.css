@@ -1,0 +1,71 @@
+.cards-ticker {
+  border-top: 1px solid currentcolor;
+  border-bottom: 1px solid currentcolor;
+}
+
+.cards-ticker .cards-ticker-viewport {
+  overflow: hidden;
+}
+
+.cards-ticker .cards-ticker-track {
+  display: flex;
+  width: max-content;
+  animation: cards-ticker-scroll var(--cards-ticker-duration, 40s) linear infinite;
+}
+
+.cards-ticker:hover .cards-ticker-track,
+.cards-ticker:focus-within .cards-ticker-track {
+  animation-play-state: paused;
+}
+
+.cards-ticker .cards-ticker-list {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.cards-ticker .cards-ticker-item {
+  display: flex;
+  align-items: center;
+  padding: 12px 0;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+
+/* dot separator before every item, so the joint between the two lists matches */
+.cards-ticker .cards-ticker-item::before {
+  content: '';
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin: 0 24px;
+  border-radius: 50%;
+  background: currentcolor;
+}
+
+@keyframes cards-ticker-scroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cards-ticker .cards-ticker-viewport {
+    overflow-x: auto;
+  }
+
+  .cards-ticker .cards-ticker-track {
+    animation: none;
+  }
+
+  .cards-ticker .cards-ticker-list[aria-hidden='true'] {
+    display: none;
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "variantName": "quote-pull",
+  "baseBlock": "quote",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Pull quote or inline quotation with an optional attribution",
+    "layout": "Left-ruled quotation; sits inside narrow article prose or alone in the wide column of a 'split' section beside a default-content list",
+    "description": "4px orange left rule, 24px indent, italic quotation text (larger when standalone in a split section), optional small uppercase attribution prefixed with an em dash."
+  },
+  "contentPattern": {
+    "structure": "row 1: quotation (one or more paragraphs); row 2 (optional): attribution",
+    "rows": [
+      [
+        "Quotation (one or more paragraphs)"
+      ],
+      [
+        "[Attribution]"
+      ]
+    ],
+    "notes": "Row 2 is optional; without it the block renders the quotation only. A leading '—' typed in the attribution is stripped and re-added by CSS, so authors may include it or not. Both rows may also be authored as two cells of one row."
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "usage": {
+    "description": "Inline quotes in blog article prose and the standalone pull quote beside the gear list.",
+    "pagesUsing": [
+      "/blog/patagonia-trek"
+    ],
+    "reuseCount": 0,
+    "lastUsed": "2026-11-02"
+  },
+  "reuseGuidance": "Use for any quotation outside an interactive component, with or without attribution, inline in prose or standalone. Do not nest it in Columns; use a 'split' section with default content beside it instead."
+}

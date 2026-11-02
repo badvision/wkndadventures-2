@@ -11,3 +11,13 @@ helix-importer-ui
 # Ensure these files are tracked
 !CLAUDE.md
 !AGENTS.md
+
+# importer build artifacts
+tools/importer/*.bundle.js
+tools/importer/reports/
+
+# nav migration validation artifacts
+migration-work/navigation-validation/
+
+# footer migration validation artifacts
+migration-work/footer-validation/
