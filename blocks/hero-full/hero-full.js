@@ -122,7 +122,17 @@ export default function decorate(block) {
   }
 
   if (!picture) block.classList.add('hero-full-no-image');
-  optimizeImages(media, true);
+
+  // the background of a hero in the first section is the LCP element: load it eagerly
+  // at high priority; heroes further down the page load lazily
+  const section = block.closest('.section');
+  const isLcp = !section || section === section.parentElement.querySelector(':scope > .section');
+  optimizeImages(media, isLcp);
+  const bgImg = media.querySelector('img');
+  if (bgImg) {
+    bgImg.setAttribute('loading', isLcp ? 'eager' : 'lazy');
+    if (isLcp) bgImg.setAttribute('fetchpriority', 'high');
+  }
 
   const inner = document.createElement('div');
   inner.className = 'hero-full-inner';
