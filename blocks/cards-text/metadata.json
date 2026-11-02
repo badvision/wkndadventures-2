@@ -1,0 +1,21 @@
+{
+  "variantName": "cards-text",
+  "baseBlock": "cards",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Bordered text-only cards (values, offerings) in a wrapping grid",
+    "layout": "3-column grid on desktop by default (2 on tablet, 1 on mobile); the two-col option keeps 2 columns on desktop",
+    "description": "Bordered cards each holding a heading and paragraph, optionally a tag above the heading and a ghost (secondary) CTA at the bottom. Shown on a dark (inverse) band on the About page."
+  },
+  "contentPattern": {
+    "structure": "one row per card, one text cell: [optional tag paragraph, H3 or H4 heading, description paragraph, optional link]",
+    "rows": [["H3 Authenticity / paragraph"], ["H3 Access / paragraph"], ["H3 Accountability / paragraph"]],
+    "notes": "The paragraph directly before the heading is the tag. A trailing paragraph holding only a link is the CTA and is pushed to the card bottom; author it in italics for the ghost (secondary) button style. Extra cells in a row are merged into the same card. The dark band comes from Section Metadata (style: inverse)."
+  },
+  "options": [
+    { "class": "two-col", "label": "Two columns" }
+  ],
+  "memberVariantIds": [],
+  "usage": "What We Believe section on the WKND Adventures About page (3 columns); 2-column offering cards on /adventures (two-col).",
+  "reuseGuidance": "Use for look-alike text-only items in a grid. For cards with images use cards-article; for numbered steps use columns-numbered."
+}

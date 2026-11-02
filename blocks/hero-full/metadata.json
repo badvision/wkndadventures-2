@@ -9,11 +9,26 @@
   },
   "contentPattern": {
     "structure": "row 1: background image; row 2: eyebrow paragraph, H1 title, lead paragraph, CTA links (bold link = primary button, italic link = secondary button)",
-    "rows": [["Background image"], ["Eyebrow paragraph, H1, lead paragraph, CTA links"]],
+    "rows": [
+      [
+        "Background image"
+      ],
+      [
+        "Eyebrow paragraph, H1, lead paragraph, CTA links"
+      ]
+    ],
     "notes": "The first picture in the block becomes the background, wherever it is authored. The paragraph directly before the heading is the eyebrow. Paragraphs containing only a link are grouped as the CTA row. Without an image the block renders as a plain text hero."
   },
   "options": [],
   "memberVariantIds": [],
-  "usage": "Top-of-page hero on the WKND Adventures homepage.",
+  "usage": {
+    "description": "Top-of-page hero on the WKND Adventures homepage.",
+    "pagesUsing": [
+      "/index",
+      "/about"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-11-02"
+  },
   "reuseGuidance": "Use for any page-opening hero with a full-bleed photograph behind overlaid heading text and CTAs."
 }

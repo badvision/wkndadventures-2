@@ -1,0 +1,57 @@
+.cards-text .cards-text-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.cards-text .cards-text-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #dadada;
+  border-radius: 8px;
+}
+
+.cards-text .cards-text-card-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 24px;
+}
+
+.cards-text .cards-text-card-body > :first-child {
+  margin-top: 0;
+}
+
+.cards-text .cards-text-card-body > :last-child {
+  margin-bottom: 0;
+}
+
+.cards-text .cards-text-card-tag {
+  align-self: flex-start;
+  margin: 0 0 8px;
+}
+
+/* the CTA sits at the bottom of the card so CTAs line up across a row */
+.cards-text .cards-text-card-cta {
+  margin-top: auto;
+  padding-top: 16px;
+}
+
+@media (width >= 600px) {
+  .cards-text .cards-text-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (width >= 900px) {
+  .cards-text .cards-text-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .cards-text.two-col .cards-text-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

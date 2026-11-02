@@ -1,0 +1,87 @@
+.cards-article .cards-article-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.cards-article .cards-article-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid #dadada;
+  border-radius: 8px;
+}
+
+.cards-article .cards-article-card-image {
+  line-height: 0;
+}
+
+.cards-article .cards-article-card-image picture,
+.cards-article .cards-article-card-image img {
+  display: block;
+  width: 100%;
+}
+
+.cards-article .cards-article-card-image img {
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+}
+
+.cards-article .cards-article-card-body {
+  flex: 1;
+  padding: 16px;
+}
+
+.cards-article .cards-article-card-body > :first-child {
+  margin-top: 0;
+}
+
+.cards-article .cards-article-card-body > :last-child {
+  margin-bottom: 0;
+}
+
+.cards-article .cards-article-card-tag {
+  display: inline-block;
+  margin: 0 0 8px;
+}
+
+.cards-article .cards-article-card-body h3 {
+  text-transform: uppercase;
+}
+
+.cards-article .cards-article-card-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* stretch the heading link over the whole card */
+.cards-article .cards-article-card-linked .cards-article-card-link::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+}
+
+.cards-article .cards-article-card-linked:focus-within {
+  outline: 2px solid currentcolor;
+  outline-offset: 2px;
+}
+
+.cards-article .cards-article-card-linked .cards-article-card-link:focus-visible {
+  outline: none;
+}
+
+@media (width >= 600px) {
+  .cards-article .cards-article-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (width >= 900px) {
+  .cards-article .cards-article-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

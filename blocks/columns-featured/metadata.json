@@ -9,11 +9,24 @@
   },
   "contentPattern": {
     "structure": "one row with two cells: [image] [eyebrow paragraph, H2, lead paragraph, bold CTA link]",
-    "rows": [["Image", "Eyebrow paragraph, H2, paragraph, CTA link"]],
+    "rows": [
+      [
+        "Image",
+        "Eyebrow paragraph, H2, paragraph, CTA link"
+      ]
+    ],
     "notes": "The image cell is detected wherever it sits; the paragraph directly before the heading is the eyebrow. The section band colour comes from Section Metadata (style: secondary)."
   },
   "options": [],
   "memberVariantIds": [],
-  "usage": "Featured Article section on the WKND Adventures homepage.",
+  "usage": {
+    "description": "Featured Article section on the WKND Adventures homepage.",
+    "pagesUsing": [
+      "/index",
+      "/about"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-11-02"
+  },
   "reuseGuidance": "Use for one highlighted story or promo with image beside text. For repeating items use a cards variant instead."
 }
