@@ -1,5 +1,6 @@
 // media query match that indicates desktop width (mobile-first: everything below is mobile)
-const isDesktop = window.matchMedia('(width >= 1200px)');
+// source header switches to desktop above 1024px
+const isDesktop = window.matchMedia('(width >= 1025px)');
 
 // delay before a hover-opened megamenu closes after the pointer leaves it (matches source)
 const HOVER_CLOSE_DELAY = 200;
