@@ -1,7 +1,8 @@
+/* cards-article: values from source .grid-layout.desktop-3-column.grid-gap-lg > a.article-card */
 .cards-article .cards-article-list {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 24px;
+  gap: var(--space-lg);
   margin: 0;
   padding: 0;
   list-style: none;
@@ -12,75 +13,119 @@
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  border: 1px solid #dadada;
-  border-radius: 8px;
+  border: 1px solid var(--color-gray-200);
+  border-radius: var(--radius-card);
+  background-color: var(--color-white);
+  color: inherit;
+  transition:
+    background-color var(--transition-fast),
+    border-color var(--transition-fast),
+    box-shadow var(--transition-fast);
 }
 
+/* image: 16:10 box reserved by CSS so lazy images cause no layout shift */
 .cards-article .cards-article-card-image {
-  line-height: 0;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
 }
 
-.cards-article .cards-article-card-image picture,
+.cards-article .cards-article-card-image picture {
+  display: block;
+  height: 100%;
+}
+
 .cards-article .cards-article-card-image img {
   display: block;
   width: 100%;
-}
-
-.cards-article .cards-article-card-image img {
-  aspect-ratio: 16 / 10;
+  height: 100%;
   object-fit: cover;
 }
 
 .cards-article .cards-article-card-body {
+  display: flex;
   flex: 1;
-  padding: 16px;
+  flex-direction: column;
+  align-items: stretch;
+  gap: var(--space-sm);
+  min-width: 0;
+  padding: var(--space-lg) var(--space-md);
 }
 
-.cards-article .cards-article-card-body > :first-child {
-  margin-top: 0;
+.cards-article .cards-article-card-body > * {
+  margin-block: 0;
 }
 
-.cards-article .cards-article-card-body > :last-child {
-  margin-bottom: 0;
+/* amber tag pill (source .article-card-meta > .tag) */
+.cards-article .cards-article-card-body > .cards-article-card-tag {
+  display: inline-flex;
+  align-items: center;
+  align-self: flex-start;
+  margin-top: var(--space-xs);
+  border-radius: var(--radius-full);
+  padding: calc(var(--space-xxs) + 1px) var(--space-xs) calc(var(--space-xxs) - 1px);
+  background-color: var(--color-amber);
+  color: var(--color-white);
+  font-family: var(--heading-font-family);
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  line-height: var(--line-height-normal);
 }
 
-.cards-article .cards-article-card-tag {
-  display: inline-block;
-  margin: 0 0 8px;
+/* title (source h3.h5-heading.utility-margin-bottom-sm) */
+.cards-article .cards-article-card-body > :is(h2, h3, h4, h5, h6) {
+  margin-block: var(--space-sm);
+  color: inherit;
+  font-size: var(--heading-font-size-s);
+  line-height: var(--line-height-tight);
 }
 
-.cards-article .cards-article-card-body h3 {
-  text-transform: uppercase;
+/* description (source p.paragraph-sm.utility-text-secondary) */
+.cards-article .cards-article-card-body > p:not(.cards-article-card-tag) {
+  color: var(--text-secondary-color);
+  font-size: var(--body-font-size-s);
+  line-height: 1.3;
 }
 
-.cards-article .cards-article-card-link {
+.cards-article .cards-article-card-link:any-link,
+.cards-article .cards-article-card-link:hover {
   color: inherit;
   text-decoration: none;
 }
 
-/* stretch the heading link over the whole card */
+/* the heading link is stretched over the whole card: one link per card */
 .cards-article .cards-article-card-linked .cards-article-card-link::after {
   content: '';
   position: absolute;
   inset: 0;
 }
 
-.cards-article .cards-article-card-linked:focus-within {
-  outline: 2px solid currentcolor;
-  outline-offset: 2px;
+.cards-article .cards-article-card-linked:hover {
+  border-color: var(--color-gray-300);
+  background-color: var(--color-cream);
+  box-shadow: 0 4px 20px rgb(0 0 0 / 8%);
 }
 
-.cards-article .cards-article-card-linked .cards-article-card-link:focus-visible {
-  outline: none;
-}
+/* keyboard focus ring drawn around the whole card, as on source a.article-card;
+   without :has() support the link keeps its own global focus ring */
+@supports selector(:has(a)) {
+  .cards-article .cards-article-card-linked:has(.cards-article-card-link:focus-visible) {
+    outline: 2px solid currentcolor;
+    outline-offset: 2px;
+  }
 
-@media (width >= 600px) {
-  .cards-article .cards-article-list {
-    grid-template-columns: repeat(2, 1fr);
+  .cards-article .cards-article-card-linked .cards-article-card-link:focus-visible {
+    outline: none;
   }
 }
 
-@media (width >= 900px) {
+@media (prefers-reduced-motion: reduce) {
+  .cards-article .cards-article-card {
+    transition: none;
+  }
+}
+
+@media (width >= 769px) {
   .cards-article .cards-article-list {
     grid-template-columns: repeat(3, 1fr);
   }

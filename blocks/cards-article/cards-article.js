@@ -1,10 +1,18 @@
 import { createOptimizedPicture } from '../../scripts/aem.js';
 
-function optimizeImages(root) {
+/**
+ * Card images are lazy (the block sits below the fold) unless the block is in the
+ * first section. Their 16:10 box is reserved in CSS, so loading causes no layout shift.
+ */
+function optimizeImages(root, eager) {
   root.querySelectorAll('picture > img').forEach((img) => {
     const url = new URL(img.src, window.location.href);
-    if (url.origin !== window.location.origin || /\.svg$/i.test(url.pathname)) return;
-    img.closest('picture').replaceWith(createOptimizedPicture(img.src, img.alt, false, [{ width: '750' }]));
+    if (url.origin !== window.location.origin || /\.svg$/i.test(url.pathname)) {
+      img.loading = eager ? 'eager' : 'lazy';
+      img.decoding = 'async';
+      return;
+    }
+    img.closest('picture').replaceWith(createOptimizedPicture(img.src, img.alt, eager, [{ width: '750' }]));
   });
 }
 
@@ -94,6 +102,7 @@ export default function decorate(block) {
     if (li.children.length) ul.append(li);
   });
 
-  optimizeImages(ul);
+  const firstSection = document.querySelector('main .section');
+  optimizeImages(ul, !!firstSection && block.closest('.section') === firstSection);
   block.replaceChildren(ul);
 }
