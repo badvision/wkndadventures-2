@@ -1,48 +1,109 @@
+/* source .grid-layout.grid-images.grid-gap-lg: 1 column up to 768px, 3 columns above */
 .cards-gallery .cards-gallery-list {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 24px;
+  gap: var(--space-lg);
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.cards-gallery .cards-gallery-item {
+  min-width: 0;
 }
 
 .cards-gallery .cards-gallery-image {
   line-height: 0;
 }
 
-.cards-gallery .cards-gallery-image picture,
+.cards-gallery .cards-gallery-image picture {
+  display: block;
+}
+
+/* source .gallery-img */
 .cards-gallery .cards-gallery-image img {
   display: block;
   width: 100%;
-}
-
-.cards-gallery .cards-gallery-image img {
-  aspect-ratio: 4 / 3;
+  height: 280px;
   object-fit: cover;
-  border-radius: 8px;
+  border-radius: var(--radius-card);
 }
 
 .cards-gallery .cards-gallery-caption {
-  margin-top: 12px;
+  margin-top: var(--space-sm);
 }
 
-@media (width >= 600px) {
-  .cards-gallery .cards-gallery-list {
-    grid-template-columns: repeat(2, 1fr);
-  }
+/* source .gallery-img--wide: a trailing single item spans the row */
+.cards-gallery .cards-gallery-item-wide {
+  grid-column: 1 / -1;
 }
 
-@media (width >= 900px) {
+.cards-gallery .cards-gallery-item-wide .cards-gallery-image img {
+  height: 360px;
+}
+
+/*
+ * Default content in the gallery's own section (scoped to the section EDS marks
+ * with .cards-gallery-container):
+ * - heading + lone link above the block: source .section-heading:has(> .text-button)
+ * - lone image after the block: source .utility-margin-top-lg > .gallery-img--wide
+ */
+main > .section.cards-gallery-container > .cards-gallery-wrapper + .default-content-wrapper:has(> p:only-child > picture:only-child) {
+  margin-top: var(--space-lg);
+}
+
+main > .section.cards-gallery-container > .cards-gallery-wrapper + .default-content-wrapper > p:only-child > picture:only-child {
+  display: block;
+  line-height: 0;
+}
+
+main > .section.cards-gallery-container > .cards-gallery-wrapper + .default-content-wrapper > p:only-child > picture:only-child img {
+  display: block;
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+  border-radius: var(--radius-card);
+}
+
+main > .section.cards-gallery-container > .default-content-wrapper:has(+ .cards-gallery-wrapper):has(> :is(h2, h3) + p:last-child > a:only-child) {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--space-md) var(--space-lg);
+}
+
+main > .section.cards-gallery-container > .default-content-wrapper:has(+ .cards-gallery-wrapper) > :is(h2, h3) {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+main > .section.cards-gallery-container > .default-content-wrapper:has(+ .cards-gallery-wrapper) > :is(h2, h3) + p:last-child:has(> a:only-child) {
+  flex-shrink: 0;
+  margin: 0 0 0 auto;
+  line-height: var(--line-height-normal);
+}
+
+/* source .text-button */
+main > .section.cards-gallery-container > .default-content-wrapper:has(+ .cards-gallery-wrapper) > :is(h2, h3) + p:last-child > a:only-child:any-link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  font-family: var(--heading-font-family);
+  font-size: var(--body-font-size-s);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
+  transition: opacity var(--transition-fast);
+}
+
+main > .section.cards-gallery-container > .default-content-wrapper:has(+ .cards-gallery-wrapper) > :is(h2, h3) + p:last-child > a:only-child:hover {
+  opacity: 0.65;
+}
+
+@media (width >= 769px) {
   .cards-gallery .cards-gallery-list {
     grid-template-columns: repeat(3, 1fr);
-  }
-
-  .cards-gallery .cards-gallery-item-wide {
-    grid-column: 1 / -1;
-  }
-
-  .cards-gallery .cards-gallery-item-wide .cards-gallery-image img {
-    aspect-ratio: 21 / 9;
   }
 }
