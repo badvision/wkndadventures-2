@@ -30,8 +30,13 @@
       "/gear": 12,
       "/sustainability": 3
     },
-    "containedIn": [],
-    "edsNested": false,
+    "containedIn": [
+      {
+        "ruleId": "Component I",
+        "count": 117
+      }
+    ],
+    "edsNested": true,
     "fields": [
       {
         "pattern": "div.article-card-image",
@@ -57,6 +62,7 @@
       }
     ],
     "variants": [],
+    "variantSamples": [],
     "chrome": false,
     "ancestors": [
       {
@@ -65,11 +71,7 @@
       },
       {
         "id": "div.tab-pane",
-        "count": 45
-      },
-      {
-        "id": "div.is-active.tab-pane",
-        "count": 15
+        "count": 60
       },
       {
         "id": "div",
@@ -100,7 +102,7 @@
         "count": 117
       }
     ],
-    "listContainer": "div.grid-layout",
+    "listContainer": "div.tab-pane",
     "anchorCounts": {
       "section": 111,
       "section.secondary-section": 6
@@ -140,7 +142,7 @@
     },
     "containedIn": [
       {
-        "ruleId": "Component R",
+        "ruleId": "Component P",
         "count": 7
       }
     ],
@@ -159,19 +161,16 @@
       }
     ],
     "variants": [],
+    "variantSamples": [],
     "chrome": false,
     "ancestors": [
       {
+        "id": "div.button-group",
+        "count": 25
+      },
+      {
         "id": "div.nav-right",
         "count": 21
-      },
-      {
-        "id": "div.button-group.button-group--centered",
-        "count": 13
-      },
-      {
-        "id": "div.button-group",
-        "count": 12
       },
       {
         "id": "div.featured-article-footer",
@@ -190,12 +189,8 @@
         "count": 7
       },
       {
-        "id": "div.container.container--narrow",
-        "count": 4
-      },
-      {
         "id": "div.container",
-        "count": 43
+        "count": 54
       },
       {
         "id": "section.inverse-section",
@@ -208,10 +203,6 @@
       {
         "id": "section.accent-section",
         "count": 8
-      },
-      {
-        "id": "div.container.hero-content",
-        "count": 7
       },
       {
         "id": "main",
@@ -281,13 +272,18 @@
     },
     "containedIn": [
       {
-        "ruleId": "Component K",
+        "ruleId": "Component I",
+        "count": 315
+      },
+      {
+        "ruleId": "Component L",
         "count": 315
       }
     ],
     "edsNested": true,
     "fields": [],
     "variants": [],
+    "variantSamples": [],
     "chrome": true,
     "ancestors": [
       {
@@ -303,7 +299,7 @@
         "count": 315
       },
       {
-        "id": "div.footer-top.grid-layout",
+        "id": "div.grid-layout",
         "count": 315
       },
       {
@@ -319,7 +315,7 @@
         "count": 315
       }
     ],
-    "listContainer": "li",
+    "listContainer": "ul",
     "anchorCounts": {},
     "sample": "<a href=\"adventures.html\" class=\"footer-link\">Adventures</a>"
   },
@@ -383,6 +379,7 @@
       }
     ],
     "variants": [],
+    "variantSamples": [],
     "chrome": true,
     "ancestors": [
       {
@@ -483,6 +480,7 @@
       }
     ],
     "variants": [],
+    "variantSamples": [],
     "chrome": true,
     "ancestors": [
       {
@@ -601,6 +599,7 @@
       }
     ],
     "variants": [],
+    "variantSamples": [],
     "chrome": true,
     "ancestors": [
       {
@@ -687,6 +686,7 @@
     "edsNested": false,
     "fields": [],
     "variants": [],
+    "variantSamples": [],
     "chrome": true,
     "ancestors": [
       {
@@ -756,6 +756,7 @@
       }
     ],
     "variants": [],
+    "variantSamples": [],
     "chrome": true,
     "ancestors": [
       {
@@ -785,6 +786,267 @@
   },
   {
     "id": "Component I",
+    "sourcePattern": "div.grid-layout",
+    "anchor": "section",
+    "anchorSelectivity": {
+      "desktop-3-column": 87,
+      "grid-align-center": 87,
+      "grid-gap-lg": 87,
+      "grid-gap-md": 87,
+      "grid-gap-xl": 87,
+      "grid-layout": 87,
+      "tablet-1-column": 87
+    },
+    "totalCount": 87,
+    "perPage": {
+      "/": 6,
+      "/about": 4,
+      "/adventures": 7,
+      "/basecamp": 5,
+      "/blog/alpine-cycling": 4,
+      "/blog/desert-survival-guide": 4,
+      "/blog/kayaking-norway": 4,
+      "/blog/mountain-photography": 4,
+      "/blog/patagonia-trek": 4,
+      "/blog/surfing-costa-rica": 4,
+      "/blog/ultralight-backpacking": 4,
+      "/blog/wild-swimming-guide": 4,
+      "/blog/winter-mountaineering": 4,
+      "/blog/yosemite-rock-climbing": 4,
+      "/community": 2,
+      "/destinations": 4,
+      "/expeditions": 6,
+      "/faq": 2,
+      "/field-notes": 2,
+      "/gear": 6,
+      "/sustainability": 3
+    },
+    "containedIn": [
+      {
+        "ruleId": "Component L",
+        "count": 21
+      }
+    ],
+    "edsNested": true,
+    "fields": [
+      {
+        "pattern": "a.article-card",
+        "type": "reference",
+        "count": 117,
+        "ratio": 1.3448275862068966,
+        "unique": 17,
+        "optional": false,
+        "refId": "Component A",
+        "values": [],
+        "note": "owned by Component A"
+      },
+      {
+        "pattern": "div",
+        "type": "nested",
+        "count": 95,
+        "ratio": 1.0919540229885059,
+        "unique": 70,
+        "optional": false,
+        "refId": null,
+        "values": [],
+        "note": "nested content unit (part of this component)"
+      },
+      {
+        "pattern": "img.gallery-img",
+        "type": "image",
+        "count": 33,
+        "ratio": 0.3793103448275862,
+        "unique": 33,
+        "optional": true,
+        "refId": null,
+        "values": [],
+        "note": "media"
+      },
+      {
+        "pattern": "div.card.card-body",
+        "type": "nested",
+        "count": 14,
+        "ratio": 0.16091954022988506,
+        "unique": 14,
+        "optional": true,
+        "refId": null,
+        "values": [],
+        "note": "nested content unit (part of this component)"
+      },
+      {
+        "pattern": "div.span-2",
+        "type": "nested",
+        "count": 10,
+        "ratio": 0.11494252873563218,
+        "unique": 10,
+        "optional": true,
+        "refId": null,
+        "values": [],
+        "note": "nested content unit (part of this component)"
+      },
+      {
+        "pattern": "img.gallery-img--wide",
+        "type": "image",
+        "count": 1,
+        "ratio": 0.011494252873563218,
+        "unique": 1,
+        "optional": true,
+        "refId": null,
+        "values": [],
+        "note": "media"
+      }
+    ],
+    "variants": [
+      {
+        "classes": [
+          "desktop-3-column",
+          "grid-align-center",
+          "grid-gap-lg"
+        ],
+        "count": 10
+      },
+      {
+        "classes": [
+          "desktop-3-column",
+          "grid-gap-lg"
+        ],
+        "count": 23
+      },
+      {
+        "classes": [
+          "desktop-3-column",
+          "grid-gap-md"
+        ],
+        "count": 20
+      },
+      {
+        "classes": [
+          "grid-gap-xl",
+          "tablet-1-column"
+        ],
+        "count": 1
+      },
+      {
+        "classes": [
+          "footer-top"
+        ],
+        "count": 21
+      },
+      {
+        "classes": [
+          "grid-images"
+        ],
+        "count": 11
+      },
+      {
+        "classes": [
+          "grid-layout--2col"
+        ],
+        "count": 1
+      }
+    ],
+    "variantSamples": [
+      {
+        "classes": [
+          "desktop-3-column",
+          "grid-align-center",
+          "grid-gap-lg"
+        ],
+        "sample": "<div class=\"grid-layout desktop-3-column grid-gap-lg grid-align-center\">\n <div>\n  <h3 class=\"h3-heading utility-margin-bottom-md\">What We Carried</h3>\n  <ul class=\"blog-gear-list\">\n   <li>7'2\" funboard (for beginners)</li>\n   <li>Full-length leash</li>\n   <li>Reef-safe sunscreen (mineral-based)</li>\n   <li>Rash guard (long-sleeve)</li>\n   <li>Fin key (always bring one)</li>\n   <li>Tow float for open water swims</li>\n   <li>Waterproof bag for valuables</li>\n  </ul>\n </div>\n <div class=\"span-2\">\n  <blockquote class=\"pull-quote\">\n   <p class=\"pull-quote-body\">\"I paddled out when I shouldn't have.…[truncated]"
+      },
+      {
+        "classes": [
+          "desktop-3-column",
+          "grid-gap-lg"
+        ],
+        "sample": "<div class=\"grid-layout desktop-3-column grid-gap-lg\">\n <a href=\"/blog/mountain-photography.html\" class=\"article-card\"> \n  <div class=\"article-card-image\">\n   <img src=\"/images/adventures/adobestock-277768563.jpeg\" alt=\"Mountain Photography\" loading=\"lazy\">\n  </div> \n  <div class=\"article-card-body\">\n   <div class=\"article-card-meta\">\n    <div class=\"tag\">Essay</div>\n   </div>\n   <h3 class=\"h5-heading utility-margin-bottom-sm\">Mountain Photography</h3>\n   <p class=\"paragraph-sm utility-text-secondary\">The camera as creative tool and physical burden. Alex R.'s landmark essay on shooting in the …[truncated]"
+      },
+      {
+        "classes": [
+          "desktop-3-column",
+          "grid-gap-md"
+        ],
+        "sample": "<div class=\"grid-layout desktop-3-column grid-gap-md\">\n <a href=\"/blog/winter-mountaineering.html\" class=\"article-card\"> \n  <div class=\"article-card-image\">\n   <img src=\"/images/activities/ice-climbing.jpg\" alt=\"Winter mountaineering on steep snow slope\" loading=\"lazy\">\n  </div> \n  <div class=\"article-card-body\">\n   <div class=\"article-card-meta\">\n    <div class=\"tag\">Winter</div>\n   </div>\n   <h3 class=\"h6-heading utility-margin-bottom-sm\">Why Cold Routes Demand Warm Minds</h3>\n   <p class=\"paragraph-sm utility-text-secondary\">Winter mountaineering primer</p>\n  </div> \n </a><a href=\"/blog/pat…[truncated]"
+      },
+      {
+        "classes": [
+          "grid-gap-xl",
+          "tablet-1-column"
+        ],
+        "sample": "<div class=\"grid-layout grid-gap-xl tablet-1-column\">\n <div>\n  <div class=\"section-heading\">\n   <h2 class=\"h2-heading\">How it started</h2>\n  </div>\n  <p class=\"paragraph-lg utility-text-secondary\">WKND Adventures started as a weekly email from the trail in 2019 — Jordan writing field dispatches to forty friends who'd asked to stay in the loop. No website, no brand, no plan. Just honest writing from wherever Jordan happened to be that week. As more contributors joined — Alex for photography, Morgan for water routes, Taylor for gear deep-dives — the email became a proper publication. More voices…[truncated]"
+      },
+      {
+        "classes": [
+          "footer-top"
+        ],
+        "sample": "<div class=\"grid-layout desktop-4-column grid-gap-xl footer-top\">\n <div>\n  <div class=\"footer-logo\">\n   <div class=\"footer-logo-icon\">\n    <svg width=\"100%\" height=\"100%\" viewBox=\"0 0 33 33\" preserveAspectRatio=\"xMidYMid meet\" aria-hidden=\"true\">\n     <path d=\"M28,0H5C2.24,0,0,2.24,0,5v23c0,2.76,2.24,5,5,5h23c2.76,0,5-2.24,5-5V5c0-2.76-2.24-5-5-5ZM29,17c-6.63,0-12,5.37-12,12h-1c0-6.63-5.37-12-12-12v-1c6.63,0,12-5.37,12-12h1c0,6.63,5.37,12,12,12v1Z\" fill=\"currentColor\" />\n    </svg>\n   </div>\n   <span class=\"logo-text\">WKND\n    <br>Adventures</span>\n  </div>\n  <p class=\"paragraph-sm footer-tagl…[truncated]"
+      },
+      {
+        "classes": [
+          "grid-images"
+        ],
+        "sample": "<div class=\"grid-layout desktop-3-column grid-images grid-gap-lg\">\n <img src=\"images/adventures/adobestock-277761435.jpeg\" alt=\"Canadian mountain scenery with turquoise glacial lake in Garibaldi Provincial Park, BC\" class=\"gallery-img\" loading=\"lazy\"> <img src=\"images/activities/freeride.jpg\" alt=\"Skier in deep powder, extreme mountain freeride\" class=\"gallery-img\" loading=\"lazy\"> <img src=\"images/magazine/plane.jpg\" alt=\"Small float or ski plane on a gravel airstrip deep in the Alaskan wilderness\" class=\"gallery-img\" loading=\"lazy\">\n</div>"
+      },
+      {
+        "classes": [
+          "grid-layout--2col"
+        ],
+        "sample": "<div class=\"grid-layout grid-layout--2col grid-gap-lg\">\n <div class=\"card card-body\">\n  <p class=\"tag\">Going further?</p>\n  <h3 class=\"h3-heading\">Expeditions</h3>\n  <p class=\"paragraph-lg\">Our signature multi-day journeys. Patagonia, the Lofoten Islands, the High Alps — documented honestly, start to finish.</p>\n  <a href=\"expeditions.html\" class=\"button--ghost\"><span class=\"button-label\">Explore Expeditions</span></a>\n </div>\n <div class=\"card card-body\">\n  <p class=\"tag\">Essays from the field</p>\n  <h3 class=\"h3-heading\">Field Notes</h3>\n  <p class=\"paragraph-lg\">Slower stories. Photography,…[truncated]"
+      }
+    ],
+    "chrome": false,
+    "ancestors": [
+      {
+        "id": "div.container",
+        "count": 87
+      },
+      {
+        "id": "div.tab-pane",
+        "count": 20
+      },
+      {
+        "id": "footer.footer.inverse-footer",
+        "count": 21
+      },
+      {
+        "id": "div",
+        "count": 20
+      },
+      {
+        "id": "section.inverse-section",
+        "count": 15
+      },
+      {
+        "id": "section.secondary-section",
+        "count": 13
+      },
+      {
+        "id": "main",
+        "count": 66
+      },
+      {
+        "id": "div.tab-container.tab-container--wide",
+        "count": 20
+      },
+      {
+        "id": "body",
+        "count": 87
+      },
+      {
+        "id": "section",
+        "count": 38
+      }
+    ],
+    "listContainer": "div.container",
+    "anchorCounts": {
+      "section": 38,
+      "section.inverse-section": 15,
+      "section.secondary-section": 13
+    },
+    "sample": "<div class=\"grid-layout desktop-3-column grid-gap-md\">\n <a href=\"/blog/winter-mountaineering.html\" class=\"article-card\"> \n  <div class=\"article-card-image\">\n   <img src=\"/images/activities/ice-climbing.jpg\" alt=\"Winter mountaineering on steep snow slope\" loading=\"lazy\">\n  </div> \n  <div class=\"article-card-body\">\n   <div class=\"article-card-meta\">\n    <div class=\"tag\">Winter</div>\n   </div>\n   <h3 class=\"h6-heading utility-margin-bottom-sm\">Why Cold Routes Demand Warm Minds</h3>\n   <p class=\"paragraph-sm utility-text-secondary\">Winter mountaineering primer</p>\n  </div> \n </a><a href=\"/blog/pat…[truncated]"
+  },
+  {
+    "id": "Component J",
     "sourcePattern": "div.hero-bg",
     "anchor": "section.hero-section.hero-section--full",
     "anchorSelectivity": {
@@ -830,6 +1092,7 @@
       }
     ],
     "variants": [],
+    "variantSamples": [],
     "chrome": false,
     "ancestors": [
       {
@@ -849,7 +1112,7 @@
         "count": 21
       }
     ],
-    "listContainer": "section.hero-section",
+    "listContainer": null,
     "anchorCounts": {
       "section.hero-section": 10,
       "section.hero-section.hero-section--full": 11
@@ -857,7 +1120,7 @@
     "sample": "<div class=\"hero-bg\">\n <img src=\"images/adventures/adobestock-140634652.jpeg\" alt=\"Wild mountain landscape at dawn\" fetchpriority=\"high\">\n <div class=\"overlay\"></div>\n</div>"
   },
   {
-    "id": "Component J",
+    "id": "Component K",
     "sourcePattern": "div.section-heading",
     "anchor": "section",
     "anchorSelectivity": {
@@ -887,8 +1150,13 @@
       "/gear": 5,
       "/sustainability": 4
     },
-    "containedIn": [],
-    "edsNested": false,
+    "containedIn": [
+      {
+        "ruleId": "Component I",
+        "count": 1
+      }
+    ],
+    "edsNested": true,
     "fields": [
       {
         "pattern": "h2.h2-heading",
@@ -914,15 +1182,12 @@
       }
     ],
     "variants": [],
+    "variantSamples": [],
     "chrome": false,
     "ancestors": [
       {
         "id": "div.container",
-        "count": 52
-      },
-      {
-        "id": "div.container.container--narrow",
-        "count": 12
+        "count": 64
       },
       {
         "id": "div",
@@ -967,7 +1232,7 @@
     "sample": "<div class=\"section-heading\">\n <h2 class=\"h2-heading\">Browse by Activity</h2>\n</div>"
   },
   {
-    "id": "Component K",
+    "id": "Component L",
     "sourcePattern": "footer.footer.inverse-footer",
     "anchor": "top",
     "anchorSelectivity": {
@@ -1014,6 +1279,7 @@
       }
     ],
     "variants": [],
+    "variantSamples": [],
     "chrome": true,
     "ancestors": [
       {
@@ -1024,74 +1290,6 @@
     "listContainer": null,
     "anchorCounts": {},
     "sample": "<footer class=\"footer inverse-footer\">\n <div class=\"container\">\n  <div class=\"grid-layout desktop-4-column grid-gap-xl footer-top\">\n   <div>\n    <div class=\"footer-logo\">\n     <div class=\"footer-logo-icon\">\n      <svg width=\"100%\" height=\"100%\" viewBox=\"0 0 33 33\" preserveAspectRatio=\"xMidYMid meet\" aria-hidden=\"true\">\n       <path d=\"M28,0H5C2.24,0,0,2.24,0,5v23c0,2.76,2.24,5,5,5h23c2.76,0,5-2.24,5-5V5c0-2.76-2.24-5-5-5ZM29,17c-6.63,0-12,5.37-12,12h-1c0-6.63-5.37-12-12-12v-1c6.63,0,12-5.37,12-12h1c0,6.63,5.37,12,12,12v1Z\" fill=\"currentColor\" />\n      </svg>\n     </div>\n     <span class=\"logo-…[truncated]"
-  },
-  {
-    "id": "Component L",
-    "sourcePattern": "h4.footer-col-heading.h6-heading",
-    "anchor": "top",
-    "anchorSelectivity": {
-      "footer-col-heading": 63,
-      "h6-heading": 123
-    },
-    "totalCount": 63,
-    "perPage": {
-      "/": 3,
-      "/about": 3,
-      "/adventures": 3,
-      "/basecamp": 3,
-      "/blog/alpine-cycling": 3,
-      "/blog/desert-survival-guide": 3,
-      "/blog/kayaking-norway": 3,
-      "/blog/mountain-photography": 3,
-      "/blog/patagonia-trek": 3,
-      "/blog/surfing-costa-rica": 3,
-      "/blog/ultralight-backpacking": 3,
-      "/blog/wild-swimming-guide": 3,
-      "/blog/winter-mountaineering": 3,
-      "/blog/yosemite-rock-climbing": 3,
-      "/community": 3,
-      "/destinations": 3,
-      "/expeditions": 3,
-      "/faq": 3,
-      "/field-notes": 3,
-      "/gear": 3,
-      "/sustainability": 3
-    },
-    "containedIn": [
-      {
-        "ruleId": "Component K",
-        "count": 63
-      }
-    ],
-    "edsNested": true,
-    "fields": [],
-    "variants": [],
-    "chrome": true,
-    "ancestors": [
-      {
-        "id": "div",
-        "count": 63
-      },
-      {
-        "id": "div.footer-top.grid-layout",
-        "count": 63
-      },
-      {
-        "id": "div.container",
-        "count": 63
-      },
-      {
-        "id": "footer.footer.inverse-footer",
-        "count": 63
-      },
-      {
-        "id": "body",
-        "count": 63
-      }
-    ],
-    "listContainer": "div",
-    "anchorCounts": {},
-    "sample": "<h4 class=\"h6-heading footer-col-heading\">Explore</h4>"
   },
   {
     "id": "Component M",
@@ -1157,6 +1355,7 @@
       }
     ],
     "variants": [],
+    "variantSamples": [],
     "chrome": true,
     "ancestors": [
       {
@@ -1235,6 +1434,7 @@
       }
     ],
     "variants": [],
+    "variantSamples": [],
     "chrome": true,
     "ancestors": [
       {
@@ -1260,78 +1460,6 @@
   },
   {
     "id": "Component O",
-    "sourcePattern": "p.footer-tagline.paragraph-sm",
-    "anchor": "top",
-    "anchorSelectivity": {
-      "footer-tagline": 63,
-      "paragraph-sm": 183
-    },
-    "totalCount": 63,
-    "perPage": {
-      "/": 3,
-      "/about": 3,
-      "/adventures": 3,
-      "/basecamp": 3,
-      "/blog/alpine-cycling": 3,
-      "/blog/desert-survival-guide": 3,
-      "/blog/kayaking-norway": 3,
-      "/blog/mountain-photography": 3,
-      "/blog/patagonia-trek": 3,
-      "/blog/surfing-costa-rica": 3,
-      "/blog/ultralight-backpacking": 3,
-      "/blog/wild-swimming-guide": 3,
-      "/blog/winter-mountaineering": 3,
-      "/blog/yosemite-rock-climbing": 3,
-      "/community": 3,
-      "/destinations": 3,
-      "/expeditions": 3,
-      "/faq": 3,
-      "/field-notes": 3,
-      "/gear": 3,
-      "/sustainability": 3
-    },
-    "containedIn": [
-      {
-        "ruleId": "Component K",
-        "count": 63
-      }
-    ],
-    "edsNested": true,
-    "fields": [],
-    "variants": [],
-    "chrome": true,
-    "ancestors": [
-      {
-        "id": "div.footer-bottom",
-        "count": 42
-      },
-      {
-        "id": "div",
-        "count": 21
-      },
-      {
-        "id": "div.container",
-        "count": 63
-      },
-      {
-        "id": "div.footer-top.grid-layout",
-        "count": 21
-      },
-      {
-        "id": "footer.footer.inverse-footer",
-        "count": 63
-      },
-      {
-        "id": "body",
-        "count": 63
-      }
-    ],
-    "listContainer": "div",
-    "anchorCounts": {},
-    "sample": "<p class=\"paragraph-sm footer-tagline\">Bold Stories. Real Life. Wild Places. Published weekly from somewhere with no Wi-Fi.</p>"
-  },
-  {
-    "id": "Component P",
     "sourcePattern": "ul.blog-gear-list",
     "anchor": "section.blog-article-section",
     "anchorSelectivity": {
@@ -1356,8 +1484,12 @@
     },
     "containedIn": [
       {
-        "ruleId": "Component U",
+        "ruleId": "Component R",
         "count": 13
+      },
+      {
+        "ruleId": "Component I",
+        "count": 10
       }
     ],
     "edsNested": true,
@@ -1388,6 +1520,20 @@
         "count": 2
       }
     ],
+    "variantSamples": [
+      {
+        "classes": [
+          "utility-margin-bottom-lg"
+        ],
+        "sample": "<ul class=\"blog-gear-list utility-margin-bottom-lg\">\n <li>Permit confirmed and physical or digital copy carried</li>\n <li>Emergency contact filed with name, route plan, and expected return date</li>\n <li>Weather window checked within 48 hours of departure</li>\n <li>First-aid kit contents reviewed and restocked to full inventory</li>\n <li>GPS device loaded with correct route and waypoints; batteries fresh</li>\n <li>Satellite communicator tested and registered with rescue authority</li>\n <li>All food weighed and portioned for exact number of days plus one buffer day</li>\n <li>Water treatment equ…[truncated]"
+      },
+      {
+        "classes": [
+          "utility-margin-bottom-xl"
+        ],
+        "sample": "<ul class=\"blog-gear-list utility-margin-bottom-xl\">\n <li>Sleeping bag rated to −5°C synthetic fill — synthetic dries faster than down at altitude where condensation is constant</li>\n <li>30L alpine pack with hip-transfer capacity — every litre you leave empty is weight you're carrying</li>\n <li>B2-compatible double boots — overnight temperatures at 3,000m regularly drop below −8°C even in July</li>\n <li>70cm ice axe, T-rated — classic length works for self-arrest</li>\n <li>Hardshell jacket and trousers, Gore-Tex Pro equivalent — sustained precipitation requires the best breathability</li>\n <l…[truncated]"
+      }
+    ],
     "chrome": false,
     "ancestors": [
       {
@@ -1399,12 +1545,8 @@
         "count": 10
       },
       {
-        "id": "div.container.container--narrow",
-        "count": 3
-      },
-      {
-        "id": "div.blog-article-container.container",
-        "count": 13
+        "id": "div.container",
+        "count": 26
       },
       {
         "id": "div.grid-layout",
@@ -1421,10 +1563,6 @@
       {
         "id": "section.blog-article-section",
         "count": 13
-      },
-      {
-        "id": "div.container",
-        "count": 10
       },
       {
         "id": "main",
@@ -1446,83 +1584,10 @@
       "section.blog-article-section": 13,
       "section.secondary-section": 10
     },
-    "sample": "<ul class=\"blog-gear-list\">\n <li>Steel touring frame (chromoly, 700c) with wide 38mm tyres for rough descents</li>\n <li>Ortlieb Back-Roller Classic panniers, pair (rear) — 40L total, waterproof roll-top</li>\n <li>Ortlieb Front-Roller Plus panniers, pair (front) — 25L total</li>\n <li>Three-season down sleeping bag in 10L dry bag, rated to 0°C</li>\n <li>Bivy shelter (tarp-style, single pole) — 620g, emergency and planned wild camping</li>\n <li>Multi-tool with spoke wrench, chain tool, and tyre levers</li>\n <li>Patch kit plus two spare inner tubes (700x38c)</li>\n <li>Four spare spokes sized to th…[truncated]"
+    "sample": "<ul class=\"blog-gear-list\">\n <li>Where the waves are breaking consistently — this is the \"peak\"</li>\n <li>Where they're closing out (crashing all at once) versus peeling (breaking progressively left or right)</li>\n <li>The rip currents — water moving sideways or offshore, visible as a darker channel of flatter water</li>\n <li>How other surfers are entering and exiting the water</li>\n <li>The interval between sets — a long interval (12+ seconds) means more powerful, larger waves</li>\n</ul>"
   },
   {
-    "id": "Component Q",
-    "sourcePattern": "div.grid-images.grid-layout",
-    "anchor": "section.inverse-section",
-    "anchorSelectivity": {
-      "desktop-3-column": 65,
-      "grid-gap-lg": 66,
-      "grid-images": 11,
-      "grid-layout": 87
-    },
-    "totalCount": 11,
-    "perPage": {
-      "/": 1,
-      "/blog/alpine-cycling": 1,
-      "/blog/desert-survival-guide": 1,
-      "/blog/kayaking-norway": 1,
-      "/blog/mountain-photography": 1,
-      "/blog/patagonia-trek": 1,
-      "/blog/surfing-costa-rica": 1,
-      "/blog/ultralight-backpacking": 1,
-      "/blog/wild-swimming-guide": 1,
-      "/blog/winter-mountaineering": 1,
-      "/blog/yosemite-rock-climbing": 1
-    },
-    "containedIn": [],
-    "edsNested": false,
-    "fields": [
-      {
-        "pattern": "img.gallery-img",
-        "type": "image",
-        "count": 33,
-        "ratio": 3.0,
-        "unique": 33,
-        "optional": false,
-        "refId": null,
-        "values": [],
-        "note": "media"
-      }
-    ],
-    "variants": [
-      {
-        "classes": [
-          "desktop-3-column",
-          "grid-gap-lg"
-        ],
-        "count": 11
-      }
-    ],
-    "chrome": false,
-    "ancestors": [
-      {
-        "id": "div.container",
-        "count": 11
-      },
-      {
-        "id": "section.inverse-section",
-        "count": 11
-      },
-      {
-        "id": "main",
-        "count": 11
-      },
-      {
-        "id": "body",
-        "count": 11
-      }
-    ],
-    "listContainer": null,
-    "anchorCounts": {
-      "section.inverse-section": 11
-    },
-    "sample": "<div class=\"grid-layout desktop-3-column grid-images grid-gap-lg\">\n <img src=\"images/adventures/adobestock-277761435.jpeg\" alt=\"Canadian mountain scenery with turquoise glacial lake in Garibaldi Provincial Park, BC\" class=\"gallery-img\" loading=\"lazy\"> <img src=\"images/activities/freeride.jpg\" alt=\"Skier in deep powder, extreme mountain freeride\" class=\"gallery-img\" loading=\"lazy\"> <img src=\"images/magazine/plane.jpg\" alt=\"Small float or ski plane on a gravel airstrip deep in the Alaskan wilderness\" class=\"gallery-img\" loading=\"lazy\">\n</div>"
-  },
-  {
-    "id": "Component R",
+    "id": "Component P",
     "sourcePattern": "div.hero-content-inner",
     "anchor": "section.hero-section.hero-section--full",
     "anchorSelectivity": {
@@ -1591,10 +1656,11 @@
       }
     ],
     "variants": [],
+    "variantSamples": [],
     "chrome": false,
     "ancestors": [
       {
-        "id": "div.container.hero-content",
+        "id": "div.container",
         "count": 11
       },
       {
@@ -1617,87 +1683,7 @@
     "sample": "<div class=\"hero-content-inner\">\n <p class=\"tag\">WKND Adventures</p>\n <h1 class=\"h1-heading utility-margin-bottom-lg\">Bold Stories. Real Life. Wild Places.</h1>\n <p class=\"paragraph-xl hero-lead\">We document the people, routes, and moments that make the outdoors worth protecting.</p>\n <div class=\"button-group\">\n  <a href=\"adventures.html\" class=\"accent-button\"><span class=\"button-label\">Explore Adventures</span></a> <a href=\"field-notes.html\" class=\"button--ghost\"><span class=\"button-label\">Read Field Notes</span></a>\n </div>\n</div>"
   },
   {
-    "id": "Component S",
-    "sourcePattern": "blockquote.pull-quote",
-    "anchor": "section.secondary-section",
-    "anchorSelectivity": {
-      "pull-quote": 10
-    },
-    "totalCount": 10,
-    "perPage": {
-      "/blog/alpine-cycling": 1,
-      "/blog/desert-survival-guide": 1,
-      "/blog/kayaking-norway": 1,
-      "/blog/mountain-photography": 1,
-      "/blog/patagonia-trek": 1,
-      "/blog/surfing-costa-rica": 1,
-      "/blog/ultralight-backpacking": 1,
-      "/blog/wild-swimming-guide": 1,
-      "/blog/winter-mountaineering": 1,
-      "/blog/yosemite-rock-climbing": 1
-    },
-    "containedIn": [],
-    "edsNested": false,
-    "fields": [
-      {
-        "pattern": "cite.pull-quote-attribution",
-        "type": "text",
-        "count": 10,
-        "ratio": 1.0,
-        "unique": 8,
-        "optional": false,
-        "refId": null,
-        "values": [],
-        "note": null
-      },
-      {
-        "pattern": "p.pull-quote-body",
-        "type": "text",
-        "count": 10,
-        "ratio": 1.0,
-        "unique": 10,
-        "optional": false,
-        "refId": null,
-        "values": [],
-        "note": null
-      }
-    ],
-    "variants": [],
-    "chrome": false,
-    "ancestors": [
-      {
-        "id": "div.span-2",
-        "count": 10
-      },
-      {
-        "id": "div.grid-layout",
-        "count": 10
-      },
-      {
-        "id": "div.container",
-        "count": 10
-      },
-      {
-        "id": "section.secondary-section",
-        "count": 10
-      },
-      {
-        "id": "main",
-        "count": 10
-      },
-      {
-        "id": "body",
-        "count": 10
-      }
-    ],
-    "listContainer": null,
-    "anchorCounts": {
-      "section.secondary-section": 10
-    },
-    "sample": "<blockquote class=\"pull-quote\">\n <p class=\"pull-quote-body\">\"Every café between passes becomes, in the moment, the best café you have ever been to in your life.\"</p>\n <cite class=\"pull-quote-attribution\">— Alex R.</cite>\n</blockquote>"
-  },
-  {
-    "id": "Component T",
+    "id": "Component Q",
     "sourcePattern": "div.avatar",
     "anchor": "section.hero-section",
     "anchorSelectivity": {
@@ -1732,6 +1718,7 @@
       }
     ],
     "variants": [],
+    "variantSamples": [],
     "chrome": false,
     "ancestors": [
       {
@@ -1763,10 +1750,10 @@
     "anchorCounts": {
       "section.hero-section": 10
     },
-    "sample": "<div class=\"avatar\">\n <img src=\"../images/contributors/ian-provo.jpg\" alt=\"Alex R.\">\n</div>"
+    "sample": "<div class=\"avatar\">\n <img src=\"../images/contributors/ayo-ogunseinde-237739.jpg\" alt=\"Morgan L.\">\n</div>"
   },
   {
-    "id": "Component U",
+    "id": "Component R",
     "sourcePattern": "div.blog-content.blog-content-body",
     "anchor": "section.blog-article-section",
     "anchorSelectivity": {
@@ -1829,9 +1816,9 @@
         "ratio": 1.3,
         "unique": 13,
         "optional": false,
-        "refId": "Component P",
+        "refId": "Component O",
         "values": [],
-        "note": "owned by Component P"
+        "note": "owned by Component O"
       },
       {
         "pattern": "blockquote",
@@ -1857,10 +1844,11 @@
       }
     ],
     "variants": [],
+    "variantSamples": [],
     "chrome": false,
     "ancestors": [
       {
-        "id": "div.blog-article-container.container",
+        "id": "div.container",
         "count": 10
       },
       {
@@ -1880,10 +1868,10 @@
     "anchorCounts": {
       "section.blog-article-section": 10
     },
-    "sample": "<div class=\"blog-content blog-content-body\">\n <p>The Surly Long Haul Trucker weighed 23 kilograms loaded. I know because I weighed it in the car park in Saint-Jean-de-Maurienne on a borrowed luggage scale and then stood there doing math that I didn't like. My own body weight plus the bike plus the bags equalled something that felt, pushing up the first ramp of Col du Telegraphe at 7 a.m. on a Tuesday in August, like a serious personal failing.</p>\n <p>This is the honest beginning of the six-day alpine route that connects Saint-Jean-de-Maurienne to Briançon via the three great passes of the Rou…[truncated]"
+    "sample": "<div class=\"blog-content blog-content-body\">\n <p>Costa Rica has been on the surf map for forty years and the waves haven't changed, which is the whole point. What has changed is who's standing in them. On any given morning at Playa Negra you'll find retired pro surfers living in the hills, twenty-year-old Instagram instructors with inflatable boards, and local kids who've been surfing since before they could read. All of them have valid claims to the water. Navigating that requires understanding more than just how to paddle.</p>\n <h2>Choosing the Right Break</h2>\n <p>Costa Rica's Pacific coast…[truncated]"
   },
   {
-    "id": "Component V",
+    "id": "Component S",
     "sourcePattern": "a.button--ghost",
     "anchor": "section.secondary-section",
     "anchorSelectivity": {
@@ -1900,11 +1888,11 @@
     },
     "containedIn": [
       {
-        "ruleId": "Component R",
+        "ruleId": "Component P",
         "count": 3
       },
       {
-        "ruleId": "Component Y",
+        "ruleId": "Component I",
         "count": 2
       }
     ],
@@ -1923,39 +1911,28 @@
       }
     ],
     "variants": [],
+    "variantSamples": [],
     "chrome": false,
     "ancestors": [
       {
         "id": "div.button-group",
-        "count": 5
-      },
-      {
-        "id": "div.button-group.button-group--centered",
-        "count": 2
+        "count": 7
       },
       {
         "id": "div.card.card-body",
         "count": 2
       },
       {
-        "id": "div.container.container--narrow",
-        "count": 4
-      },
-      {
         "id": "div.hero-content-inner",
         "count": 3
       },
       {
+        "id": "div.grid-layout",
+        "count": 2
+      },
+      {
         "id": "div.container",
-        "count": 2
-      },
-      {
-        "id": "div.grid-layout.grid-layout--2col",
-        "count": 2
-      },
-      {
-        "id": "div.container.hero-content",
-        "count": 3
+        "count": 9
       },
       {
         "id": "section.accent-section",
@@ -1992,7 +1969,7 @@
     "sample": "<a href=\"field-notes.html\" class=\"button--ghost\"><span class=\"button-label\">Read Field Notes</span></a>"
   },
   {
-    "id": "Component W",
+    "id": "Component T",
     "sourcePattern": "div.editorial-index-item",
     "anchor": "section.secondary-section",
     "anchorSelectivity": {
@@ -2038,6 +2015,7 @@
       }
     ],
     "variants": [],
+    "variantSamples": [],
     "chrome": false,
     "ancestors": [
       {
@@ -2046,11 +2024,7 @@
       },
       {
         "id": "div.container",
-        "count": 15
-      },
-      {
-        "id": "div.container.container--narrow",
-        "count": 6
+        "count": 21
       },
       {
         "id": "section.secondary-section",
@@ -2077,7 +2051,7 @@
     "sample": "<div class=\"editorial-index-item\">\n <span class=\"editorial-index-number\">01</span>\n <div>\n  <h3 class=\"h4-heading utility-margin-bottom-md\">We go first</h3>\n  <p class=\"paragraph-lg utility-text-secondary\">Every route published on WKND Adventures has been completed by a WKND contributor before a word is written for public consumption. No desk research. No secondhand accounts aggregated from trip reports on other platforms. If the trail doesn't go, or the permit system has changed, or the hut is closed for the winter — we find out in the field, not in the edit. It costs more time. It produces b…[truncated]"
   },
   {
-    "id": "Component X",
+    "id": "Component U",
     "sourcePattern": "div.tab-menu",
     "anchor": "section",
     "anchorSelectivity": {
@@ -2098,30 +2072,17 @@
       {
         "pattern": "button.tab-menu-link",
         "type": "text",
-        "count": 18,
-        "ratio": 3.0,
-        "unique": 6,
+        "count": 24,
+        "ratio": 4.0,
+        "unique": 8,
         "optional": false,
         "refId": null,
         "values": [],
         "note": null
-      },
-      {
-        "pattern": "button.is-active.tab-menu-link",
-        "type": "vocabulary",
-        "count": 6,
-        "ratio": 1.0,
-        "unique": 2,
-        "optional": false,
-        "refId": null,
-        "values": [
-          "Climbing",
-          "Jordan"
-        ],
-        "note": "2 distinct values"
       }
     ],
     "variants": [],
+    "variantSamples": [],
     "chrome": false,
     "ancestors": [
       {
@@ -2152,125 +2113,7 @@
     "sample": "<div class=\"tab-menu\">\n <button class=\"tab-menu-link is-active\" data-tab=\"tab-climbing\" role=\"tab\" aria-selected=\"true\">Climbing</button> <button class=\"tab-menu-link\" data-tab=\"tab-water\" role=\"tab\" aria-selected=\"false\">Water</button> <button class=\"tab-menu-link\" data-tab=\"tab-cycling\" role=\"tab\" aria-selected=\"false\">Cycling</button> <button class=\"tab-menu-link\" data-tab=\"tab-hiking\" role=\"tab\" aria-selected=\"false\">Hiking</button>\n</div>"
   },
   {
-    "id": "Component Y",
-    "sourcePattern": "div.card.card-body",
-    "anchor": "section.inverse-section",
-    "anchorSelectivity": {
-      "card": 14,
-      "card-body": 14
-    },
-    "totalCount": 14,
-    "perPage": {
-      "/about": 3,
-      "/adventures": 2,
-      "/destinations": 3,
-      "/gear": 3,
-      "/sustainability": 3
-    },
-    "containedIn": [],
-    "edsNested": false,
-    "fields": [
-      {
-        "pattern": "p.paragraph-lg",
-        "type": "nested",
-        "count": 14,
-        "ratio": 1.0,
-        "unique": 14,
-        "optional": false,
-        "refId": null,
-        "values": [],
-        "note": "nested content unit (part of this component)"
-      },
-      {
-        "pattern": "h3.h4-heading",
-        "type": "text",
-        "count": 12,
-        "ratio": 0.8571428571428571,
-        "unique": 12,
-        "optional": true,
-        "refId": null,
-        "values": [],
-        "note": null
-      },
-      {
-        "pattern": "h3.h3-heading",
-        "type": "text",
-        "count": 2,
-        "ratio": 0.14285714285714285,
-        "unique": 2,
-        "optional": true,
-        "refId": null,
-        "values": [],
-        "note": null
-      },
-      {
-        "pattern": "a.button--ghost",
-        "type": "reference",
-        "count": 2,
-        "ratio": 0.14285714285714285,
-        "unique": 2,
-        "optional": true,
-        "refId": "Component V",
-        "values": [],
-        "note": "owned by Component V"
-      },
-      {
-        "pattern": "p.tag",
-        "type": "text",
-        "count": 2,
-        "ratio": 0.14285714285714285,
-        "unique": 2,
-        "optional": true,
-        "refId": null,
-        "values": [],
-        "note": null
-      }
-    ],
-    "variants": [],
-    "chrome": false,
-    "ancestors": [
-      {
-        "id": "div.grid-layout",
-        "count": 12
-      },
-      {
-        "id": "div.grid-layout.grid-layout--2col",
-        "count": 2
-      },
-      {
-        "id": "div.container",
-        "count": 12
-      },
-      {
-        "id": "div.container.container--narrow",
-        "count": 2
-      },
-      {
-        "id": "section.inverse-section",
-        "count": 12
-      },
-      {
-        "id": "section.secondary-section",
-        "count": 2
-      },
-      {
-        "id": "main",
-        "count": 14
-      },
-      {
-        "id": "body",
-        "count": 14
-      }
-    ],
-    "listContainer": "div.grid-layout",
-    "anchorCounts": {
-      "section.inverse-section": 12,
-      "section.secondary-section": 2
-    },
-    "sample": "<div class=\"card card-body\">\n <p class=\"tag\">Going further?</p>\n <h3 class=\"h3-heading\">Expeditions</h3>\n <p class=\"paragraph-lg\">Our signature multi-day journeys. Patagonia, the Lofoten Islands, the High Alps — documented honestly, start to finish.</p>\n <a href=\"expeditions.html\" class=\"button--ghost\"><span class=\"button-label\">Explore Expeditions</span></a>\n</div>"
-  },
-  {
-    "id": "Component Z",
+    "id": "Component V",
     "sourcePattern": "div.featured-article-image",
     "anchor": "section.secondary-section",
     "anchorSelectivity": {
@@ -2300,6 +2143,7 @@
       }
     ],
     "variants": [],
+    "variantSamples": [],
     "chrome": false,
     "ancestors": [
       {
@@ -2335,7 +2179,7 @@
     "sample": "<div class=\"featured-article-image\">\n <img src=\"images/adventures/adobestock-257541512.jpeg\" alt=\"Dawn sky from inside a tent pitched on Frenchman's Cap, Tasmania — the reward for getting your shelter right and your weight exactly where it needs to be\" loading=\"lazy\">\n</div>"
   },
   {
-    "id": "Component AA",
+    "id": "Component W",
     "sourcePattern": "a.accent-button",
     "anchor": "section.hero-section.hero-section--full",
     "anchorSelectivity": {
@@ -2350,7 +2194,7 @@
     },
     "containedIn": [
       {
-        "ruleId": "Component R",
+        "ruleId": "Component P",
         "count": 3
       }
     ],
@@ -2369,6 +2213,7 @@
       }
     ],
     "variants": [],
+    "variantSamples": [],
     "chrome": false,
     "ancestors": [
       {
@@ -2380,12 +2225,8 @@
         "count": 3
       },
       {
-        "id": "div.container.container--narrow",
-        "count": 1
-      },
-      {
-        "id": "div.container.hero-content",
-        "count": 3
+        "id": "div.container",
+        "count": 4
       },
       {
         "id": "section.secondary-section",
@@ -2404,7 +2245,7 @@
         "count": 4
       }
     ],
-    "listContainer": "div.container.hero-content",
+    "listContainer": null,
     "anchorCounts": {
       "section.hero-section.hero-section--full": 3,
       "section.secondary-section": 1
@@ -2412,7 +2253,7 @@
     "sample": "<a href=\"adventures.html\" class=\"accent-button\"><span class=\"button-label\">Explore Adventures</span></a>"
   },
   {
-    "id": "Component AB",
+    "id": "Component X",
     "sourcePattern": "div.faq-item",
     "anchor": "section",
     "anchorSelectivity": {
@@ -2452,6 +2293,7 @@
       }
     ],
     "variants": [],
+    "variantSamples": [],
     "chrome": false,
     "ancestors": [
       {
@@ -2460,11 +2302,7 @@
       },
       {
         "id": "div.container",
-        "count": 31
-      },
-      {
-        "id": "div.container.container--narrow",
-        "count": 7
+        "count": 38
       },
       {
         "id": "section",
@@ -2491,7 +2329,7 @@
     "sample": "<div class=\"faq-item\">\n <button class=\"faq-question\" aria-expanded=\"false\"> <span>Who is WKND Adventures for?</span> <span class=\"faq-icon\"></span> </button>\n <div class=\"faq-answer\">WKND Adventures is built for anyone serious about the outdoors — whether you're planning your first multi-day route or you're a seasoned alpinist looking for detailed beta on routes you haven't done. The depth of the archive is the point.</div>\n</div>"
   },
   {
-    "id": "Component AC",
+    "id": "Component Y",
     "sourcePattern": "a.featured-article-image",
     "anchor": "section.secondary-section",
     "anchorSelectivity": {
@@ -2518,6 +2356,7 @@
       }
     ],
     "variants": [],
+    "variantSamples": [],
     "chrome": false,
     "ancestors": [
       {
@@ -2548,7 +2387,7 @@
     "sample": "<a href=\"blog/patagonia-trek.html\" class=\"featured-article-image\"> <img src=\"images/adventures/adobestock-231698835.jpg\" alt=\"W Circuit, Torres del Paine, Patagonia\" loading=\"lazy\"> </a>"
   },
   {
-    "id": "Component AD",
+    "id": "Component Z",
     "sourcePattern": "div.ticker-track",
     "anchor": "top",
     "anchorSelectivity": {
@@ -2580,12 +2419,13 @@
         "ratio": 17.0,
         "unique": 1,
         "optional": false,
-        "refId": "Component AE",
+        "refId": "Component AA",
         "values": [],
-        "note": "owned by Component AE"
+        "note": "owned by Component AA"
       }
     ],
     "variants": [],
+    "variantSamples": [],
     "chrome": false,
     "ancestors": [
       {
@@ -2606,7 +2446,7 @@
     "sample": "<div class=\"ticker-track\">\n <span>Climbing</span><span class=\"ticker-sep\">·</span><span>Kayaking</span><span class=\"ticker-sep\">·</span><span>Cycling</span><span class=\"ticker-sep\">·</span><span>Desert</span><span class=\"ticker-sep\">·</span><span>Photography</span><span class=\"ticker-sep\">·</span><span>Hiking</span><span class=\"ticker-sep\">·</span><span>Winter</span><span class=\"ticker-sep\">·</span><span>Surfing</span><span class=\"ticker-sep\">·</span><span>Expedition</span><span class=\"ticker-sep\">·</span><span>Wild Swimming</span><span class=\"ticker-sep\">·</span><span>Climbing</span><span cla…[truncated]"
   },
   {
-    "id": "Component AE",
+    "id": "Component AA",
     "sourcePattern": "span.ticker-sep",
     "anchor": "top",
     "anchorSelectivity": {
@@ -2619,13 +2459,14 @@
     },
     "containedIn": [
       {
-        "ruleId": "Component AD",
+        "ruleId": "Component Z",
         "count": 34
       }
     ],
     "edsNested": true,
     "fields": [],
     "variants": [],
+    "variantSamples": [],
     "chrome": false,
     "ancestors": [
       {

@@ -1,5 +1,221 @@
 [
   {
+    "sourcePattern": "div.article-card-meta",
+    "sourceSelector": "a.article-card > div.article-card-body > div.article-card-meta",
+    "anchor": "section",
+    "count": 117,
+    "unique": 12,
+    "pages": 21,
+    "reason": "recurring content the rules did not cluster — model as a block or static content"
+  },
+  {
+    "sourcePattern": "div.tag",
+    "sourceSelector": "a.article-card > div.article-card-body > div.article-card-meta > div.tag",
+    "anchor": "section",
+    "count": 117,
+    "unique": 12,
+    "pages": 21,
+    "reason": "recurring content the rules did not cluster — model as a block or static content"
+  },
+  {
+    "sourcePattern": "p.paragraph-sm",
+    "sourceSelector": "p.paragraph-sm",
+    "anchor": "section",
+    "count": 183,
+    "unique": 23,
+    "pages": 21,
+    "reason": "recurring content the rules did not cluster — model as a block or static content"
+  },
+  {
+    "sourcePattern": "h3.h5-heading",
+    "sourceSelector": "div.desktop-3-column.grid-gap-lg.grid-layout > a.article-card > div.article-card-body > h3.h5-heading",
+    "anchor": "section",
+    "count": 57,
+    "unique": 6,
+    "pages": 18,
+    "reason": "recurring content the rules did not cluster — model as a block or static content"
+  },
+  {
+    "sourcePattern": "h3.h3-heading",
+    "sourceSelector": "h3.h3-heading",
+    "anchor": "section.secondary-section",
+    "count": 14,
+    "unique": 6,
+    "pages": 12,
+    "reason": "recurring content the rules did not cluster — model as a block or static content"
+  },
+  {
+    "sourcePattern": "figcaption",
+    "sourceSelector": "figure > figcaption",
+    "anchor": "section.blog-article-section",
+    "count": 17,
+    "unique": 17,
+    "pages": 11,
+    "reason": "recurring content the rules did not cluster — model as a block or static content"
+  },
+  {
+    "sourcePattern": "blockquote.pull-quote",
+    "sourceSelector": "div.container > div.desktop-3-column.grid-align-center.grid-gap-lg.grid-layout > div.span-2 > blockquote.pull-quote",
+    "anchor": "section.secondary-section",
+    "count": 10,
+    "unique": 10,
+    "pages": 10,
+    "reason": "recurring content the rules did not cluster — model as a block or static content"
+  },
+  {
+    "sourcePattern": "cite.pull-quote-attribution",
+    "sourceSelector": "div.desktop-3-column.grid-align-center.grid-gap-lg.grid-layout > div.span-2 > blockquote.pull-quote > cite.pull-quote-attribution",
+    "anchor": "section.secondary-section",
+    "count": 10,
+    "unique": 8,
+    "pages": 10,
+    "reason": "recurring content the rules did not cluster — model as a block or static content"
+  },
+  {
+    "sourcePattern": "div.article-byline",
+    "sourceSelector": "section.hero-section > div.hero-content > div.container > div.article-byline",
+    "anchor": "section.hero-section",
+    "count": 10,
+    "unique": 10,
+    "pages": 10,
+    "reason": "recurring layout frame (styling wrapper) culled from the component layer — model as a block or static content"
+  },
+  {
+    "sourcePattern": "div.hero-content",
+    "sourceSelector": "body > main > section.hero-section > div.hero-content",
+    "anchor": "section.hero-section",
+    "count": 10,
+    "unique": 10,
+    "pages": 10,
+    "reason": "recurring layout frame (styling wrapper) culled from the component layer — model as a block or static content"
+  },
+  {
+    "sourcePattern": "p.article-byline-meta",
+    "sourceSelector": "div.container > div.article-byline > div > p.article-byline-meta",
+    "anchor": "section.hero-section",
+    "count": 10,
+    "unique": 10,
+    "pages": 10,
+    "reason": "recurring content the rules did not cluster — model as a block or static content"
+  },
+  {
+    "sourcePattern": "p.article-byline-name",
+    "sourceSelector": "div.container > div.article-byline > div > p.article-byline-name",
+    "anchor": "section.hero-section",
+    "count": 10,
+    "unique": 5,
+    "pages": 10,
+    "reason": "recurring content the rules did not cluster — model as a block or static content"
+  },
+  {
+    "sourcePattern": "p.paragraph-lg",
+    "sourceSelector": "p.paragraph-lg",
+    "anchor": "section.secondary-section",
+    "count": 108,
+    "unique": 108,
+    "pages": 10,
+    "reason": "recurring content the rules did not cluster — model as a block or static content"
+  },
+  {
+    "sourcePattern": "p.pull-quote-body",
+    "sourceSelector": "div.desktop-3-column.grid-align-center.grid-gap-lg.grid-layout > div.span-2 > blockquote.pull-quote > p.pull-quote-body",
+    "anchor": "section.secondary-section",
+    "count": 10,
+    "unique": 10,
+    "pages": 10,
+    "reason": "recurring content the rules did not cluster — model as a block or static content"
+  },
+  {
+    "sourcePattern": "span.tag",
+    "sourceSelector": "section.hero-section > div.hero-content > div.container > span.tag",
+    "anchor": "section.hero-section",
+    "count": 10,
+    "unique": 10,
+    "pages": 10,
+    "reason": "recurring content the rules did not cluster — model as a block or static content"
+  },
+  {
+    "sourcePattern": "h3.h4-heading",
+    "sourceSelector": "h3.h4-heading",
+    "anchor": "section.secondary-section",
+    "count": 33,
+    "unique": 33,
+    "pages": 8,
+    "reason": "recurring content the rules did not cluster — model as a block or static content"
+  },
+  {
+    "sourcePattern": "div.featured-article",
+    "sourceSelector": "div.container > div.featured-article",
+    "anchor": "section.secondary-section",
+    "count": 8,
+    "unique": 8,
+    "pages": 7,
+    "reason": "recurring layout frame (styling wrapper) culled from the component layer — model as a block or static content"
+  },
+  {
+    "sourcePattern": "div.featured-article-footer",
+    "sourceSelector": "div.container > div.featured-article > div > div.featured-article-footer",
+    "anchor": "section.secondary-section",
+    "count": 8,
+    "unique": 7,
+    "pages": 7,
+    "reason": "recurring layout frame (styling wrapper) culled from the component layer — model as a block or static content"
+  },
+  {
+    "sourcePattern": "div.editorial-index",
+    "sourceSelector": "div.editorial-index",
+    "anchor": "section.secondary-section",
+    "count": 7,
+    "unique": 7,
+    "pages": 6,
+    "reason": "recurring layout frame (styling wrapper) culled from the component layer — model as a block or static content"
+  },
+  {
+    "sourcePattern": "div.tab-container.tab-container--wide",
+    "sourceSelector": "main > section.section > div.container > div.tab-container.tab-container--wide",
+    "anchor": "section",
+    "count": 5,
+    "unique": 1,
+    "pages": 5,
+    "reason": "recurring layout frame (styling wrapper) culled from the component layer — model as a block or static content"
+  },
+  {
+    "sourcePattern": "div.tab-pane",
+    "sourceSelector": "div.container > div.tab-container.tab-container--wide > div > div.tab-pane",
+    "anchor": "section",
+    "count": 20,
+    "unique": 4,
+    "pages": 5,
+    "reason": "recurring layout frame (styling wrapper) culled from the component layer — model as a block or static content"
+  },
+  {
+    "sourcePattern": "h3.h6-heading",
+    "sourceSelector": "div.desktop-3-column.grid-gap-md.grid-layout > a.article-card > div.article-card-body > h3.h6-heading",
+    "anchor": "section",
+    "count": 60,
+    "unique": 10,
+    "pages": 5,
+    "reason": "recurring content the rules did not cluster — model as a block or static content"
+  },
+  {
+    "sourcePattern": "div.faq-list",
+    "sourceSelector": "div.faq-list",
+    "anchor": "section",
+    "count": 8,
+    "unique": 8,
+    "pages": 4,
+    "reason": "recurring layout frame (styling wrapper) culled from the component layer — model as a block or static content"
+  },
+  {
+    "sourcePattern": "div.ticker-strip",
+    "sourceSelector": "body > main > div.ticker-strip",
+    "anchor": "top",
+    "count": 2,
+    "unique": 2,
+    "pages": 2,
+    "reason": "recurring layout frame (styling wrapper) culled from the component layer — model as a block or static content"
+  },
+  {
     "sourcePattern": "div.profile-circle",
     "sourceSelector": "div.team-profile-grid > div.team-profile-row > div.team-profile-col > div.profile-circle",
     "anchor": "top",
@@ -9,6 +225,15 @@
     "reason": "one-off content (appears once or on a single page)"
   },
   {
+    "sourcePattern": "div.tab-pane.tab-pane--padded",
+    "sourceSelector": "main > section.section > div.container > div.tab-pane.tab-pane--padded",
+    "anchor": "section",
+    "count": 4,
+    "unique": 4,
+    "pages": 1,
+    "reason": "recurring layout frame (styling wrapper) culled from the component layer — model as a block or static content"
+  },
+  {
     "sourcePattern": "div.team-profile-bio",
     "sourceSelector": "div.team-profile-grid > div.team-profile-row > div.team-profile-bio",
     "anchor": "top",
@@ -16,6 +241,33 @@
     "unique": 4,
     "pages": 1,
     "reason": "one-off content (appears once or on a single page)"
+  },
+  {
+    "sourcePattern": "div.team-profile-col",
+    "sourceSelector": "div.team-profile-grid > div.team-profile-row > div.team-profile-col",
+    "anchor": "section",
+    "count": 4,
+    "unique": 4,
+    "pages": 1,
+    "reason": "recurring layout frame (styling wrapper) culled from the component layer — model as a block or static content"
+  },
+  {
+    "sourcePattern": "div.team-profile-grid",
+    "sourceSelector": "div.team-profile-grid",
+    "anchor": "section",
+    "count": 4,
+    "unique": 4,
+    "pages": 1,
+    "reason": "recurring layout frame (styling wrapper) culled from the component layer — model as a block or static content"
+  },
+  {
+    "sourcePattern": "div.team-profile-row",
+    "sourceSelector": "div.team-profile-grid > div.team-profile-row",
+    "anchor": "section",
+    "count": 4,
+    "unique": 4,
+    "pages": 1,
+    "reason": "recurring layout frame (styling wrapper) culled from the component layer — model as a block or static content"
   },
   {
     "sourcePattern": "img.cover-image",

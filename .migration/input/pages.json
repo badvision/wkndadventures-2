@@ -1,53 +1,419 @@
 {
   "templates": [
     {
-      "signature": "section.hero-section+section.blog-article-section+section.secondary-section+section.inverse-section+section",
+      "id": "section.hero-section+section.blog-article-section+section.secondary-section+section.inverse-section+section",
       "representative": "/blog/surfing-costa-rica",
       "orderVaries": false,
       "sections": [
-        "section.hero-section",
-        "section.blog-article-section",
-        "section.secondary-section",
-        "section.inverse-section",
-        "section"
+        {
+          "tag": "section",
+          "classes": [
+            "hero-section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "hero-bg"
+              ]
+            },
+            {
+              "tag": "div",
+              "classes": [
+                "hero-content"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "blog-article-section",
+            "section",
+            "utility-padding-top-0"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "blog-article-container",
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "secondary-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "inverse-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        }
       ]
     },
     {
-      "signature": "section.hero-section.hero-section--full+section.secondary-section+section+section.inverse-section+section+section.secondary-section+section.inverse-section+section.accent-section",
+      "id": "section.hero-section.hero-section--full+section.secondary-section+section+section.inverse-section+section+section.secondary-section+section.inverse-section+section.accent-section",
       "representative": "/",
       "orderVaries": true,
       "sections": [
-        "section.hero-section.hero-section--full",
-        "section.secondary-section",
-        "section",
-        "section.inverse-section",
-        "section",
-        "section.secondary-section",
-        "section.inverse-section",
-        "section.accent-section"
+        {
+          "tag": "section",
+          "classes": [
+            "hero-section",
+            "hero-section--full"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "hero-bg"
+              ]
+            },
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "hero-content"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "secondary-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "ticker-strip"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "ticker-track"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "inverse-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "container--narrow"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "container--narrow"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "secondary-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "container--narrow"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "inverse-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "accent-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "utility-text-align-center"
+              ]
+            }
+          ]
+        }
       ]
     },
     {
-      "signature": "section.hero-section.hero-section--full+section+section",
+      "id": "section.hero-section.hero-section--full+section+section",
       "representative": "/basecamp",
       "orderVaries": false,
       "sections": [
-        "section.hero-section.hero-section--full",
-        "section",
-        "section"
+        {
+          "tag": "section",
+          "classes": [
+            "hero-section",
+            "hero-section--full"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "hero-bg"
+              ]
+            },
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "hero-content"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "ticker-strip"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "ticker-track"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "container--narrow"
+              ]
+            }
+          ]
+        }
       ]
     },
     {
-      "signature": "section.hero-section.hero-section--full+section.inverse-section+section.secondary-section+section.inverse-section+section+section.inverse-section",
+      "id": "section.hero-section.hero-section--full+section.inverse-section+section.secondary-section+section.inverse-section+section+section.inverse-section",
       "representative": "/field-notes",
       "orderVaries": false,
       "sections": [
-        "section.hero-section.hero-section--full",
-        "section.inverse-section",
-        "section.secondary-section",
-        "section.inverse-section",
-        "section",
-        "section.inverse-section"
+        {
+          "tag": "section",
+          "classes": [
+            "hero-section",
+            "hero-section--full"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "hero-bg"
+              ]
+            },
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "hero-content"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "inverse-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "utility-text-align-center"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "secondary-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "inverse-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "container--narrow"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "inverse-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "utility-text-align-center"
+              ]
+            }
+          ]
+        }
       ]
     }
   ],
@@ -56,7 +422,7 @@
     {
       "url": "https://wknd-adventures.com",
       "path": "/",
-      "template": "section+section.accent-section+section.hero-section.hero-section--full+section.inverse-section+section.secondary-section",
+      "template": "section.hero-section.hero-section--full+section.secondary-section+section+section.inverse-section+section+section.secondary-section+section.inverse-section+section.accent-section",
       "meta": {
         "title": "WKND Adventures — Bold Stories. Real Life. Wild Places.",
         "description": "Bold Stories. Real Life. Wild Places. WKND Adventures documents the people, routes, and moments that make the outdoors worth protecting.",
@@ -214,7 +580,7 @@
     {
       "url": "https://wknd-adventures.com/about.html",
       "path": "/about",
-      "template": "section+section.accent-section+section.hero-section.hero-section--full+section.inverse-section+section.secondary-section",
+      "template": "section.hero-section.hero-section--full+section.secondary-section+section+section.inverse-section+section+section.secondary-section+section.inverse-section+section.accent-section",
       "meta": {
         "title": "About — WKND Adventures",
         "description": "A small editorial team that goes to wild places and writes honestly about what we find.",
@@ -372,7 +738,7 @@
     {
       "url": "https://wknd-adventures.com/adventures.html",
       "path": "/adventures",
-      "template": "section+section.accent-section+section.hero-section.hero-section--full+section.inverse-section+section.secondary-section",
+      "template": "section.hero-section.hero-section--full+section.secondary-section+section+section.inverse-section+section+section.secondary-section+section.inverse-section+section.accent-section",
       "meta": {
         "title": "Adventures — WKND Adventures",
         "description": "World-class routes, from day hikes to multi-week expeditions.",
@@ -523,7 +889,7 @@
     {
       "url": "https://wknd-adventures.com/basecamp.html",
       "path": "/basecamp",
-      "template": "section+section.hero-section.hero-section--full",
+      "template": "section.hero-section.hero-section--full+section+section",
       "meta": {
         "title": "Basecamp — WKND Adventures",
         "description": "Your starting point for WKND Adventures. Pick an activity, find a route, and get moving — no prior experience required.",
@@ -603,7 +969,7 @@
     {
       "url": "https://wknd-adventures.com/blog/alpine-cycling.html",
       "path": "/blog/alpine-cycling",
-      "template": "section+section.blog-article-section+section.hero-section+section.inverse-section+section.secondary-section",
+      "template": "section.hero-section+section.blog-article-section+section.secondary-section+section.inverse-section+section",
       "meta": {
         "title": "Six Days Through the High Alps — WKND Adventures",
         "description": "Six days through the French Alps by loaded touring bike — Galibier, Izoard, Telegraphe, and the descent into Briançon.",
@@ -699,7 +1065,7 @@
     {
       "url": "https://wknd-adventures.com/blog/desert-survival-guide.html",
       "path": "/blog/desert-survival-guide",
-      "template": "section+section.blog-article-section+section.hero-section+section.inverse-section+section.secondary-section",
+      "template": "section.hero-section+section.blog-article-section+section.secondary-section+section.inverse-section+section",
       "meta": {
         "title": "48 Hours in the Sonoran: A Field Guide — WKND Adventures",
         "description": "A field guide to 48 hours in the Sonoran Desert — water, heat management, navigation, wildlife, and the night desert.",
@@ -795,7 +1161,7 @@
     {
       "url": "https://wknd-adventures.com/blog/kayaking-norway.html",
       "path": "/blog/kayaking-norway",
-      "template": "section+section.blog-article-section+section.hero-section+section.inverse-section+section.secondary-section",
+      "template": "section.hero-section+section.blog-article-section+section.secondary-section+section.inverse-section+section",
       "meta": {
         "title": "Lofoten Islands: Arctic Surfing at the Top of the World — WKND Adventures",
         "description": "Arctic surfing in the Lofoten Islands — cold water preparation, swell windows, neoprene essentials, the best breaks, and what it means to surf under a sky that never goes dark.",
@@ -891,7 +1257,7 @@
     {
       "url": "https://wknd-adventures.com/blog/mountain-photography.html",
       "path": "/blog/mountain-photography",
-      "template": "section+section.blog-article-section+section.hero-section+section.inverse-section+section.secondary-section",
+      "template": "section.hero-section+section.blog-article-section+section.secondary-section+section.inverse-section+section",
       "meta": {
         "title": "The Camera on Your Back — WKND Adventures",
         "description": "A practical and philosophical guide to carrying a camera in the mountains — what to bring, what it costs you, and whether the trade-off is worth it.",
@@ -987,7 +1353,7 @@
     {
       "url": "https://wknd-adventures.com/blog/patagonia-trek.html",
       "path": "/blog/patagonia-trek",
-      "template": "section+section.blog-article-section+section.hero-section+section.inverse-section+section.secondary-section",
+      "template": "section.hero-section+section.blog-article-section+section.secondary-section+section.inverse-section+section",
       "meta": {
         "title": "W Circuit: 9 Days, 115 km — WKND Adventures",
         "description": "A day-by-day journal of the W Circuit in Torres del Paine — 9 days, 115 km, and everything the guidebook doesn",
@@ -1083,7 +1449,7 @@
     {
       "url": "https://wknd-adventures.com/blog/surfing-costa-rica.html",
       "path": "/blog/surfing-costa-rica",
-      "template": "section+section.blog-article-section+section.hero-section+section.inverse-section+section.secondary-section",
+      "template": "section.hero-section+section.blog-article-section+section.secondary-section+section.inverse-section+section",
       "meta": {
         "title": "Pavones and Playa Negra: Costa Rica Surf Guide — WKND Adventures",
         "description": "A guide to surfing Pavones and Playa Negra on Costa Rica",
@@ -1179,7 +1545,7 @@
     {
       "url": "https://wknd-adventures.com/blog/ultralight-backpacking.html",
       "path": "/blog/ultralight-backpacking",
-      "template": "section+section.blog-article-section+section.hero-section+section.inverse-section+section.secondary-section",
+      "template": "section.hero-section+section.blog-article-section+section.secondary-section+section.inverse-section+section",
       "meta": {
         "title": "Sub-10 lb: What to Cut, What to Keep — WKND Adventures",
         "description": "An honest guide to ultralight backpacking — where the weight actually lives, what to cut, what to keep, and when to ignore all of it.",
@@ -1275,7 +1641,7 @@
     {
       "url": "https://wknd-adventures.com/blog/wild-swimming-guide.html",
       "path": "/blog/wild-swimming-guide",
-      "template": "section+section.blog-article-section+section.hero-section+section.inverse-section+section.secondary-section",
+      "template": "section.hero-section+section.blog-article-section+section.secondary-section+section.inverse-section+section",
       "meta": {
         "title": "Reading a River: The Wild Swimming Guide — WKND Adventures",
         "description": "A hybrid guide-essay on wild swimming — how to read rivers, understand access and ethics, manage the cold, and find the joy of water that isn",
@@ -1371,7 +1737,7 @@
     {
       "url": "https://wknd-adventures.com/blog/winter-mountaineering.html",
       "path": "/blog/winter-mountaineering",
-      "template": "section+section.blog-article-section+section.hero-section+section.inverse-section+section.secondary-section",
+      "template": "section.hero-section+section.blog-article-section+section.secondary-section+section.inverse-section+section",
       "meta": {
         "title": "Why Cold Routes Demand Warm Minds — WKND Adventures",
         "description": "A winter mountaineering primer — what changes in winter, technical basics, avalanche awareness, cold starts, and the hardest skill: knowing when to turn around.",
@@ -1467,7 +1833,7 @@
     {
       "url": "https://wknd-adventures.com/blog/yosemite-rock-climbing.html",
       "path": "/blog/yosemite-rock-climbing",
-      "template": "section+section.blog-article-section+section.hero-section+section.inverse-section+section.secondary-section",
+      "template": "section.hero-section+section.blog-article-section+section.secondary-section+section.inverse-section+section",
       "meta": {
         "title": "First Light on the Valley — WKND Adventures",
         "description": "A beginner",
@@ -1563,7 +1929,7 @@
     {
       "url": "https://wknd-adventures.com/community.html",
       "path": "/community",
-      "template": "section+section.accent-section+section.hero-section.hero-section--full+section.inverse-section+section.secondary-section",
+      "template": "section.hero-section.hero-section--full+section.secondary-section+section+section.inverse-section+section+section.secondary-section+section.inverse-section+section.accent-section",
       "meta": {
         "title": "Community — WKND Adventures",
         "description": "Join the WKND Adventures community and submit your own stories.",
@@ -1720,7 +2086,7 @@
     {
       "url": "https://wknd-adventures.com/destinations.html",
       "path": "/destinations",
-      "template": "section+section.accent-section+section.hero-section.hero-section--full+section.inverse-section+section.secondary-section",
+      "template": "section.hero-section.hero-section--full+section.secondary-section+section+section.inverse-section+section+section.secondary-section+section.inverse-section+section.accent-section",
       "meta": {
         "title": "Destinations — WKND Adventures",
         "description": "Curated regions for outdoor adventure around the world.",
@@ -1880,7 +2246,7 @@
     {
       "url": "https://wknd-adventures.com/expeditions.html",
       "path": "/expeditions",
-      "template": "section+section.accent-section+section.hero-section.hero-section--full+section.inverse-section+section.secondary-section",
+      "template": "section.hero-section.hero-section--full+section.secondary-section+section+section.inverse-section+section+section.secondary-section+section.inverse-section+section.accent-section",
       "meta": {
         "title": "Expeditions — WKND Adventures",
         "description": "Multi-day journeys, big summits, and epic adventures.",
@@ -2039,7 +2405,7 @@
     {
       "url": "https://wknd-adventures.com/faq.html",
       "path": "/faq",
-      "template": "section+section.accent-section+section.hero-section.hero-section--full+section.inverse-section+section.secondary-section",
+      "template": "section.hero-section.hero-section--full+section.secondary-section+section+section.inverse-section+section+section.secondary-section+section.inverse-section+section.accent-section",
       "meta": {
         "title": "FAQ — WKND Adventures",
         "description": "Questions about WKND Adventures, planning trips, submitting stories, and more.",
@@ -2195,7 +2561,7 @@
     {
       "url": "https://wknd-adventures.com/field-notes.html",
       "path": "/field-notes",
-      "template": "section+section.hero-section.hero-section--full+section.inverse-section+section.secondary-section",
+      "template": "section.hero-section.hero-section--full+section.inverse-section+section.secondary-section+section.inverse-section+section+section.inverse-section",
       "meta": {
         "title": "Field Notes — WKND Adventures",
         "description": "Photo essays and dispatches from the field.",
@@ -2309,7 +2675,7 @@
     {
       "url": "https://wknd-adventures.com/gear.html",
       "path": "/gear",
-      "template": "section+section.accent-section+section.hero-section.hero-section--full+section.inverse-section+section.secondary-section",
+      "template": "section.hero-section.hero-section--full+section.secondary-section+section+section.inverse-section+section+section.secondary-section+section.inverse-section+section.accent-section",
       "meta": {
         "title": "Gear — WKND Adventures",
         "description": "Tested and verified gear recommendations for outdoor adventures.",
@@ -2467,7 +2833,7 @@
     {
       "url": "https://wknd-adventures.com/sustainability.html",
       "path": "/sustainability",
-      "template": "section+section.accent-section+section.hero-section.hero-section--full+section.inverse-section+section.secondary-section",
+      "template": "section.hero-section.hero-section--full+section.secondary-section+section+section.inverse-section+section+section.secondary-section+section.inverse-section+section.accent-section",
       "meta": {
         "title": "Sustainability — WKND Adventures",
         "description": "Our commitment to preserving wild places and responsible outdoor practices.",
