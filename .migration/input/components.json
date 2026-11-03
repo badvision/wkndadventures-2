@@ -9,41 +9,30 @@
     "totalCount": 117,
     "perPage": {
       "/": 12,
-      "/about.html": 3,
-      "/adventures.html": 15,
-      "/basecamp.html": 12,
-      "/blog/alpine-cycling.html": 3,
-      "/blog/desert-survival-guide.html": 3,
-      "/blog/kayaking-norway.html": 3,
-      "/blog/mountain-photography.html": 3,
-      "/blog/patagonia-trek.html": 3,
-      "/blog/surfing-costa-rica.html": 3,
-      "/blog/ultralight-backpacking.html": 3,
-      "/blog/wild-swimming-guide.html": 3,
-      "/blog/winter-mountaineering.html": 3,
-      "/blog/yosemite-rock-climbing.html": 3,
-      "/community.html": 3,
-      "/destinations.html": 6,
-      "/expeditions.html": 15,
-      "/faq.html": 3,
-      "/field-notes.html": 3,
-      "/gear.html": 12,
-      "/sustainability.html": 3
+      "/about": 3,
+      "/adventures": 15,
+      "/basecamp": 12,
+      "/blog/alpine-cycling": 3,
+      "/blog/desert-survival-guide": 3,
+      "/blog/kayaking-norway": 3,
+      "/blog/mountain-photography": 3,
+      "/blog/patagonia-trek": 3,
+      "/blog/surfing-costa-rica": 3,
+      "/blog/ultralight-backpacking": 3,
+      "/blog/wild-swimming-guide": 3,
+      "/blog/winter-mountaineering": 3,
+      "/blog/yosemite-rock-climbing": 3,
+      "/community": 3,
+      "/destinations": 6,
+      "/expeditions": 15,
+      "/faq": 3,
+      "/field-notes": 3,
+      "/gear": 12,
+      "/sustainability": 3
     },
     "containedIn": [],
     "edsNested": false,
     "fields": [
-      {
-        "pattern": "div.article-card-body",
-        "type": "nested",
-        "count": 117,
-        "ratio": 1.0,
-        "unique": 17,
-        "optional": false,
-        "refId": null,
-        "values": [],
-        "note": "nested content unit (part of this component)"
-      },
       {
         "pattern": "div.article-card-image",
         "type": "nested",
@@ -54,10 +43,69 @@
         "refId": null,
         "values": [],
         "note": "nested content unit (part of this component)"
+      },
+      {
+        "pattern": "div.article-card-body",
+        "type": "nested",
+        "count": 117,
+        "ratio": 1.0,
+        "unique": 17,
+        "optional": false,
+        "refId": null,
+        "values": [],
+        "note": "nested content unit (part of this component)"
       }
     ],
     "variants": [],
-    "sample": null
+    "chrome": false,
+    "ancestors": [
+      {
+        "id": "div.grid-layout",
+        "count": 117
+      },
+      {
+        "id": "div.tab-pane",
+        "count": 45
+      },
+      {
+        "id": "div.is-active.tab-pane",
+        "count": 15
+      },
+      {
+        "id": "div",
+        "count": 60
+      },
+      {
+        "id": "section.secondary-section",
+        "count": 6
+      },
+      {
+        "id": "div.tab-container.tab-container--wide",
+        "count": 60
+      },
+      {
+        "id": "div.container",
+        "count": 117
+      },
+      {
+        "id": "section",
+        "count": 111
+      },
+      {
+        "id": "main",
+        "count": 117
+      },
+      {
+        "id": "body",
+        "count": 117
+      }
+    ],
+    "listContainer": "div.grid-layout",
+    "anchorCounts": {
+      "section": 111,
+      "section.secondary-section": 6
+    },
+    "sample": "<a href=\"/blog/winter-mountaineering.html\" class=\"article-card\"> \n <div class=\"article-card-image\">\n  <img src=\"/images/activities/ice-climbing.jpg\" alt=\"Winter mountaineering on steep snow slope\" loading=\"lazy\">\n </div> \n <div class=\"article-card-body\">\n  <div class=\"article-card-meta\">\n   <div class=\"tag\">Winter</div>\n  </div>\n  <h3 class=\"h6-heading utility-margin-bottom-sm\">Why Cold Routes Demand Warm Minds</h3>\n  <p class=\"paragraph-sm utility-text-secondary\">Winter mountaineering primer</p>\n </div> \n</a>"
   },
   {
     "id": "Component B",
@@ -69,26 +117,26 @@
     "totalCount": 54,
     "perPage": {
       "/": 4,
-      "/about.html": 3,
-      "/adventures.html": 3,
-      "/basecamp.html": 1,
-      "/blog/alpine-cycling.html": 1,
-      "/blog/desert-survival-guide.html": 1,
-      "/blog/kayaking-norway.html": 1,
-      "/blog/mountain-photography.html": 1,
-      "/blog/patagonia-trek.html": 1,
-      "/blog/surfing-costa-rica.html": 1,
-      "/blog/ultralight-backpacking.html": 1,
-      "/blog/wild-swimming-guide.html": 1,
-      "/blog/winter-mountaineering.html": 1,
-      "/blog/yosemite-rock-climbing.html": 1,
-      "/community.html": 8,
-      "/destinations.html": 5,
-      "/expeditions.html": 4,
-      "/faq.html": 5,
-      "/field-notes.html": 3,
-      "/gear.html": 4,
-      "/sustainability.html": 4
+      "/about": 3,
+      "/adventures": 3,
+      "/basecamp": 1,
+      "/blog/alpine-cycling": 1,
+      "/blog/desert-survival-guide": 1,
+      "/blog/kayaking-norway": 1,
+      "/blog/mountain-photography": 1,
+      "/blog/patagonia-trek": 1,
+      "/blog/surfing-costa-rica": 1,
+      "/blog/ultralight-backpacking": 1,
+      "/blog/wild-swimming-guide": 1,
+      "/blog/winter-mountaineering": 1,
+      "/blog/yosemite-rock-climbing": 1,
+      "/community": 8,
+      "/destinations": 5,
+      "/expeditions": 4,
+      "/faq": 5,
+      "/field-notes": 3,
+      "/gear": 4,
+      "/sustainability": 4
     },
     "containedIn": [
       {
@@ -111,7 +159,94 @@
       }
     ],
     "variants": [],
-    "sample": null
+    "chrome": false,
+    "ancestors": [
+      {
+        "id": "div.nav-right",
+        "count": 21
+      },
+      {
+        "id": "div.button-group.button-group--centered",
+        "count": 13
+      },
+      {
+        "id": "div.button-group",
+        "count": 12
+      },
+      {
+        "id": "div.featured-article-footer",
+        "count": 8
+      },
+      {
+        "id": "div.nav-inner",
+        "count": 21
+      },
+      {
+        "id": "div",
+        "count": 8
+      },
+      {
+        "id": "div.hero-content-inner",
+        "count": 7
+      },
+      {
+        "id": "div.container.container--narrow",
+        "count": 4
+      },
+      {
+        "id": "div.container",
+        "count": 43
+      },
+      {
+        "id": "section.inverse-section",
+        "count": 10
+      },
+      {
+        "id": "div.featured-article",
+        "count": 8
+      },
+      {
+        "id": "section.accent-section",
+        "count": 8
+      },
+      {
+        "id": "div.container.hero-content",
+        "count": 7
+      },
+      {
+        "id": "main",
+        "count": 33
+      },
+      {
+        "id": "div.navbar",
+        "count": 21
+      },
+      {
+        "id": "section.hero-section.hero-section--full",
+        "count": 7
+      },
+      {
+        "id": "body",
+        "count": 54
+      },
+      {
+        "id": "section.secondary-section",
+        "count": 7
+      },
+      {
+        "id": "section",
+        "count": 1
+      }
+    ],
+    "listContainer": "div.button-group",
+    "anchorCounts": {
+      "section": 1,
+      "section.accent-section": 8,
+      "section.hero-section.hero-section--full": 7,
+      "section.inverse-section": 10,
+      "section.secondary-section": 7
+    },
+    "sample": "<a href=\"community.html\" class=\"button\"><span class=\"button-label\">Subscribe</span></a>"
   },
   {
     "id": "Component C",
@@ -123,26 +258,26 @@
     "totalCount": 315,
     "perPage": {
       "/": 15,
-      "/about.html": 15,
-      "/adventures.html": 15,
-      "/basecamp.html": 15,
-      "/blog/alpine-cycling.html": 15,
-      "/blog/desert-survival-guide.html": 15,
-      "/blog/kayaking-norway.html": 15,
-      "/blog/mountain-photography.html": 15,
-      "/blog/patagonia-trek.html": 15,
-      "/blog/surfing-costa-rica.html": 15,
-      "/blog/ultralight-backpacking.html": 15,
-      "/blog/wild-swimming-guide.html": 15,
-      "/blog/winter-mountaineering.html": 15,
-      "/blog/yosemite-rock-climbing.html": 15,
-      "/community.html": 15,
-      "/destinations.html": 15,
-      "/expeditions.html": 15,
-      "/faq.html": 15,
-      "/field-notes.html": 15,
-      "/gear.html": 15,
-      "/sustainability.html": 15
+      "/about": 15,
+      "/adventures": 15,
+      "/basecamp": 15,
+      "/blog/alpine-cycling": 15,
+      "/blog/desert-survival-guide": 15,
+      "/blog/kayaking-norway": 15,
+      "/blog/mountain-photography": 15,
+      "/blog/patagonia-trek": 15,
+      "/blog/surfing-costa-rica": 15,
+      "/blog/ultralight-backpacking": 15,
+      "/blog/wild-swimming-guide": 15,
+      "/blog/winter-mountaineering": 15,
+      "/blog/yosemite-rock-climbing": 15,
+      "/community": 15,
+      "/destinations": 15,
+      "/expeditions": 15,
+      "/faq": 15,
+      "/field-notes": 15,
+      "/gear": 15,
+      "/sustainability": 15
     },
     "containedIn": [
       {
@@ -153,7 +288,40 @@
     "edsNested": true,
     "fields": [],
     "variants": [],
-    "sample": null
+    "chrome": true,
+    "ancestors": [
+      {
+        "id": "li",
+        "count": 315
+      },
+      {
+        "id": "ul",
+        "count": 315
+      },
+      {
+        "id": "div",
+        "count": 315
+      },
+      {
+        "id": "div.footer-top.grid-layout",
+        "count": 315
+      },
+      {
+        "id": "div.container",
+        "count": 315
+      },
+      {
+        "id": "footer.footer.inverse-footer",
+        "count": 315
+      },
+      {
+        "id": "body",
+        "count": 315
+      }
+    ],
+    "listContainer": "li",
+    "anchorCounts": {},
+    "sample": "<a href=\"adventures.html\" class=\"footer-link\">Adventures</a>"
   },
   {
     "id": "Component D",
@@ -165,43 +333,45 @@
     "totalCount": 21,
     "perPage": {
       "/": 1,
-      "/about.html": 1,
-      "/adventures.html": 1,
-      "/basecamp.html": 1,
-      "/blog/alpine-cycling.html": 1,
-      "/blog/desert-survival-guide.html": 1,
-      "/blog/kayaking-norway.html": 1,
-      "/blog/mountain-photography.html": 1,
-      "/blog/patagonia-trek.html": 1,
-      "/blog/surfing-costa-rica.html": 1,
-      "/blog/ultralight-backpacking.html": 1,
-      "/blog/wild-swimming-guide.html": 1,
-      "/blog/winter-mountaineering.html": 1,
-      "/blog/yosemite-rock-climbing.html": 1,
-      "/community.html": 1,
-      "/destinations.html": 1,
-      "/expeditions.html": 1,
-      "/faq.html": 1,
-      "/field-notes.html": 1,
-      "/gear.html": 1,
-      "/sustainability.html": 1
+      "/about": 1,
+      "/adventures": 1,
+      "/basecamp": 1,
+      "/blog/alpine-cycling": 1,
+      "/blog/desert-survival-guide": 1,
+      "/blog/kayaking-norway": 1,
+      "/blog/mountain-photography": 1,
+      "/blog/patagonia-trek": 1,
+      "/blog/surfing-costa-rica": 1,
+      "/blog/ultralight-backpacking": 1,
+      "/blog/wild-swimming-guide": 1,
+      "/blog/winter-mountaineering": 1,
+      "/blog/yosemite-rock-climbing": 1,
+      "/community": 1,
+      "/destinations": 1,
+      "/expeditions": 1,
+      "/faq": 1,
+      "/field-notes": 1,
+      "/gear": 1,
+      "/sustainability": 1
     },
     "containedIn": [],
     "edsNested": false,
     "fields": [
       {
-        "pattern": "div.nav-logo-icon",
-        "type": "nested",
+        "pattern": "span.logo-text",
+        "type": "vocabulary",
         "count": 21,
         "ratio": 1.0,
         "unique": 1,
         "optional": false,
         "refId": null,
-        "values": [],
-        "note": "nested content unit (part of this component)"
+        "values": [
+          "WKND Adventures"
+        ],
+        "note": "1 distinct values"
       },
       {
-        "pattern": "span.logo-text",
+        "pattern": "div.nav-logo-icon",
         "type": "nested",
         "count": 21,
         "ratio": 1.0,
@@ -213,7 +383,28 @@
       }
     ],
     "variants": [],
-    "sample": null
+    "chrome": true,
+    "ancestors": [
+      {
+        "id": "div.nav-inner",
+        "count": 21
+      },
+      {
+        "id": "div.container",
+        "count": 21
+      },
+      {
+        "id": "div.navbar",
+        "count": 21
+      },
+      {
+        "id": "body",
+        "count": 21
+      }
+    ],
+    "listContainer": null,
+    "anchorCounts": {},
+    "sample": "<a href=\"index.html\" class=\"logo\"> \n <div class=\"nav-logo-icon\">\n  <svg width=\"100%\" height=\"100%\" viewBox=\"0 0 33 33\" preserveAspectRatio=\"xMidYMid meet\" aria-hidden=\"true\">\n   <path d=\"M28,0H5C2.24,0,0,2.24,0,5v23c0,2.76,2.24,5,5,5h23c2.76,0,5-2.24,5-5V5c0-2.76-2.24-5-5-5ZM29,17c-6.63,0-12,5.37-12,12h-1c0-6.63-5.37-12-12-12v-1c6.63,0,12-5.37,12-12h1c0,6.63,5.37,12,12,12v1Z\" fill=\"currentColor\" />\n  </svg>\n </div> \n <span class=\"logo-text\">WKND\n  <br>Adventures</span> \n</a>"
   },
   {
     "id": "Component E",
@@ -225,26 +416,26 @@
     "totalCount": 84,
     "perPage": {
       "/": 4,
-      "/about.html": 4,
-      "/adventures.html": 4,
-      "/basecamp.html": 4,
-      "/blog/alpine-cycling.html": 4,
-      "/blog/desert-survival-guide.html": 4,
-      "/blog/kayaking-norway.html": 4,
-      "/blog/mountain-photography.html": 4,
-      "/blog/patagonia-trek.html": 4,
-      "/blog/surfing-costa-rica.html": 4,
-      "/blog/ultralight-backpacking.html": 4,
-      "/blog/wild-swimming-guide.html": 4,
-      "/blog/winter-mountaineering.html": 4,
-      "/blog/yosemite-rock-climbing.html": 4,
-      "/community.html": 4,
-      "/destinations.html": 4,
-      "/expeditions.html": 4,
-      "/faq.html": 4,
-      "/field-notes.html": 4,
-      "/gear.html": 4,
-      "/sustainability.html": 4
+      "/about": 4,
+      "/adventures": 4,
+      "/basecamp": 4,
+      "/blog/alpine-cycling": 4,
+      "/blog/desert-survival-guide": 4,
+      "/blog/kayaking-norway": 4,
+      "/blog/mountain-photography": 4,
+      "/blog/patagonia-trek": 4,
+      "/blog/surfing-costa-rica": 4,
+      "/blog/ultralight-backpacking": 4,
+      "/blog/wild-swimming-guide": 4,
+      "/blog/winter-mountaineering": 4,
+      "/blog/yosemite-rock-climbing": 4,
+      "/community": 4,
+      "/destinations": 4,
+      "/expeditions": 4,
+      "/faq": 4,
+      "/field-notes": 4,
+      "/gear": 4,
+      "/sustainability": 4
     },
     "containedIn": [
       {
@@ -292,7 +483,56 @@
       }
     ],
     "variants": [],
-    "sample": null
+    "chrome": true,
+    "ancestors": [
+      {
+        "id": "div.nav-megamenu-articles-grid",
+        "count": 84
+      },
+      {
+        "id": "div.nav-megamenu-stories-articles",
+        "count": 84
+      },
+      {
+        "id": "div.nav-megamenu-stories",
+        "count": 84
+      },
+      {
+        "id": "div.nav-megamenu",
+        "count": 84
+      },
+      {
+        "id": "li.nav-megamenu-item.nav-menu-list-item",
+        "count": 84
+      },
+      {
+        "id": "ul.nav-menu-list",
+        "count": 84
+      },
+      {
+        "id": "nav.nav-menu",
+        "count": 84
+      },
+      {
+        "id": "div.nav-inner",
+        "count": 84
+      },
+      {
+        "id": "div.container",
+        "count": 84
+      },
+      {
+        "id": "div.navbar",
+        "count": 84
+      },
+      {
+        "id": "body",
+        "count": 84
+      }
+    ],
+    "listContainer": "div.nav-megamenu-articles-grid",
+    "anchorCounts": {},
+    "sample": "<a href=\"blog/patagonia-trek.html\" class=\"nav-megamenu-article\"> <span class=\"nav-megamenu-article-title\">W Circuit: 9 Days, 115 km</span> <span class=\"nav-megamenu-article-desc\">A full account of Torres del Paine — permits, camps, and the weather that shaped every decision.</span> </a>"
   },
   {
     "id": "Component F",
@@ -304,26 +544,26 @@
     "totalCount": 210,
     "perPage": {
       "/": 10,
-      "/about.html": 10,
-      "/adventures.html": 10,
-      "/basecamp.html": 10,
-      "/blog/alpine-cycling.html": 10,
-      "/blog/desert-survival-guide.html": 10,
-      "/blog/kayaking-norway.html": 10,
-      "/blog/mountain-photography.html": 10,
-      "/blog/patagonia-trek.html": 10,
-      "/blog/surfing-costa-rica.html": 10,
-      "/blog/ultralight-backpacking.html": 10,
-      "/blog/wild-swimming-guide.html": 10,
-      "/blog/winter-mountaineering.html": 10,
-      "/blog/yosemite-rock-climbing.html": 10,
-      "/community.html": 10,
-      "/destinations.html": 10,
-      "/expeditions.html": 10,
-      "/faq.html": 10,
-      "/field-notes.html": 10,
-      "/gear.html": 10,
-      "/sustainability.html": 10
+      "/about": 10,
+      "/adventures": 10,
+      "/basecamp": 10,
+      "/blog/alpine-cycling": 10,
+      "/blog/desert-survival-guide": 10,
+      "/blog/kayaking-norway": 10,
+      "/blog/mountain-photography": 10,
+      "/blog/patagonia-trek": 10,
+      "/blog/surfing-costa-rica": 10,
+      "/blog/ultralight-backpacking": 10,
+      "/blog/wild-swimming-guide": 10,
+      "/blog/winter-mountaineering": 10,
+      "/blog/yosemite-rock-climbing": 10,
+      "/community": 10,
+      "/destinations": 10,
+      "/expeditions": 10,
+      "/faq": 10,
+      "/field-notes": 10,
+      "/gear": 10,
+      "/sustainability": 10
     },
     "containedIn": [
       {
@@ -361,7 +601,56 @@
       }
     ],
     "variants": [],
-    "sample": null
+    "chrome": true,
+    "ancestors": [
+      {
+        "id": "div.nav-megamenu-grid.nav-megamenu-grid--4",
+        "count": 168
+      },
+      {
+        "id": "div.nav-megamenu-stories-pages",
+        "count": 42
+      },
+      {
+        "id": "div.nav-megamenu-stories",
+        "count": 42
+      },
+      {
+        "id": "div.nav-megamenu",
+        "count": 210
+      },
+      {
+        "id": "li.nav-megamenu-item.nav-menu-list-item",
+        "count": 210
+      },
+      {
+        "id": "ul.nav-menu-list",
+        "count": 210
+      },
+      {
+        "id": "nav.nav-menu",
+        "count": 210
+      },
+      {
+        "id": "div.nav-inner",
+        "count": 210
+      },
+      {
+        "id": "div.container",
+        "count": 210
+      },
+      {
+        "id": "div.navbar",
+        "count": 210
+      },
+      {
+        "id": "body",
+        "count": 210
+      }
+    ],
+    "listContainer": "div.nav-megamenu-grid.nav-megamenu-grid--4",
+    "anchorCounts": {},
+    "sample": "<a href=\"adventures.html\" class=\"nav-megamenu-link\"> <span class=\"nav-megamenu-link-title\">Adventures</span> <span class=\"nav-megamenu-link-desc\">Hiking, climbing, surfing, cycling. Browse all activities and find your next route.</span> </a>"
   },
   {
     "id": "Component G",
@@ -373,32 +662,41 @@
     "totalCount": 21,
     "perPage": {
       "/": 1,
-      "/about.html": 1,
-      "/adventures.html": 1,
-      "/basecamp.html": 1,
-      "/blog/alpine-cycling.html": 1,
-      "/blog/desert-survival-guide.html": 1,
-      "/blog/kayaking-norway.html": 1,
-      "/blog/mountain-photography.html": 1,
-      "/blog/patagonia-trek.html": 1,
-      "/blog/surfing-costa-rica.html": 1,
-      "/blog/ultralight-backpacking.html": 1,
-      "/blog/wild-swimming-guide.html": 1,
-      "/blog/winter-mountaineering.html": 1,
-      "/blog/yosemite-rock-climbing.html": 1,
-      "/community.html": 1,
-      "/destinations.html": 1,
-      "/expeditions.html": 1,
-      "/faq.html": 1,
-      "/field-notes.html": 1,
-      "/gear.html": 1,
-      "/sustainability.html": 1
+      "/about": 1,
+      "/adventures": 1,
+      "/basecamp": 1,
+      "/blog/alpine-cycling": 1,
+      "/blog/desert-survival-guide": 1,
+      "/blog/kayaking-norway": 1,
+      "/blog/mountain-photography": 1,
+      "/blog/patagonia-trek": 1,
+      "/blog/surfing-costa-rica": 1,
+      "/blog/ultralight-backpacking": 1,
+      "/blog/wild-swimming-guide": 1,
+      "/blog/winter-mountaineering": 1,
+      "/blog/yosemite-rock-climbing": 1,
+      "/community": 1,
+      "/destinations": 1,
+      "/expeditions": 1,
+      "/faq": 1,
+      "/field-notes": 1,
+      "/gear": 1,
+      "/sustainability": 1
     },
     "containedIn": [],
     "edsNested": false,
     "fields": [],
     "variants": [],
-    "sample": null
+    "chrome": true,
+    "ancestors": [
+      {
+        "id": "body",
+        "count": 21
+      }
+    ],
+    "listContainer": null,
+    "anchorCounts": {},
+    "sample": "<a href=\"#main-content\" class=\"skip-link\">Skip to main content</a>"
   },
   {
     "id": "Component H",
@@ -410,32 +708,32 @@
     "totalCount": 21,
     "perPage": {
       "/": 1,
-      "/about.html": 1,
-      "/adventures.html": 1,
-      "/basecamp.html": 1,
-      "/blog/alpine-cycling.html": 1,
-      "/blog/desert-survival-guide.html": 1,
-      "/blog/kayaking-norway.html": 1,
-      "/blog/mountain-photography.html": 1,
-      "/blog/patagonia-trek.html": 1,
-      "/blog/surfing-costa-rica.html": 1,
-      "/blog/ultralight-backpacking.html": 1,
-      "/blog/wild-swimming-guide.html": 1,
-      "/blog/winter-mountaineering.html": 1,
-      "/blog/yosemite-rock-climbing.html": 1,
-      "/community.html": 1,
-      "/destinations.html": 1,
-      "/expeditions.html": 1,
-      "/faq.html": 1,
-      "/field-notes.html": 1,
-      "/gear.html": 1,
-      "/sustainability.html": 1
+      "/about": 1,
+      "/adventures": 1,
+      "/basecamp": 1,
+      "/blog/alpine-cycling": 1,
+      "/blog/desert-survival-guide": 1,
+      "/blog/kayaking-norway": 1,
+      "/blog/mountain-photography": 1,
+      "/blog/patagonia-trek": 1,
+      "/blog/surfing-costa-rica": 1,
+      "/blog/ultralight-backpacking": 1,
+      "/blog/wild-swimming-guide": 1,
+      "/blog/winter-mountaineering": 1,
+      "/blog/yosemite-rock-climbing": 1,
+      "/community": 1,
+      "/destinations": 1,
+      "/expeditions": 1,
+      "/faq": 1,
+      "/field-notes": 1,
+      "/gear": 1,
+      "/sustainability": 1
     },
     "containedIn": [],
     "edsNested": false,
     "fields": [
       {
-        "pattern": "svg.nav-icon-close",
+        "pattern": "svg.nav-icon-hamburger",
         "type": "image",
         "count": 21,
         "ratio": 1.0,
@@ -446,7 +744,7 @@
         "note": "media"
       },
       {
-        "pattern": "svg.nav-icon-hamburger",
+        "pattern": "svg.nav-icon-close",
         "type": "image",
         "count": 21,
         "ratio": 1.0,
@@ -458,7 +756,32 @@
       }
     ],
     "variants": [],
-    "sample": null
+    "chrome": true,
+    "ancestors": [
+      {
+        "id": "div.nav-right",
+        "count": 21
+      },
+      {
+        "id": "div.nav-inner",
+        "count": 21
+      },
+      {
+        "id": "div.container",
+        "count": 21
+      },
+      {
+        "id": "div.navbar",
+        "count": 21
+      },
+      {
+        "id": "body",
+        "count": 21
+      }
+    ],
+    "listContainer": null,
+    "anchorCounts": {},
+    "sample": "<button class=\"nav-mobile-menu-button\" id=\"nav-toggle\" aria-label=\"Toggle navigation\" aria-expanded=\"false\" aria-controls=\"nav-menu\"> \n <svg class=\"nav-icon-hamburger\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\">\n  <rect x=\"3\" y=\"6\" width=\"18\" height=\"2\" fill=\"currentColor\" /> <rect x=\"3\" y=\"11\" width=\"18\" height=\"2\" fill=\"currentColor\" /> <rect x=\"3\" y=\"16\" width=\"18\" height=\"2\" fill=\"currentColor\" />\n </svg> \n <svg class=\"nav-icon-close\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\">\n  <path d=\"M5 5L19 19M19 5L5 19\" stroke=\"currentCol…[truncated]"
   },
   {
     "id": "Component I",
@@ -470,41 +793,30 @@
     "totalCount": 21,
     "perPage": {
       "/": 1,
-      "/about.html": 1,
-      "/adventures.html": 1,
-      "/basecamp.html": 1,
-      "/blog/alpine-cycling.html": 1,
-      "/blog/desert-survival-guide.html": 1,
-      "/blog/kayaking-norway.html": 1,
-      "/blog/mountain-photography.html": 1,
-      "/blog/patagonia-trek.html": 1,
-      "/blog/surfing-costa-rica.html": 1,
-      "/blog/ultralight-backpacking.html": 1,
-      "/blog/wild-swimming-guide.html": 1,
-      "/blog/winter-mountaineering.html": 1,
-      "/blog/yosemite-rock-climbing.html": 1,
-      "/community.html": 1,
-      "/destinations.html": 1,
-      "/expeditions.html": 1,
-      "/faq.html": 1,
-      "/field-notes.html": 1,
-      "/gear.html": 1,
-      "/sustainability.html": 1
+      "/about": 1,
+      "/adventures": 1,
+      "/basecamp": 1,
+      "/blog/alpine-cycling": 1,
+      "/blog/desert-survival-guide": 1,
+      "/blog/kayaking-norway": 1,
+      "/blog/mountain-photography": 1,
+      "/blog/patagonia-trek": 1,
+      "/blog/surfing-costa-rica": 1,
+      "/blog/ultralight-backpacking": 1,
+      "/blog/wild-swimming-guide": 1,
+      "/blog/winter-mountaineering": 1,
+      "/blog/yosemite-rock-climbing": 1,
+      "/community": 1,
+      "/destinations": 1,
+      "/expeditions": 1,
+      "/faq": 1,
+      "/field-notes": 1,
+      "/gear": 1,
+      "/sustainability": 1
     },
     "containedIn": [],
     "edsNested": false,
     "fields": [
-      {
-        "pattern": "div.overlay",
-        "type": "text",
-        "count": 21,
-        "ratio": 1.0,
-        "unique": 1,
-        "optional": false,
-        "refId": null,
-        "values": [],
-        "note": null
-      },
       {
         "pattern": "img",
         "type": "image",
@@ -518,7 +830,31 @@
       }
     ],
     "variants": [],
-    "sample": null
+    "chrome": false,
+    "ancestors": [
+      {
+        "id": "section.hero-section.hero-section--full",
+        "count": 11
+      },
+      {
+        "id": "section.hero-section",
+        "count": 10
+      },
+      {
+        "id": "main",
+        "count": 21
+      },
+      {
+        "id": "body",
+        "count": 21
+      }
+    ],
+    "listContainer": "section.hero-section",
+    "anchorCounts": {
+      "section.hero-section": 10,
+      "section.hero-section.hero-section--full": 11
+    },
+    "sample": "<div class=\"hero-bg\">\n <img src=\"images/adventures/adobestock-140634652.jpeg\" alt=\"Wild mountain landscape at dawn\" fetchpriority=\"high\">\n <div class=\"overlay\"></div>\n</div>"
   },
   {
     "id": "Component J",
@@ -530,26 +866,26 @@
     "totalCount": 64,
     "perPage": {
       "/": 4,
-      "/about.html": 6,
-      "/adventures.html": 3,
-      "/basecamp.html": 2,
-      "/blog/alpine-cycling.html": 2,
-      "/blog/desert-survival-guide.html": 2,
-      "/blog/kayaking-norway.html": 2,
-      "/blog/mountain-photography.html": 2,
-      "/blog/patagonia-trek.html": 2,
-      "/blog/surfing-costa-rica.html": 2,
-      "/blog/ultralight-backpacking.html": 2,
-      "/blog/wild-swimming-guide.html": 2,
-      "/blog/winter-mountaineering.html": 2,
-      "/blog/yosemite-rock-climbing.html": 2,
-      "/community.html": 3,
-      "/destinations.html": 4,
-      "/expeditions.html": 6,
-      "/faq.html": 6,
-      "/field-notes.html": 1,
-      "/gear.html": 5,
-      "/sustainability.html": 4
+      "/about": 6,
+      "/adventures": 3,
+      "/basecamp": 2,
+      "/blog/alpine-cycling": 2,
+      "/blog/desert-survival-guide": 2,
+      "/blog/kayaking-norway": 2,
+      "/blog/mountain-photography": 2,
+      "/blog/patagonia-trek": 2,
+      "/blog/surfing-costa-rica": 2,
+      "/blog/ultralight-backpacking": 2,
+      "/blog/wild-swimming-guide": 2,
+      "/blog/winter-mountaineering": 2,
+      "/blog/yosemite-rock-climbing": 2,
+      "/community": 3,
+      "/destinations": 4,
+      "/expeditions": 6,
+      "/faq": 6,
+      "/field-notes": 1,
+      "/gear": 5,
+      "/sustainability": 4
     },
     "containedIn": [],
     "edsNested": false,
@@ -559,7 +895,7 @@
         "type": "text",
         "count": 64,
         "ratio": 1.0,
-        "unique": 74,
+        "unique": 64,
         "optional": false,
         "refId": null,
         "values": [],
@@ -567,18 +903,68 @@
       },
       {
         "pattern": "a.text-button",
-        "type": "nested",
+        "type": "text",
         "count": 11,
         "ratio": 0.171875,
         "unique": 2,
         "optional": true,
         "refId": null,
         "values": [],
-        "note": "nested content unit (part of this component)"
+        "note": null
       }
     ],
     "variants": [],
-    "sample": null
+    "chrome": false,
+    "ancestors": [
+      {
+        "id": "div.container",
+        "count": 52
+      },
+      {
+        "id": "div.container.container--narrow",
+        "count": 12
+      },
+      {
+        "id": "div",
+        "count": 1
+      },
+      {
+        "id": "section",
+        "count": 34
+      },
+      {
+        "id": "section.inverse-section",
+        "count": 16
+      },
+      {
+        "id": "section.secondary-section",
+        "count": 13
+      },
+      {
+        "id": "div.grid-layout",
+        "count": 1
+      },
+      {
+        "id": "section.accent-section",
+        "count": 1
+      },
+      {
+        "id": "main",
+        "count": 64
+      },
+      {
+        "id": "body",
+        "count": 64
+      }
+    ],
+    "listContainer": "div.container",
+    "anchorCounts": {
+      "section": 34,
+      "section.accent-section": 1,
+      "section.inverse-section": 16,
+      "section.secondary-section": 13
+    },
+    "sample": "<div class=\"section-heading\">\n <h2 class=\"h2-heading\">Browse by Activity</h2>\n</div>"
   },
   {
     "id": "Component K",
@@ -591,26 +977,26 @@
     "totalCount": 21,
     "perPage": {
       "/": 1,
-      "/about.html": 1,
-      "/adventures.html": 1,
-      "/basecamp.html": 1,
-      "/blog/alpine-cycling.html": 1,
-      "/blog/desert-survival-guide.html": 1,
-      "/blog/kayaking-norway.html": 1,
-      "/blog/mountain-photography.html": 1,
-      "/blog/patagonia-trek.html": 1,
-      "/blog/surfing-costa-rica.html": 1,
-      "/blog/ultralight-backpacking.html": 1,
-      "/blog/wild-swimming-guide.html": 1,
-      "/blog/winter-mountaineering.html": 1,
-      "/blog/yosemite-rock-climbing.html": 1,
-      "/community.html": 1,
-      "/destinations.html": 1,
-      "/expeditions.html": 1,
-      "/faq.html": 1,
-      "/field-notes.html": 1,
-      "/gear.html": 1,
-      "/sustainability.html": 1
+      "/about": 1,
+      "/adventures": 1,
+      "/basecamp": 1,
+      "/blog/alpine-cycling": 1,
+      "/blog/desert-survival-guide": 1,
+      "/blog/kayaking-norway": 1,
+      "/blog/mountain-photography": 1,
+      "/blog/patagonia-trek": 1,
+      "/blog/surfing-costa-rica": 1,
+      "/blog/ultralight-backpacking": 1,
+      "/blog/wild-swimming-guide": 1,
+      "/blog/winter-mountaineering": 1,
+      "/blog/yosemite-rock-climbing": 1,
+      "/community": 1,
+      "/destinations": 1,
+      "/expeditions": 1,
+      "/faq": 1,
+      "/field-notes": 1,
+      "/gear": 1,
+      "/sustainability": 1
     },
     "containedIn": [],
     "edsNested": false,
@@ -620,7 +1006,7 @@
         "type": "nested",
         "count": 21,
         "ratio": 1.0,
-        "unique": 92,
+        "unique": 21,
         "optional": false,
         "refId": null,
         "values": [],
@@ -628,7 +1014,16 @@
       }
     ],
     "variants": [],
-    "sample": null
+    "chrome": true,
+    "ancestors": [
+      {
+        "id": "body",
+        "count": 21
+      }
+    ],
+    "listContainer": null,
+    "anchorCounts": {},
+    "sample": "<footer class=\"footer inverse-footer\">\n <div class=\"container\">\n  <div class=\"grid-layout desktop-4-column grid-gap-xl footer-top\">\n   <div>\n    <div class=\"footer-logo\">\n     <div class=\"footer-logo-icon\">\n      <svg width=\"100%\" height=\"100%\" viewBox=\"0 0 33 33\" preserveAspectRatio=\"xMidYMid meet\" aria-hidden=\"true\">\n       <path d=\"M28,0H5C2.24,0,0,2.24,0,5v23c0,2.76,2.24,5,5,5h23c2.76,0,5-2.24,5-5V5c0-2.76-2.24-5-5-5ZM29,17c-6.63,0-12,5.37-12,12h-1c0-6.63-5.37-12-12-12v-1c6.63,0,12-5.37,12-12h1c0,6.63,5.37,12,12,12v1Z\" fill=\"currentColor\" />\n      </svg>\n     </div>\n     <span class=\"logo-…[truncated]"
   },
   {
     "id": "Component L",
@@ -641,26 +1036,26 @@
     "totalCount": 63,
     "perPage": {
       "/": 3,
-      "/about.html": 3,
-      "/adventures.html": 3,
-      "/basecamp.html": 3,
-      "/blog/alpine-cycling.html": 3,
-      "/blog/desert-survival-guide.html": 3,
-      "/blog/kayaking-norway.html": 3,
-      "/blog/mountain-photography.html": 3,
-      "/blog/patagonia-trek.html": 3,
-      "/blog/surfing-costa-rica.html": 3,
-      "/blog/ultralight-backpacking.html": 3,
-      "/blog/wild-swimming-guide.html": 3,
-      "/blog/winter-mountaineering.html": 3,
-      "/blog/yosemite-rock-climbing.html": 3,
-      "/community.html": 3,
-      "/destinations.html": 3,
-      "/expeditions.html": 3,
-      "/faq.html": 3,
-      "/field-notes.html": 3,
-      "/gear.html": 3,
-      "/sustainability.html": 3
+      "/about": 3,
+      "/adventures": 3,
+      "/basecamp": 3,
+      "/blog/alpine-cycling": 3,
+      "/blog/desert-survival-guide": 3,
+      "/blog/kayaking-norway": 3,
+      "/blog/mountain-photography": 3,
+      "/blog/patagonia-trek": 3,
+      "/blog/surfing-costa-rica": 3,
+      "/blog/ultralight-backpacking": 3,
+      "/blog/wild-swimming-guide": 3,
+      "/blog/winter-mountaineering": 3,
+      "/blog/yosemite-rock-climbing": 3,
+      "/community": 3,
+      "/destinations": 3,
+      "/expeditions": 3,
+      "/faq": 3,
+      "/field-notes": 3,
+      "/gear": 3,
+      "/sustainability": 3
     },
     "containedIn": [
       {
@@ -671,7 +1066,32 @@
     "edsNested": true,
     "fields": [],
     "variants": [],
-    "sample": null
+    "chrome": true,
+    "ancestors": [
+      {
+        "id": "div",
+        "count": 63
+      },
+      {
+        "id": "div.footer-top.grid-layout",
+        "count": 63
+      },
+      {
+        "id": "div.container",
+        "count": 63
+      },
+      {
+        "id": "footer.footer.inverse-footer",
+        "count": 63
+      },
+      {
+        "id": "body",
+        "count": 63
+      }
+    ],
+    "listContainer": "div",
+    "anchorCounts": {},
+    "sample": "<h4 class=\"h6-heading footer-col-heading\">Explore</h4>"
   },
   {
     "id": "Component M",
@@ -684,26 +1104,26 @@
     "totalCount": 63,
     "perPage": {
       "/": 3,
-      "/about.html": 3,
-      "/adventures.html": 3,
-      "/basecamp.html": 3,
-      "/blog/alpine-cycling.html": 3,
-      "/blog/desert-survival-guide.html": 3,
-      "/blog/kayaking-norway.html": 3,
-      "/blog/mountain-photography.html": 3,
-      "/blog/patagonia-trek.html": 3,
-      "/blog/surfing-costa-rica.html": 3,
-      "/blog/ultralight-backpacking.html": 3,
-      "/blog/wild-swimming-guide.html": 3,
-      "/blog/winter-mountaineering.html": 3,
-      "/blog/yosemite-rock-climbing.html": 3,
-      "/community.html": 3,
-      "/destinations.html": 3,
-      "/expeditions.html": 3,
-      "/faq.html": 3,
-      "/field-notes.html": 3,
-      "/gear.html": 3,
-      "/sustainability.html": 3
+      "/about": 3,
+      "/adventures": 3,
+      "/basecamp": 3,
+      "/blog/alpine-cycling": 3,
+      "/blog/desert-survival-guide": 3,
+      "/blog/kayaking-norway": 3,
+      "/blog/mountain-photography": 3,
+      "/blog/patagonia-trek": 3,
+      "/blog/surfing-costa-rica": 3,
+      "/blog/ultralight-backpacking": 3,
+      "/blog/wild-swimming-guide": 3,
+      "/blog/winter-mountaineering": 3,
+      "/blog/yosemite-rock-climbing": 3,
+      "/community": 3,
+      "/destinations": 3,
+      "/expeditions": 3,
+      "/faq": 3,
+      "/field-notes": 3,
+      "/gear": 3,
+      "/sustainability": 3
     },
     "containedIn": [
       {
@@ -715,14 +1135,14 @@
     "fields": [
       {
         "pattern": "button.nav-link.nav-megamenu-trigger",
-        "type": "nested",
+        "type": "text",
         "count": 63,
         "ratio": 1.0,
         "unique": 3,
         "optional": false,
         "refId": null,
         "values": [],
-        "note": "nested content unit (part of this component)"
+        "note": null
       },
       {
         "pattern": "div.nav-megamenu",
@@ -737,7 +1157,36 @@
       }
     ],
     "variants": [],
-    "sample": null
+    "chrome": true,
+    "ancestors": [
+      {
+        "id": "ul.nav-menu-list",
+        "count": 63
+      },
+      {
+        "id": "nav.nav-menu",
+        "count": 63
+      },
+      {
+        "id": "div.nav-inner",
+        "count": 63
+      },
+      {
+        "id": "div.container",
+        "count": 63
+      },
+      {
+        "id": "div.navbar",
+        "count": 63
+      },
+      {
+        "id": "body",
+        "count": 63
+      }
+    ],
+    "listContainer": "ul.nav-menu-list",
+    "anchorCounts": {},
+    "sample": "<li class=\"nav-menu-list-item nav-megamenu-item\"><button class=\"nav-link nav-megamenu-trigger\" aria-expanded=\"false\" aria-haspopup=\"true\"> <span>Explore</span><span class=\"nav-caret\" aria-hidden=\"true\"></span> </button>\n <div class=\"nav-megamenu\">\n  <div class=\"container\">\n   <div class=\"nav-megamenu-grid nav-megamenu-grid--4\">\n    <a href=\"adventures.html\" class=\"nav-megamenu-link\"> <span class=\"nav-megamenu-link-title\">Adventures</span> <span class=\"nav-megamenu-link-desc\">Hiking, climbing, surfing, cycling. Browse all activities and find your next route.</span> </a> <a href=\"expeditions.htm…[truncated]"
   },
   {
     "id": "Component N",
@@ -749,26 +1198,26 @@
     "totalCount": 21,
     "perPage": {
       "/": 1,
-      "/about.html": 1,
-      "/adventures.html": 1,
-      "/basecamp.html": 1,
-      "/blog/alpine-cycling.html": 1,
-      "/blog/desert-survival-guide.html": 1,
-      "/blog/kayaking-norway.html": 1,
-      "/blog/mountain-photography.html": 1,
-      "/blog/patagonia-trek.html": 1,
-      "/blog/surfing-costa-rica.html": 1,
-      "/blog/ultralight-backpacking.html": 1,
-      "/blog/wild-swimming-guide.html": 1,
-      "/blog/winter-mountaineering.html": 1,
-      "/blog/yosemite-rock-climbing.html": 1,
-      "/community.html": 1,
-      "/destinations.html": 1,
-      "/expeditions.html": 1,
-      "/faq.html": 1,
-      "/field-notes.html": 1,
-      "/gear.html": 1,
-      "/sustainability.html": 1
+      "/about": 1,
+      "/adventures": 1,
+      "/basecamp": 1,
+      "/blog/alpine-cycling": 1,
+      "/blog/desert-survival-guide": 1,
+      "/blog/kayaking-norway": 1,
+      "/blog/mountain-photography": 1,
+      "/blog/patagonia-trek": 1,
+      "/blog/surfing-costa-rica": 1,
+      "/blog/ultralight-backpacking": 1,
+      "/blog/wild-swimming-guide": 1,
+      "/blog/winter-mountaineering": 1,
+      "/blog/yosemite-rock-climbing": 1,
+      "/community": 1,
+      "/destinations": 1,
+      "/expeditions": 1,
+      "/faq": 1,
+      "/field-notes": 1,
+      "/gear": 1,
+      "/sustainability": 1
     },
     "containedIn": [],
     "edsNested": false,
@@ -786,7 +1235,28 @@
       }
     ],
     "variants": [],
-    "sample": null
+    "chrome": true,
+    "ancestors": [
+      {
+        "id": "div.nav-inner",
+        "count": 21
+      },
+      {
+        "id": "div.container",
+        "count": 21
+      },
+      {
+        "id": "div.navbar",
+        "count": 21
+      },
+      {
+        "id": "body",
+        "count": 21
+      }
+    ],
+    "listContainer": null,
+    "anchorCounts": {},
+    "sample": "<nav class=\"nav-menu\" id=\"nav-menu\" aria-label=\"Main navigation\">\n <ul class=\"nav-menu-list\">\n  <li class=\"nav-menu-list-item nav-megamenu-item\"><button class=\"nav-link nav-megamenu-trigger\" aria-expanded=\"false\" aria-haspopup=\"true\"> <span>Explore</span><span class=\"nav-caret\" aria-hidden=\"true\"></span> </button>\n   <div class=\"nav-megamenu\">\n    <div class=\"container\">\n     <div class=\"nav-megamenu-grid nav-megamenu-grid--4\">\n      <a href=\"adventures.html\" class=\"nav-megamenu-link\"> <span class=\"nav-megamenu-link-title\">Adventures</span> <span class=\"nav-megamenu-link-desc\">Hiking, climbing…[truncated]"
   },
   {
     "id": "Component O",
@@ -799,26 +1269,26 @@
     "totalCount": 63,
     "perPage": {
       "/": 3,
-      "/about.html": 3,
-      "/adventures.html": 3,
-      "/basecamp.html": 3,
-      "/blog/alpine-cycling.html": 3,
-      "/blog/desert-survival-guide.html": 3,
-      "/blog/kayaking-norway.html": 3,
-      "/blog/mountain-photography.html": 3,
-      "/blog/patagonia-trek.html": 3,
-      "/blog/surfing-costa-rica.html": 3,
-      "/blog/ultralight-backpacking.html": 3,
-      "/blog/wild-swimming-guide.html": 3,
-      "/blog/winter-mountaineering.html": 3,
-      "/blog/yosemite-rock-climbing.html": 3,
-      "/community.html": 3,
-      "/destinations.html": 3,
-      "/expeditions.html": 3,
-      "/faq.html": 3,
-      "/field-notes.html": 3,
-      "/gear.html": 3,
-      "/sustainability.html": 3
+      "/about": 3,
+      "/adventures": 3,
+      "/basecamp": 3,
+      "/blog/alpine-cycling": 3,
+      "/blog/desert-survival-guide": 3,
+      "/blog/kayaking-norway": 3,
+      "/blog/mountain-photography": 3,
+      "/blog/patagonia-trek": 3,
+      "/blog/surfing-costa-rica": 3,
+      "/blog/ultralight-backpacking": 3,
+      "/blog/wild-swimming-guide": 3,
+      "/blog/winter-mountaineering": 3,
+      "/blog/yosemite-rock-climbing": 3,
+      "/community": 3,
+      "/destinations": 3,
+      "/expeditions": 3,
+      "/faq": 3,
+      "/field-notes": 3,
+      "/gear": 3,
+      "/sustainability": 3
     },
     "containedIn": [
       {
@@ -829,7 +1299,36 @@
     "edsNested": true,
     "fields": [],
     "variants": [],
-    "sample": null
+    "chrome": true,
+    "ancestors": [
+      {
+        "id": "div.footer-bottom",
+        "count": 42
+      },
+      {
+        "id": "div",
+        "count": 21
+      },
+      {
+        "id": "div.container",
+        "count": 63
+      },
+      {
+        "id": "div.footer-top.grid-layout",
+        "count": 21
+      },
+      {
+        "id": "footer.footer.inverse-footer",
+        "count": 63
+      },
+      {
+        "id": "body",
+        "count": 63
+      }
+    ],
+    "listContainer": "div",
+    "anchorCounts": {},
+    "sample": "<p class=\"paragraph-sm footer-tagline\">Bold Stories. Real Life. Wild Places. Published weekly from somewhere with no Wi-Fi.</p>"
   },
   {
     "id": "Component P",
@@ -842,18 +1341,18 @@
     },
     "totalCount": 26,
     "perPage": {
-      "/blog/alpine-cycling.html": 2,
-      "/blog/desert-survival-guide.html": 2,
-      "/blog/kayaking-norway.html": 2,
-      "/blog/mountain-photography.html": 2,
-      "/blog/patagonia-trek.html": 2,
-      "/blog/surfing-costa-rica.html": 3,
-      "/blog/ultralight-backpacking.html": 2,
-      "/blog/wild-swimming-guide.html": 2,
-      "/blog/winter-mountaineering.html": 3,
-      "/blog/yosemite-rock-climbing.html": 3,
-      "/expeditions.html": 1,
-      "/gear.html": 2
+      "/blog/alpine-cycling": 2,
+      "/blog/desert-survival-guide": 2,
+      "/blog/kayaking-norway": 2,
+      "/blog/mountain-photography": 2,
+      "/blog/patagonia-trek": 2,
+      "/blog/surfing-costa-rica": 3,
+      "/blog/ultralight-backpacking": 2,
+      "/blog/wild-swimming-guide": 2,
+      "/blog/winter-mountaineering": 3,
+      "/blog/yosemite-rock-climbing": 3,
+      "/expeditions": 1,
+      "/gear": 2
     },
     "containedIn": [
       {
@@ -889,7 +1388,65 @@
         "count": 2
       }
     ],
-    "sample": null
+    "chrome": false,
+    "ancestors": [
+      {
+        "id": "div.blog-content.blog-content-body",
+        "count": 13
+      },
+      {
+        "id": "div",
+        "count": 10
+      },
+      {
+        "id": "div.container.container--narrow",
+        "count": 3
+      },
+      {
+        "id": "div.blog-article-container.container",
+        "count": 13
+      },
+      {
+        "id": "div.grid-layout",
+        "count": 10
+      },
+      {
+        "id": "section",
+        "count": 2
+      },
+      {
+        "id": "section.accent-section",
+        "count": 1
+      },
+      {
+        "id": "section.blog-article-section",
+        "count": 13
+      },
+      {
+        "id": "div.container",
+        "count": 10
+      },
+      {
+        "id": "main",
+        "count": 26
+      },
+      {
+        "id": "section.secondary-section",
+        "count": 10
+      },
+      {
+        "id": "body",
+        "count": 26
+      }
+    ],
+    "listContainer": "div",
+    "anchorCounts": {
+      "section": 2,
+      "section.accent-section": 1,
+      "section.blog-article-section": 13,
+      "section.secondary-section": 10
+    },
+    "sample": "<ul class=\"blog-gear-list\">\n <li>Steel touring frame (chromoly, 700c) with wide 38mm tyres for rough descents</li>\n <li>Ortlieb Back-Roller Classic panniers, pair (rear) — 40L total, waterproof roll-top</li>\n <li>Ortlieb Front-Roller Plus panniers, pair (front) — 25L total</li>\n <li>Three-season down sleeping bag in 10L dry bag, rated to 0°C</li>\n <li>Bivy shelter (tarp-style, single pole) — 620g, emergency and planned wild camping</li>\n <li>Multi-tool with spoke wrench, chain tool, and tyre levers</li>\n <li>Patch kit plus two spare inner tubes (700x38c)</li>\n <li>Four spare spokes sized to th…[truncated]"
   },
   {
     "id": "Component Q",
@@ -904,16 +1461,16 @@
     "totalCount": 11,
     "perPage": {
       "/": 1,
-      "/blog/alpine-cycling.html": 1,
-      "/blog/desert-survival-guide.html": 1,
-      "/blog/kayaking-norway.html": 1,
-      "/blog/mountain-photography.html": 1,
-      "/blog/patagonia-trek.html": 1,
-      "/blog/surfing-costa-rica.html": 1,
-      "/blog/ultralight-backpacking.html": 1,
-      "/blog/wild-swimming-guide.html": 1,
-      "/blog/winter-mountaineering.html": 1,
-      "/blog/yosemite-rock-climbing.html": 1
+      "/blog/alpine-cycling": 1,
+      "/blog/desert-survival-guide": 1,
+      "/blog/kayaking-norway": 1,
+      "/blog/mountain-photography": 1,
+      "/blog/patagonia-trek": 1,
+      "/blog/surfing-costa-rica": 1,
+      "/blog/ultralight-backpacking": 1,
+      "/blog/wild-swimming-guide": 1,
+      "/blog/winter-mountaineering": 1,
+      "/blog/yosemite-rock-climbing": 1
     },
     "containedIn": [],
     "edsNested": false,
@@ -939,7 +1496,30 @@
         "count": 11
       }
     ],
-    "sample": null
+    "chrome": false,
+    "ancestors": [
+      {
+        "id": "div.container",
+        "count": 11
+      },
+      {
+        "id": "section.inverse-section",
+        "count": 11
+      },
+      {
+        "id": "main",
+        "count": 11
+      },
+      {
+        "id": "body",
+        "count": 11
+      }
+    ],
+    "listContainer": null,
+    "anchorCounts": {
+      "section.inverse-section": 11
+    },
+    "sample": "<div class=\"grid-layout desktop-3-column grid-images grid-gap-lg\">\n <img src=\"images/adventures/adobestock-277761435.jpeg\" alt=\"Canadian mountain scenery with turquoise glacial lake in Garibaldi Provincial Park, BC\" class=\"gallery-img\" loading=\"lazy\"> <img src=\"images/activities/freeride.jpg\" alt=\"Skier in deep powder, extreme mountain freeride\" class=\"gallery-img\" loading=\"lazy\"> <img src=\"images/magazine/plane.jpg\" alt=\"Small float or ski plane on a gravel airstrip deep in the Alaskan wilderness\" class=\"gallery-img\" loading=\"lazy\">\n</div>"
   },
   {
     "id": "Component R",
@@ -951,16 +1531,16 @@
     "totalCount": 11,
     "perPage": {
       "/": 1,
-      "/about.html": 1,
-      "/adventures.html": 1,
-      "/basecamp.html": 1,
-      "/community.html": 1,
-      "/destinations.html": 1,
-      "/expeditions.html": 1,
-      "/faq.html": 1,
-      "/field-notes.html": 1,
-      "/gear.html": 1,
-      "/sustainability.html": 1
+      "/about": 1,
+      "/adventures": 1,
+      "/basecamp": 1,
+      "/community": 1,
+      "/destinations": 1,
+      "/expeditions": 1,
+      "/faq": 1,
+      "/field-notes": 1,
+      "/gear": 1,
+      "/sustainability": 1
     },
     "containedIn": [],
     "edsNested": false,
@@ -977,11 +1557,22 @@
         "note": null
       },
       {
+        "pattern": "h1.h1-heading",
+        "type": "text",
+        "count": 11,
+        "ratio": 1.0,
+        "unique": 11,
+        "optional": false,
+        "refId": null,
+        "values": [],
+        "note": null
+      },
+      {
         "pattern": "p.tag",
         "type": "text",
         "count": 11,
         "ratio": 1.0,
-        "unique": 12,
+        "unique": 11,
         "optional": false,
         "refId": null,
         "values": [],
@@ -992,7 +1583,7 @@
         "type": "nested",
         "count": 8,
         "ratio": 0.7272727272727273,
-        "unique": 14,
+        "unique": 8,
         "optional": true,
         "refId": null,
         "values": [],
@@ -1000,7 +1591,30 @@
       }
     ],
     "variants": [],
-    "sample": null
+    "chrome": false,
+    "ancestors": [
+      {
+        "id": "div.container.hero-content",
+        "count": 11
+      },
+      {
+        "id": "section.hero-section.hero-section--full",
+        "count": 11
+      },
+      {
+        "id": "main",
+        "count": 11
+      },
+      {
+        "id": "body",
+        "count": 11
+      }
+    ],
+    "listContainer": null,
+    "anchorCounts": {
+      "section.hero-section.hero-section--full": 11
+    },
+    "sample": "<div class=\"hero-content-inner\">\n <p class=\"tag\">WKND Adventures</p>\n <h1 class=\"h1-heading utility-margin-bottom-lg\">Bold Stories. Real Life. Wild Places.</h1>\n <p class=\"paragraph-xl hero-lead\">We document the people, routes, and moments that make the outdoors worth protecting.</p>\n <div class=\"button-group\">\n  <a href=\"adventures.html\" class=\"accent-button\"><span class=\"button-label\">Explore Adventures</span></a> <a href=\"field-notes.html\" class=\"button--ghost\"><span class=\"button-label\">Read Field Notes</span></a>\n </div>\n</div>"
   },
   {
     "id": "Component S",
@@ -1011,16 +1625,16 @@
     },
     "totalCount": 10,
     "perPage": {
-      "/blog/alpine-cycling.html": 1,
-      "/blog/desert-survival-guide.html": 1,
-      "/blog/kayaking-norway.html": 1,
-      "/blog/mountain-photography.html": 1,
-      "/blog/patagonia-trek.html": 1,
-      "/blog/surfing-costa-rica.html": 1,
-      "/blog/ultralight-backpacking.html": 1,
-      "/blog/wild-swimming-guide.html": 1,
-      "/blog/winter-mountaineering.html": 1,
-      "/blog/yosemite-rock-climbing.html": 1
+      "/blog/alpine-cycling": 1,
+      "/blog/desert-survival-guide": 1,
+      "/blog/kayaking-norway": 1,
+      "/blog/mountain-photography": 1,
+      "/blog/patagonia-trek": 1,
+      "/blog/surfing-costa-rica": 1,
+      "/blog/ultralight-backpacking": 1,
+      "/blog/wild-swimming-guide": 1,
+      "/blog/winter-mountaineering": 1,
+      "/blog/yosemite-rock-climbing": 1
     },
     "containedIn": [],
     "edsNested": false,
@@ -1049,7 +1663,38 @@
       }
     ],
     "variants": [],
-    "sample": null
+    "chrome": false,
+    "ancestors": [
+      {
+        "id": "div.span-2",
+        "count": 10
+      },
+      {
+        "id": "div.grid-layout",
+        "count": 10
+      },
+      {
+        "id": "div.container",
+        "count": 10
+      },
+      {
+        "id": "section.secondary-section",
+        "count": 10
+      },
+      {
+        "id": "main",
+        "count": 10
+      },
+      {
+        "id": "body",
+        "count": 10
+      }
+    ],
+    "listContainer": null,
+    "anchorCounts": {
+      "section.secondary-section": 10
+    },
+    "sample": "<blockquote class=\"pull-quote\">\n <p class=\"pull-quote-body\">\"Every café between passes becomes, in the moment, the best café you have ever been to in your life.\"</p>\n <cite class=\"pull-quote-attribution\">— Alex R.</cite>\n</blockquote>"
   },
   {
     "id": "Component T",
@@ -1060,16 +1705,16 @@
     },
     "totalCount": 10,
     "perPage": {
-      "/blog/alpine-cycling.html": 1,
-      "/blog/desert-survival-guide.html": 1,
-      "/blog/kayaking-norway.html": 1,
-      "/blog/mountain-photography.html": 1,
-      "/blog/patagonia-trek.html": 1,
-      "/blog/surfing-costa-rica.html": 1,
-      "/blog/ultralight-backpacking.html": 1,
-      "/blog/wild-swimming-guide.html": 1,
-      "/blog/winter-mountaineering.html": 1,
-      "/blog/yosemite-rock-climbing.html": 1
+      "/blog/alpine-cycling": 1,
+      "/blog/desert-survival-guide": 1,
+      "/blog/kayaking-norway": 1,
+      "/blog/mountain-photography": 1,
+      "/blog/patagonia-trek": 1,
+      "/blog/surfing-costa-rica": 1,
+      "/blog/ultralight-backpacking": 1,
+      "/blog/wild-swimming-guide": 1,
+      "/blog/winter-mountaineering": 1,
+      "/blog/yosemite-rock-climbing": 1
     },
     "containedIn": [],
     "edsNested": false,
@@ -1087,7 +1732,38 @@
       }
     ],
     "variants": [],
-    "sample": null
+    "chrome": false,
+    "ancestors": [
+      {
+        "id": "div.article-byline",
+        "count": 10
+      },
+      {
+        "id": "div.container",
+        "count": 10
+      },
+      {
+        "id": "div.hero-content",
+        "count": 10
+      },
+      {
+        "id": "section.hero-section",
+        "count": 10
+      },
+      {
+        "id": "main",
+        "count": 10
+      },
+      {
+        "id": "body",
+        "count": 10
+      }
+    ],
+    "listContainer": null,
+    "anchorCounts": {
+      "section.hero-section": 10
+    },
+    "sample": "<div class=\"avatar\">\n <img src=\"../images/contributors/ian-provo.jpg\" alt=\"Alex R.\">\n</div>"
   },
   {
     "id": "Component U",
@@ -1099,16 +1775,16 @@
     },
     "totalCount": 10,
     "perPage": {
-      "/blog/alpine-cycling.html": 1,
-      "/blog/desert-survival-guide.html": 1,
-      "/blog/kayaking-norway.html": 1,
-      "/blog/mountain-photography.html": 1,
-      "/blog/patagonia-trek.html": 1,
-      "/blog/surfing-costa-rica.html": 1,
-      "/blog/ultralight-backpacking.html": 1,
-      "/blog/wild-swimming-guide.html": 1,
-      "/blog/winter-mountaineering.html": 1,
-      "/blog/yosemite-rock-climbing.html": 1
+      "/blog/alpine-cycling": 1,
+      "/blog/desert-survival-guide": 1,
+      "/blog/kayaking-norway": 1,
+      "/blog/mountain-photography": 1,
+      "/blog/patagonia-trek": 1,
+      "/blog/surfing-costa-rica": 1,
+      "/blog/ultralight-backpacking": 1,
+      "/blog/wild-swimming-guide": 1,
+      "/blog/winter-mountaineering": 1,
+      "/blog/yosemite-rock-climbing": 1
     },
     "containedIn": [],
     "edsNested": false,
@@ -1151,7 +1827,7 @@
         "type": "reference",
         "count": 13,
         "ratio": 1.3,
-        "unique": 26,
+        "unique": 13,
         "optional": false,
         "refId": "Component P",
         "values": [],
@@ -1159,14 +1835,14 @@
       },
       {
         "pattern": "blockquote",
-        "type": "nested",
+        "type": "text",
         "count": 9,
         "ratio": 0.9,
         "unique": 0,
         "optional": true,
         "refId": null,
         "values": [],
-        "note": "nested content unit (part of this component)"
+        "note": null
       },
       {
         "pattern": "h3",
@@ -1181,7 +1857,30 @@
       }
     ],
     "variants": [],
-    "sample": null
+    "chrome": false,
+    "ancestors": [
+      {
+        "id": "div.blog-article-container.container",
+        "count": 10
+      },
+      {
+        "id": "section.blog-article-section",
+        "count": 10
+      },
+      {
+        "id": "main",
+        "count": 10
+      },
+      {
+        "id": "body",
+        "count": 10
+      }
+    ],
+    "listContainer": null,
+    "anchorCounts": {
+      "section.blog-article-section": 10
+    },
+    "sample": "<div class=\"blog-content blog-content-body\">\n <p>The Surly Long Haul Trucker weighed 23 kilograms loaded. I know because I weighed it in the car park in Saint-Jean-de-Maurienne on a borrowed luggage scale and then stood there doing math that I didn't like. My own body weight plus the bike plus the bags equalled something that felt, pushing up the first ramp of Col du Telegraphe at 7 a.m. on a Tuesday in August, like a serious personal failing.</p>\n <p>This is the honest beginning of the six-day alpine route that connects Saint-Jean-de-Maurienne to Briançon via the three great passes of the Rou…[truncated]"
   },
   {
     "id": "Component V",
@@ -1193,11 +1892,11 @@
     "totalCount": 9,
     "perPage": {
       "/": 3,
-      "/about.html": 1,
-      "/adventures.html": 2,
-      "/basecamp.html": 1,
-      "/destinations.html": 1,
-      "/expeditions.html": 1
+      "/about": 1,
+      "/adventures": 2,
+      "/basecamp": 1,
+      "/destinations": 1,
+      "/expeditions": 1
     },
     "containedIn": [
       {
@@ -1216,7 +1915,7 @@
         "type": "text",
         "count": 9,
         "ratio": 1.0,
-        "unique": 37,
+        "unique": 9,
         "optional": false,
         "refId": null,
         "values": [],
@@ -1224,7 +1923,73 @@
       }
     ],
     "variants": [],
-    "sample": null
+    "chrome": false,
+    "ancestors": [
+      {
+        "id": "div.button-group",
+        "count": 5
+      },
+      {
+        "id": "div.button-group.button-group--centered",
+        "count": 2
+      },
+      {
+        "id": "div.card.card-body",
+        "count": 2
+      },
+      {
+        "id": "div.container.container--narrow",
+        "count": 4
+      },
+      {
+        "id": "div.hero-content-inner",
+        "count": 3
+      },
+      {
+        "id": "div.container",
+        "count": 2
+      },
+      {
+        "id": "div.grid-layout.grid-layout--2col",
+        "count": 2
+      },
+      {
+        "id": "div.container.hero-content",
+        "count": 3
+      },
+      {
+        "id": "section.accent-section",
+        "count": 2
+      },
+      {
+        "id": "section.inverse-section",
+        "count": 1
+      },
+      {
+        "id": "section.hero-section.hero-section--full",
+        "count": 3
+      },
+      {
+        "id": "section.secondary-section",
+        "count": 3
+      },
+      {
+        "id": "main",
+        "count": 9
+      },
+      {
+        "id": "body",
+        "count": 9
+      }
+    ],
+    "listContainer": "div.button-group",
+    "anchorCounts": {
+      "section.accent-section": 2,
+      "section.hero-section.hero-section--full": 3,
+      "section.inverse-section": 1,
+      "section.secondary-section": 3
+    },
+    "sample": "<a href=\"field-notes.html\" class=\"button--ghost\"><span class=\"button-label\">Read Field Notes</span></a>"
   },
   {
     "id": "Component W",
@@ -1236,11 +2001,11 @@
     "totalCount": 21,
     "perPage": {
       "/": 3,
-      "/adventures.html": 3,
-      "/community.html": 3,
-      "/expeditions.html": 6,
-      "/gear.html": 3,
-      "/sustainability.html": 3
+      "/adventures": 3,
+      "/community": 3,
+      "/expeditions": 6,
+      "/gear": 3,
+      "/sustainability": 3
     },
     "containedIn": [],
     "edsNested": false,
@@ -1250,7 +2015,7 @@
         "type": "nested",
         "count": 21,
         "ratio": 1.0,
-        "unique": 70,
+        "unique": 21,
         "optional": false,
         "refId": null,
         "values": [],
@@ -1273,7 +2038,43 @@
       }
     ],
     "variants": [],
-    "sample": null
+    "chrome": false,
+    "ancestors": [
+      {
+        "id": "div.editorial-index",
+        "count": 21
+      },
+      {
+        "id": "div.container",
+        "count": 15
+      },
+      {
+        "id": "div.container.container--narrow",
+        "count": 6
+      },
+      {
+        "id": "section.secondary-section",
+        "count": 15
+      },
+      {
+        "id": "section",
+        "count": 6
+      },
+      {
+        "id": "main",
+        "count": 21
+      },
+      {
+        "id": "body",
+        "count": 21
+      }
+    ],
+    "listContainer": "div.editorial-index",
+    "anchorCounts": {
+      "section": 6,
+      "section.secondary-section": 15
+    },
+    "sample": "<div class=\"editorial-index-item\">\n <span class=\"editorial-index-number\">01</span>\n <div>\n  <h3 class=\"h4-heading utility-margin-bottom-md\">We go first</h3>\n  <p class=\"paragraph-lg utility-text-secondary\">Every route published on WKND Adventures has been completed by a WKND contributor before a word is written for public consumption. No desk research. No secondhand accounts aggregated from trip reports on other platforms. If the trail doesn't go, or the permit system has changed, or the hut is closed for the winter — we find out in the field, not in the edit. It costs more time. It produces b…[truncated]"
   },
   {
     "id": "Component X",
@@ -1285,11 +2086,11 @@
     "totalCount": 6,
     "perPage": {
       "/": 1,
-      "/about.html": 1,
-      "/adventures.html": 1,
-      "/basecamp.html": 1,
-      "/expeditions.html": 1,
-      "/gear.html": 1
+      "/about": 1,
+      "/adventures": 1,
+      "/basecamp": 1,
+      "/expeditions": 1,
+      "/gear": 1
     },
     "containedIn": [],
     "edsNested": false,
@@ -1321,7 +2122,34 @@
       }
     ],
     "variants": [],
-    "sample": null
+    "chrome": false,
+    "ancestors": [
+      {
+        "id": "div.tab-container.tab-container--wide",
+        "count": 5
+      },
+      {
+        "id": "div.container",
+        "count": 6
+      },
+      {
+        "id": "section",
+        "count": 6
+      },
+      {
+        "id": "main",
+        "count": 6
+      },
+      {
+        "id": "body",
+        "count": 6
+      }
+    ],
+    "listContainer": "div.tab-container.tab-container--wide",
+    "anchorCounts": {
+      "section": 6
+    },
+    "sample": "<div class=\"tab-menu\">\n <button class=\"tab-menu-link is-active\" data-tab=\"tab-climbing\" role=\"tab\" aria-selected=\"true\">Climbing</button> <button class=\"tab-menu-link\" data-tab=\"tab-water\" role=\"tab\" aria-selected=\"false\">Water</button> <button class=\"tab-menu-link\" data-tab=\"tab-cycling\" role=\"tab\" aria-selected=\"false\">Cycling</button> <button class=\"tab-menu-link\" data-tab=\"tab-hiking\" role=\"tab\" aria-selected=\"false\">Hiking</button>\n</div>"
   },
   {
     "id": "Component Y",
@@ -1333,21 +2161,43 @@
     },
     "totalCount": 14,
     "perPage": {
-      "/about.html": 3,
-      "/adventures.html": 2,
-      "/destinations.html": 3,
-      "/gear.html": 3,
-      "/sustainability.html": 3
+      "/about": 3,
+      "/adventures": 2,
+      "/destinations": 3,
+      "/gear": 3,
+      "/sustainability": 3
     },
     "containedIn": [],
     "edsNested": false,
     "fields": [
       {
+        "pattern": "p.paragraph-lg",
+        "type": "nested",
+        "count": 14,
+        "ratio": 1.0,
+        "unique": 14,
+        "optional": false,
+        "refId": null,
+        "values": [],
+        "note": "nested content unit (part of this component)"
+      },
+      {
         "pattern": "h3.h4-heading",
         "type": "text",
         "count": 12,
         "ratio": 0.8571428571428571,
-        "unique": 33,
+        "unique": 12,
+        "optional": true,
+        "refId": null,
+        "values": [],
+        "note": null
+      },
+      {
+        "pattern": "h3.h3-heading",
+        "type": "text",
+        "count": 2,
+        "ratio": 0.14285714285714285,
+        "unique": 2,
         "optional": true,
         "refId": null,
         "values": [],
@@ -1358,40 +2208,18 @@
         "type": "reference",
         "count": 2,
         "ratio": 0.14285714285714285,
-        "unique": 7,
+        "unique": 2,
         "optional": true,
         "refId": "Component V",
         "values": [],
         "note": "owned by Component V"
       },
       {
-        "pattern": "h3.h3-heading",
-        "type": "text",
-        "count": 2,
-        "ratio": 0.14285714285714285,
-        "unique": 6,
-        "optional": true,
-        "refId": null,
-        "values": [],
-        "note": null
-      },
-      {
-        "pattern": "p.paragraph-lg",
-        "type": "nested",
-        "count": 2,
-        "ratio": 0.14285714285714285,
-        "unique": 108,
-        "optional": true,
-        "refId": null,
-        "values": [],
-        "note": "nested content unit (part of this component)"
-      },
-      {
         "pattern": "p.tag",
         "type": "text",
         "count": 2,
         "ratio": 0.14285714285714285,
-        "unique": 12,
+        "unique": 2,
         "optional": true,
         "refId": null,
         "values": [],
@@ -1399,7 +2227,47 @@
       }
     ],
     "variants": [],
-    "sample": null
+    "chrome": false,
+    "ancestors": [
+      {
+        "id": "div.grid-layout",
+        "count": 12
+      },
+      {
+        "id": "div.grid-layout.grid-layout--2col",
+        "count": 2
+      },
+      {
+        "id": "div.container",
+        "count": 12
+      },
+      {
+        "id": "div.container.container--narrow",
+        "count": 2
+      },
+      {
+        "id": "section.inverse-section",
+        "count": 12
+      },
+      {
+        "id": "section.secondary-section",
+        "count": 2
+      },
+      {
+        "id": "main",
+        "count": 14
+      },
+      {
+        "id": "body",
+        "count": 14
+      }
+    ],
+    "listContainer": "div.grid-layout",
+    "anchorCounts": {
+      "section.inverse-section": 12,
+      "section.secondary-section": 2
+    },
+    "sample": "<div class=\"card card-body\">\n <p class=\"tag\">Going further?</p>\n <h3 class=\"h3-heading\">Expeditions</h3>\n <p class=\"paragraph-lg\">Our signature multi-day journeys. Patagonia, the Lofoten Islands, the High Alps — documented honestly, start to finish.</p>\n <a href=\"expeditions.html\" class=\"button--ghost\"><span class=\"button-label\">Explore Expeditions</span></a>\n</div>"
   },
   {
     "id": "Component Z",
@@ -1411,10 +2279,10 @@
     "totalCount": 6,
     "perPage": {
       "/": 1,
-      "/adventures.html": 1,
-      "/community.html": 2,
-      "/field-notes.html": 1,
-      "/gear.html": 1
+      "/adventures": 1,
+      "/community": 2,
+      "/field-notes": 1,
+      "/gear": 1
     },
     "containedIn": [],
     "edsNested": false,
@@ -1432,7 +2300,39 @@
       }
     ],
     "variants": [],
-    "sample": null
+    "chrome": false,
+    "ancestors": [
+      {
+        "id": "div.featured-article",
+        "count": 6
+      },
+      {
+        "id": "div.container",
+        "count": 6
+      },
+      {
+        "id": "section.secondary-section",
+        "count": 5
+      },
+      {
+        "id": "section",
+        "count": 1
+      },
+      {
+        "id": "main",
+        "count": 6
+      },
+      {
+        "id": "body",
+        "count": 6
+      }
+    ],
+    "listContainer": "div.featured-article",
+    "anchorCounts": {
+      "section": 1,
+      "section.secondary-section": 5
+    },
+    "sample": "<div class=\"featured-article-image\">\n <img src=\"images/adventures/adobestock-257541512.jpeg\" alt=\"Dawn sky from inside a tent pitched on Frenchman's Cap, Tasmania — the reward for getting your shelter right and your weight exactly where it needs to be\" loading=\"lazy\">\n</div>"
   },
   {
     "id": "Component AA",
@@ -1444,9 +2344,9 @@
     "totalCount": 4,
     "perPage": {
       "/": 1,
-      "/basecamp.html": 1,
-      "/destinations.html": 1,
-      "/expeditions.html": 1
+      "/basecamp": 1,
+      "/destinations": 1,
+      "/expeditions": 1
     },
     "containedIn": [
       {
@@ -1461,7 +2361,7 @@
         "type": "text",
         "count": 4,
         "ratio": 1.0,
-        "unique": 37,
+        "unique": 4,
         "optional": false,
         "refId": null,
         "values": [],
@@ -1469,7 +2369,47 @@
       }
     ],
     "variants": [],
-    "sample": null
+    "chrome": false,
+    "ancestors": [
+      {
+        "id": "div.button-group",
+        "count": 4
+      },
+      {
+        "id": "div.hero-content-inner",
+        "count": 3
+      },
+      {
+        "id": "div.container.container--narrow",
+        "count": 1
+      },
+      {
+        "id": "div.container.hero-content",
+        "count": 3
+      },
+      {
+        "id": "section.secondary-section",
+        "count": 1
+      },
+      {
+        "id": "section.hero-section.hero-section--full",
+        "count": 3
+      },
+      {
+        "id": "main",
+        "count": 4
+      },
+      {
+        "id": "body",
+        "count": 4
+      }
+    ],
+    "listContainer": "div.container.hero-content",
+    "anchorCounts": {
+      "section.hero-section.hero-section--full": 3,
+      "section.secondary-section": 1
+    },
+    "sample": "<a href=\"adventures.html\" class=\"accent-button\"><span class=\"button-label\">Explore Adventures</span></a>"
   },
   {
     "id": "Component AB",
@@ -1481,26 +2421,26 @@
     "totalCount": 38,
     "perPage": {
       "/": 3,
-      "/basecamp.html": 4,
-      "/community.html": 6,
-      "/faq.html": 25
+      "/basecamp": 4,
+      "/community": 6,
+      "/faq": 25
     },
     "containedIn": [],
     "edsNested": false,
     "fields": [
       {
-        "pattern": "button.faq-question",
-        "type": "nested",
+        "pattern": "div.faq-answer",
+        "type": "text",
         "count": 38,
         "ratio": 1.0,
         "unique": 38,
         "optional": false,
         "refId": null,
         "values": [],
-        "note": "nested content unit (part of this component)"
+        "note": null
       },
       {
-        "pattern": "div.faq-answer",
+        "pattern": "button.faq-question",
         "type": "text",
         "count": 38,
         "ratio": 1.0,
@@ -1512,7 +2452,43 @@
       }
     ],
     "variants": [],
-    "sample": null
+    "chrome": false,
+    "ancestors": [
+      {
+        "id": "div.faq-list",
+        "count": 38
+      },
+      {
+        "id": "div.container",
+        "count": 31
+      },
+      {
+        "id": "div.container.container--narrow",
+        "count": 7
+      },
+      {
+        "id": "section",
+        "count": 28
+      },
+      {
+        "id": "section.secondary-section",
+        "count": 10
+      },
+      {
+        "id": "main",
+        "count": 38
+      },
+      {
+        "id": "body",
+        "count": 38
+      }
+    ],
+    "listContainer": "div.faq-list",
+    "anchorCounts": {
+      "section": 28,
+      "section.secondary-section": 10
+    },
+    "sample": "<div class=\"faq-item\">\n <button class=\"faq-question\" aria-expanded=\"false\"> <span>Who is WKND Adventures for?</span> <span class=\"faq-icon\"></span> </button>\n <div class=\"faq-answer\">WKND Adventures is built for anyone serious about the outdoors — whether you're planning your first multi-day route or you're a seasoned alpinist looking for detailed beta on routes you haven't done. The depth of the archive is the point.</div>\n</div>"
   },
   {
     "id": "Component AC",
@@ -1523,8 +2499,8 @@
     },
     "totalCount": 2,
     "perPage": {
-      "/destinations.html": 1,
-      "/sustainability.html": 1
+      "/destinations": 1,
+      "/sustainability": 1
     },
     "containedIn": [],
     "edsNested": false,
@@ -1542,7 +2518,34 @@
       }
     ],
     "variants": [],
-    "sample": null
+    "chrome": false,
+    "ancestors": [
+      {
+        "id": "div.featured-article",
+        "count": 2
+      },
+      {
+        "id": "div.container",
+        "count": 2
+      },
+      {
+        "id": "section.secondary-section",
+        "count": 2
+      },
+      {
+        "id": "main",
+        "count": 2
+      },
+      {
+        "id": "body",
+        "count": 2
+      }
+    ],
+    "listContainer": null,
+    "anchorCounts": {
+      "section.secondary-section": 2
+    },
+    "sample": "<a href=\"blog/patagonia-trek.html\" class=\"featured-article-image\"> <img src=\"images/adventures/adobestock-231698835.jpg\" alt=\"W Circuit, Torres del Paine, Patagonia\" loading=\"lazy\"> </a>"
   },
   {
     "id": "Component AD",
@@ -1554,7 +2557,7 @@
     "totalCount": 2,
     "perPage": {
       "/": 1,
-      "/basecamp.html": 1
+      "/basecamp": 1
     },
     "containedIn": [],
     "edsNested": false,
@@ -1583,7 +2586,24 @@
       }
     ],
     "variants": [],
-    "sample": null
+    "chrome": false,
+    "ancestors": [
+      {
+        "id": "div.ticker-strip",
+        "count": 2
+      },
+      {
+        "id": "main",
+        "count": 2
+      },
+      {
+        "id": "body",
+        "count": 2
+      }
+    ],
+    "listContainer": null,
+    "anchorCounts": {},
+    "sample": "<div class=\"ticker-track\">\n <span>Climbing</span><span class=\"ticker-sep\">·</span><span>Kayaking</span><span class=\"ticker-sep\">·</span><span>Cycling</span><span class=\"ticker-sep\">·</span><span>Desert</span><span class=\"ticker-sep\">·</span><span>Photography</span><span class=\"ticker-sep\">·</span><span>Hiking</span><span class=\"ticker-sep\">·</span><span>Winter</span><span class=\"ticker-sep\">·</span><span>Surfing</span><span class=\"ticker-sep\">·</span><span>Expedition</span><span class=\"ticker-sep\">·</span><span>Wild Swimming</span><span class=\"ticker-sep\">·</span><span>Climbing</span><span cla…[truncated]"
   },
   {
     "id": "Component AE",
@@ -1595,7 +2615,7 @@
     "totalCount": 34,
     "perPage": {
       "/": 19,
-      "/basecamp.html": 15
+      "/basecamp": 15
     },
     "containedIn": [
       {
@@ -1606,6 +2626,27 @@
     "edsNested": true,
     "fields": [],
     "variants": [],
-    "sample": null
+    "chrome": false,
+    "ancestors": [
+      {
+        "id": "div.ticker-track",
+        "count": 34
+      },
+      {
+        "id": "div.ticker-strip",
+        "count": 34
+      },
+      {
+        "id": "main",
+        "count": 34
+      },
+      {
+        "id": "body",
+        "count": 34
+      }
+    ],
+    "listContainer": "div.ticker-strip",
+    "anchorCounts": {},
+    "sample": "<span class=\"ticker-sep\">·</span>"
   }
 ]

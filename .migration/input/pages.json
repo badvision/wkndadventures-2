@@ -1,350 +1,2626 @@
-[
-  {
-    "url": "https://wknd-adventures.com",
-    "path": "/",
-    "template": "section+section.accent-section+section.hero-section.hero-section--full+section.inverse-section+section.secondary-section",
-    "checksum": "d1c92220",
-    "checksumMethod": "bodyHash: CRC32 (hex) over the page <body>: every text node (trimmed, non-blank) and every img/iframe src attribute value, in document order. mainHash: SHA-256 (hex) over the normalized text of the <main> element: document order, tags stripped, whitespace collapsed; null when the page has no <main> element.",
-    "mainHash": "50fb2c96459472ce996ceff59775b771319057e97f9bd3d053fcae9bc0f5a1f5",
-    "sections": [
-      "section.hero-section.hero-section--full",
-      "section.secondary-section",
-      "section",
-      "section.inverse-section",
-      "section",
-      "section.secondary-section",
-      "section.inverse-section",
-      "section.accent-section"
-    ]
-  },
-  {
-    "url": "https://wknd-adventures.com/about.html",
-    "path": "/about.html",
-    "template": "section+section.accent-section+section.hero-section.hero-section--full+section.inverse-section+section.secondary-section",
-    "checksum": "431b22c8",
-    "checksumMethod": "bodyHash: CRC32 (hex) over the page <body>: every text node (trimmed, non-blank) and every img/iframe src attribute value, in document order. mainHash: SHA-256 (hex) over the normalized text of the <main> element: document order, tags stripped, whitespace collapsed; null when the page has no <main> element.",
-    "mainHash": "322b110541c0a656f119ef66565892b21195da21318ce718e7d82c984ccf2bc2",
-    "sections": [
-      "section.hero-section.hero-section--full",
-      "section.accent-section",
-      "section",
-      "section.inverse-section",
-      "section",
-      "section.secondary-section",
-      "section.inverse-section",
-      "section",
-      "section.accent-section"
-    ]
-  },
-  {
-    "url": "https://wknd-adventures.com/adventures.html",
-    "path": "/adventures.html",
-    "template": "section+section.accent-section+section.hero-section.hero-section--full+section.inverse-section+section.secondary-section",
-    "checksum": "cec2dd3e",
-    "checksumMethod": "bodyHash: CRC32 (hex) over the page <body>: every text node (trimmed, non-blank) and every img/iframe src attribute value, in document order. mainHash: SHA-256 (hex) over the normalized text of the <main> element: document order, tags stripped, whitespace collapsed; null when the page has no <main> element.",
-    "mainHash": "bbf279084ccd6cf54e23c768de81e6a49677604dd4c8b4f411f6b5900d1fe4bf",
-    "sections": [
-      "section.hero-section.hero-section--full",
-      "section.accent-section",
-      "section.secondary-section",
-      "section",
-      "section.secondary-section",
-      "section",
-      "section.secondary-section",
-      "section.inverse-section"
-    ]
-  },
-  {
-    "url": "https://wknd-adventures.com/basecamp.html",
-    "path": "/basecamp.html",
-    "template": "section+section.hero-section.hero-section--full",
-    "checksum": "47e2fcb4",
-    "checksumMethod": "bodyHash: CRC32 (hex) over the page <body>: every text node (trimmed, non-blank) and every img/iframe src attribute value, in document order. mainHash: SHA-256 (hex) over the normalized text of the <main> element: document order, tags stripped, whitespace collapsed; null when the page has no <main> element.",
-    "mainHash": "0db073ecc313d80c3dd22d967a3be90e51485753e1d06c49b6a227436d6447db",
-    "sections": [
-      "section.hero-section.hero-section--full",
-      "section",
-      "section"
-    ]
-  },
-  {
-    "url": "https://wknd-adventures.com/blog/alpine-cycling.html",
-    "path": "/blog/alpine-cycling.html",
-    "template": "section+section.blog-article-section+section.hero-section+section.inverse-section+section.secondary-section",
-    "checksum": "560906e1",
-    "checksumMethod": "bodyHash: CRC32 (hex) over the page <body>: every text node (trimmed, non-blank) and every img/iframe src attribute value, in document order. mainHash: SHA-256 (hex) over the normalized text of the <main> element: document order, tags stripped, whitespace collapsed; null when the page has no <main> element.",
-    "mainHash": "785280d8929d81b7e1a8d938d1c73de1d6e1a4e93e98b6162b85a6bfbec00623",
-    "sections": [
-      "section.hero-section",
-      "section.blog-article-section",
-      "section.secondary-section",
-      "section.inverse-section",
-      "section"
-    ]
-  },
-  {
-    "url": "https://wknd-adventures.com/blog/desert-survival-guide.html",
-    "path": "/blog/desert-survival-guide.html",
-    "template": "section+section.blog-article-section+section.hero-section+section.inverse-section+section.secondary-section",
-    "checksum": "b1f754da",
-    "checksumMethod": "bodyHash: CRC32 (hex) over the page <body>: every text node (trimmed, non-blank) and every img/iframe src attribute value, in document order. mainHash: SHA-256 (hex) over the normalized text of the <main> element: document order, tags stripped, whitespace collapsed; null when the page has no <main> element.",
-    "mainHash": "c53d7be8de508b7b766800e40cb3513e9f0efcbf23711f180a1f0e45a77bdf1b",
-    "sections": [
-      "section.hero-section",
-      "section.blog-article-section",
-      "section.secondary-section",
-      "section.inverse-section",
-      "section"
-    ]
-  },
-  {
-    "url": "https://wknd-adventures.com/blog/kayaking-norway.html",
-    "path": "/blog/kayaking-norway.html",
-    "template": "section+section.blog-article-section+section.hero-section+section.inverse-section+section.secondary-section",
-    "checksum": "3e9a13ef",
-    "checksumMethod": "bodyHash: CRC32 (hex) over the page <body>: every text node (trimmed, non-blank) and every img/iframe src attribute value, in document order. mainHash: SHA-256 (hex) over the normalized text of the <main> element: document order, tags stripped, whitespace collapsed; null when the page has no <main> element.",
-    "mainHash": "e2be671a9074baa79122286f332ad28d43bbd29d99704319765586b105eef2dc",
-    "sections": [
-      "section.hero-section",
-      "section.blog-article-section",
-      "section.secondary-section",
-      "section.inverse-section",
-      "section"
-    ]
-  },
-  {
-    "url": "https://wknd-adventures.com/blog/mountain-photography.html",
-    "path": "/blog/mountain-photography.html",
-    "template": "section+section.blog-article-section+section.hero-section+section.inverse-section+section.secondary-section",
-    "checksum": "bcaafb6f",
-    "checksumMethod": "bodyHash: CRC32 (hex) over the page <body>: every text node (trimmed, non-blank) and every img/iframe src attribute value, in document order. mainHash: SHA-256 (hex) over the normalized text of the <main> element: document order, tags stripped, whitespace collapsed; null when the page has no <main> element.",
-    "mainHash": "7b5807d7656255a1ef2fb4376b1dc25dcee828121d031b11e1f9adaec977f38d",
-    "sections": [
-      "section.hero-section",
-      "section.blog-article-section",
-      "section.secondary-section",
-      "section.inverse-section",
-      "section"
-    ]
-  },
-  {
-    "url": "https://wknd-adventures.com/blog/patagonia-trek.html",
-    "path": "/blog/patagonia-trek.html",
-    "template": "section+section.blog-article-section+section.hero-section+section.inverse-section+section.secondary-section",
-    "checksum": "bdf4e4a1",
-    "checksumMethod": "bodyHash: CRC32 (hex) over the page <body>: every text node (trimmed, non-blank) and every img/iframe src attribute value, in document order. mainHash: SHA-256 (hex) over the normalized text of the <main> element: document order, tags stripped, whitespace collapsed; null when the page has no <main> element.",
-    "mainHash": "90ba9a0de1953b5688a0ac980567b904e763be10b659aefda4772a9f093a370b",
-    "sections": [
-      "section.hero-section",
-      "section.blog-article-section",
-      "section.secondary-section",
-      "section.inverse-section",
-      "section"
-    ]
-  },
-  {
-    "url": "https://wknd-adventures.com/blog/surfing-costa-rica.html",
-    "path": "/blog/surfing-costa-rica.html",
-    "template": "section+section.blog-article-section+section.hero-section+section.inverse-section+section.secondary-section",
-    "checksum": "411ce984",
-    "checksumMethod": "bodyHash: CRC32 (hex) over the page <body>: every text node (trimmed, non-blank) and every img/iframe src attribute value, in document order. mainHash: SHA-256 (hex) over the normalized text of the <main> element: document order, tags stripped, whitespace collapsed; null when the page has no <main> element.",
-    "mainHash": "d23c0dcd1d525cdbebd26bbf6547e56b96e0a4f83176f68dbfa6b54f707e06d3",
-    "sections": [
-      "section.hero-section",
-      "section.blog-article-section",
-      "section.secondary-section",
-      "section.inverse-section",
-      "section"
-    ]
-  },
-  {
-    "url": "https://wknd-adventures.com/blog/ultralight-backpacking.html",
-    "path": "/blog/ultralight-backpacking.html",
-    "template": "section+section.blog-article-section+section.hero-section+section.inverse-section+section.secondary-section",
-    "checksum": "dc7f67f6",
-    "checksumMethod": "bodyHash: CRC32 (hex) over the page <body>: every text node (trimmed, non-blank) and every img/iframe src attribute value, in document order. mainHash: SHA-256 (hex) over the normalized text of the <main> element: document order, tags stripped, whitespace collapsed; null when the page has no <main> element.",
-    "mainHash": "c92dd5b7c7c0440694c0ebba4dcf07d14c2d14ba38c2c1f8f25718df64e3d3e0",
-    "sections": [
-      "section.hero-section",
-      "section.blog-article-section",
-      "section.secondary-section",
-      "section.inverse-section",
-      "section"
-    ]
-  },
-  {
-    "url": "https://wknd-adventures.com/blog/wild-swimming-guide.html",
-    "path": "/blog/wild-swimming-guide.html",
-    "template": "section+section.blog-article-section+section.hero-section+section.inverse-section+section.secondary-section",
-    "checksum": "45fcac91",
-    "checksumMethod": "bodyHash: CRC32 (hex) over the page <body>: every text node (trimmed, non-blank) and every img/iframe src attribute value, in document order. mainHash: SHA-256 (hex) over the normalized text of the <main> element: document order, tags stripped, whitespace collapsed; null when the page has no <main> element.",
-    "mainHash": "0912775fa5d91d7295d682bb5a13caf15b936544297d8e253b6271d3a96c982f",
-    "sections": [
-      "section.hero-section",
-      "section.blog-article-section",
-      "section.secondary-section",
-      "section.inverse-section",
-      "section"
-    ]
-  },
-  {
-    "url": "https://wknd-adventures.com/blog/winter-mountaineering.html",
-    "path": "/blog/winter-mountaineering.html",
-    "template": "section+section.blog-article-section+section.hero-section+section.inverse-section+section.secondary-section",
-    "checksum": "740753a",
-    "checksumMethod": "bodyHash: CRC32 (hex) over the page <body>: every text node (trimmed, non-blank) and every img/iframe src attribute value, in document order. mainHash: SHA-256 (hex) over the normalized text of the <main> element: document order, tags stripped, whitespace collapsed; null when the page has no <main> element.",
-    "mainHash": "b015374fa1522495c3cb97be2e0ea4cbfa89dc2e999ecb3ceafdce425f613056",
-    "sections": [
-      "section.hero-section",
-      "section.blog-article-section",
-      "section.secondary-section",
-      "section.inverse-section",
-      "section"
-    ]
-  },
-  {
-    "url": "https://wknd-adventures.com/blog/yosemite-rock-climbing.html",
-    "path": "/blog/yosemite-rock-climbing.html",
-    "template": "section+section.blog-article-section+section.hero-section+section.inverse-section+section.secondary-section",
-    "checksum": "1ccea7dc",
-    "checksumMethod": "bodyHash: CRC32 (hex) over the page <body>: every text node (trimmed, non-blank) and every img/iframe src attribute value, in document order. mainHash: SHA-256 (hex) over the normalized text of the <main> element: document order, tags stripped, whitespace collapsed; null when the page has no <main> element.",
-    "mainHash": "e90309cd871e7a7c430a7ff867e06bdb02ce380965d0acf29e93b1169445849f",
-    "sections": [
-      "section.hero-section",
-      "section.blog-article-section",
-      "section.secondary-section",
-      "section.inverse-section",
-      "section"
-    ]
-  },
-  {
-    "url": "https://wknd-adventures.com/community.html",
-    "path": "/community.html",
-    "template": "section+section.accent-section+section.hero-section.hero-section--full+section.inverse-section+section.secondary-section",
-    "checksum": "c6d197b2",
-    "checksumMethod": "bodyHash: CRC32 (hex) over the page <body>: every text node (trimmed, non-blank) and every img/iframe src attribute value, in document order. mainHash: SHA-256 (hex) over the normalized text of the <main> element: document order, tags stripped, whitespace collapsed; null when the page has no <main> element.",
-    "mainHash": "f71c9cdadd070d95539adbf2ece128dcf14d5c6fbdf56b60e27a38cc16c20958",
-    "sections": [
-      "section.hero-section.hero-section--full",
-      "section.inverse-section",
-      "section",
-      "section.secondary-section",
-      "section",
-      "section.secondary-section",
-      "section.accent-section",
-      "section",
-      "section.inverse-section"
-    ]
-  },
-  {
-    "url": "https://wknd-adventures.com/destinations.html",
-    "path": "/destinations.html",
-    "template": "section+section.accent-section+section.hero-section.hero-section--full+section.inverse-section+section.secondary-section",
-    "checksum": "2eca4685",
-    "checksumMethod": "bodyHash: CRC32 (hex) over the page <body>: every text node (trimmed, non-blank) and every img/iframe src attribute value, in document order. mainHash: SHA-256 (hex) over the normalized text of the <main> element: document order, tags stripped, whitespace collapsed; null when the page has no <main> element.",
-    "mainHash": "e67a227942072fab5c5b2ff78c47d0045d0e8e9286e7eb066968f6d0b83d5463",
-    "sections": [
-      "section.hero-section.hero-section--full",
-      "section.accent-section",
-      "section.secondary-section",
-      "section",
-      "section.secondary-section",
-      "section.inverse-section",
-      "section.secondary-section",
-      "section.inverse-section",
-      "section.inverse-section"
-    ]
-  },
-  {
-    "url": "https://wknd-adventures.com/expeditions.html",
-    "path": "/expeditions.html",
-    "template": "section+section.accent-section+section.hero-section.hero-section--full+section.inverse-section+section.secondary-section",
-    "checksum": "3e29c06f",
-    "checksumMethod": "bodyHash: CRC32 (hex) over the page <body>: every text node (trimmed, non-blank) and every img/iframe src attribute value, in document order. mainHash: SHA-256 (hex) over the normalized text of the <main> element: document order, tags stripped, whitespace collapsed; null when the page has no <main> element.",
-    "mainHash": "c694499d536927d64b4184ac8adb05d6d5419d509326319d1070dd88fce5aed2",
-    "sections": [
-      "section.hero-section.hero-section--full",
-      "section.accent-section",
-      "section",
-      "section.secondary-section",
-      "section.secondary-section",
-      "section",
-      "section.secondary-section",
-      "section.accent-section",
-      "section.inverse-section"
-    ]
-  },
-  {
-    "url": "https://wknd-adventures.com/faq.html",
-    "path": "/faq.html",
-    "template": "section+section.accent-section+section.hero-section.hero-section--full+section.inverse-section+section.secondary-section",
-    "checksum": "e3f410eb",
-    "checksumMethod": "bodyHash: CRC32 (hex) over the page <body>: every text node (trimmed, non-blank) and every img/iframe src attribute value, in document order. mainHash: SHA-256 (hex) over the normalized text of the <main> element: document order, tags stripped, whitespace collapsed; null when the page has no <main> element.",
-    "mainHash": "a53a5503ea4f76f47918d04de7c2c14bc1df7ecab377d2e5b9b52329106d44d9",
-    "sections": [
-      "section.hero-section.hero-section--full",
-      "section.accent-section",
-      "section",
-      "section.secondary-section",
-      "section",
-      "section.secondary-section",
-      "section",
-      "section.secondary-section",
-      "section.inverse-section"
-    ]
-  },
-  {
-    "url": "https://wknd-adventures.com/field-notes.html",
-    "path": "/field-notes.html",
-    "template": "section+section.hero-section.hero-section--full+section.inverse-section+section.secondary-section",
-    "checksum": "10b368f6",
-    "checksumMethod": "bodyHash: CRC32 (hex) over the page <body>: every text node (trimmed, non-blank) and every img/iframe src attribute value, in document order. mainHash: SHA-256 (hex) over the normalized text of the <main> element: document order, tags stripped, whitespace collapsed; null when the page has no <main> element.",
-    "mainHash": "c9f54013fc0b16b98c3c7d47bfd34b7f7dd434e2ae68796daef8f344f67129dd",
-    "sections": [
-      "section.hero-section.hero-section--full",
-      "section.inverse-section",
-      "section.secondary-section",
-      "section.inverse-section",
-      "section",
-      "section.inverse-section"
-    ]
-  },
-  {
-    "url": "https://wknd-adventures.com/gear.html",
-    "path": "/gear.html",
-    "template": "section+section.accent-section+section.hero-section.hero-section--full+section.inverse-section+section.secondary-section",
-    "checksum": "8356cee0",
-    "checksumMethod": "bodyHash: CRC32 (hex) over the page <body>: every text node (trimmed, non-blank) and every img/iframe src attribute value, in document order. mainHash: SHA-256 (hex) over the normalized text of the <main> element: document order, tags stripped, whitespace collapsed; null when the page has no <main> element.",
-    "mainHash": "57b9d7b51f7a28b79ff788dacf0c52d889dbeb205d6396f38018c30c2599db64",
-    "sections": [
-      "section.hero-section.hero-section--full",
-      "section.accent-section",
-      "section.secondary-section",
-      "section",
-      "section.secondary-section",
-      "section",
-      "section",
-      "section.inverse-section",
-      "section.accent-section"
-    ]
-  },
-  {
-    "url": "https://wknd-adventures.com/sustainability.html",
-    "path": "/sustainability.html",
-    "template": "section+section.accent-section+section.hero-section.hero-section--full+section.inverse-section+section.secondary-section",
-    "checksum": "c5f3cf7e",
-    "checksumMethod": "bodyHash: CRC32 (hex) over the page <body>: every text node (trimmed, non-blank) and every img/iframe src attribute value, in document order. mainHash: SHA-256 (hex) over the normalized text of the <main> element: document order, tags stripped, whitespace collapsed; null when the page has no <main> element.",
-    "mainHash": "198b4556568242a73ba42196e41327149b7536ade793bbff7f2734d9d6712cfc",
-    "sections": [
-      "section.hero-section.hero-section--full",
-      "section",
-      "section.secondary-section",
-      "section",
-      "section.inverse-section",
-      "section",
-      "section.accent-section",
-      "section.accent-section",
-      "section.accent-section"
-    ]
-  }
-]
+{
+  "templates": [
+    {
+      "signature": "section.hero-section+section.blog-article-section+section.secondary-section+section.inverse-section+section",
+      "representative": "/blog/surfing-costa-rica",
+      "orderVaries": false,
+      "sections": [
+        "section.hero-section",
+        "section.blog-article-section",
+        "section.secondary-section",
+        "section.inverse-section",
+        "section"
+      ]
+    },
+    {
+      "signature": "section.hero-section.hero-section--full+section.secondary-section+section+section.inverse-section+section+section.secondary-section+section.inverse-section+section.accent-section",
+      "representative": "/",
+      "orderVaries": true,
+      "sections": [
+        "section.hero-section.hero-section--full",
+        "section.secondary-section",
+        "section",
+        "section.inverse-section",
+        "section",
+        "section.secondary-section",
+        "section.inverse-section",
+        "section.accent-section"
+      ]
+    },
+    {
+      "signature": "section.hero-section.hero-section--full+section+section",
+      "representative": "/basecamp",
+      "orderVaries": false,
+      "sections": [
+        "section.hero-section.hero-section--full",
+        "section",
+        "section"
+      ]
+    },
+    {
+      "signature": "section.hero-section.hero-section--full+section.inverse-section+section.secondary-section+section.inverse-section+section+section.inverse-section",
+      "representative": "/field-notes",
+      "orderVaries": false,
+      "sections": [
+        "section.hero-section.hero-section--full",
+        "section.inverse-section",
+        "section.secondary-section",
+        "section.inverse-section",
+        "section",
+        "section.inverse-section"
+      ]
+    }
+  ],
+  "hashMethod": "bodyHash: CRC32 (hex) over the page <body>: every text node (trimmed, non-blank) and every img/iframe src attribute value, in document order. mainHash: SHA-256 (hex) over the normalized text of the <main> element: document order, tags stripped, whitespace collapsed; null when the page has no <main> element.",
+  "pages": [
+    {
+      "url": "https://wknd-adventures.com",
+      "path": "/",
+      "template": "section+section.accent-section+section.hero-section.hero-section--full+section.inverse-section+section.secondary-section",
+      "meta": {
+        "title": "WKND Adventures — Bold Stories. Real Life. Wild Places.",
+        "description": "Bold Stories. Real Life. Wild Places. WKND Adventures documents the people, routes, and moments that make the outdoors worth protecting.",
+        "ogTitle": null,
+        "ogDescription": null
+      },
+      "sections": [
+        {
+          "tag": "section",
+          "classes": [
+            "hero-section",
+            "hero-section--full"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "hero-bg"
+              ]
+            },
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "hero-content"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "secondary-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "ticker-strip"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "ticker-track"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "inverse-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "container--narrow"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "container--narrow"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "secondary-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "container--narrow"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "inverse-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "accent-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "utility-text-align-center"
+              ]
+            }
+          ]
+        }
+      ],
+      "hash": "d1c92220",
+      "mainHash": "50fb2c96459472ce996ceff59775b771319057e97f9bd3d053fcae9bc0f5a1f5"
+    },
+    {
+      "url": "https://wknd-adventures.com/about.html",
+      "path": "/about",
+      "template": "section+section.accent-section+section.hero-section.hero-section--full+section.inverse-section+section.secondary-section",
+      "meta": {
+        "title": "About — WKND Adventures",
+        "description": "A small editorial team that goes to wild places and writes honestly about what we find.",
+        "ogTitle": null,
+        "ogDescription": null
+      },
+      "sections": [
+        {
+          "tag": "section",
+          "classes": [
+            "hero-section",
+            "hero-section--full"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "hero-bg"
+              ]
+            },
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "hero-content"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "accent-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "utility-text-align-center"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "inverse-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "secondary-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "container--narrow"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "inverse-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "container--narrow"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "accent-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "utility-text-align-center"
+              ]
+            }
+          ]
+        }
+      ],
+      "hash": "431b22c8",
+      "mainHash": "322b110541c0a656f119ef66565892b21195da21318ce718e7d82c984ccf2bc2"
+    },
+    {
+      "url": "https://wknd-adventures.com/adventures.html",
+      "path": "/adventures",
+      "template": "section+section.accent-section+section.hero-section.hero-section--full+section.inverse-section+section.secondary-section",
+      "meta": {
+        "title": "Adventures — WKND Adventures",
+        "description": "World-class routes, from day hikes to multi-week expeditions.",
+        "ogTitle": null,
+        "ogDescription": null
+      },
+      "sections": [
+        {
+          "tag": "section",
+          "classes": [
+            "hero-section",
+            "hero-section--full"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "hero-bg"
+              ]
+            },
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "hero-content"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "accent-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "container--narrow"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "secondary-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "secondary-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "container--narrow"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "secondary-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "container--narrow"
+              ]
+            },
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "container--narrow"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "inverse-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "utility-text-align-center"
+              ]
+            }
+          ]
+        }
+      ],
+      "hash": "cec2dd3e",
+      "mainHash": "bbf279084ccd6cf54e23c768de81e6a49677604dd4c8b4f411f6b5900d1fe4bf"
+    },
+    {
+      "url": "https://wknd-adventures.com/basecamp.html",
+      "path": "/basecamp",
+      "template": "section+section.hero-section.hero-section--full",
+      "meta": {
+        "title": "Basecamp — WKND Adventures",
+        "description": "Your starting point for WKND Adventures. Pick an activity, find a route, and get moving — no prior experience required.",
+        "ogTitle": null,
+        "ogDescription": null
+      },
+      "sections": [
+        {
+          "tag": "section",
+          "classes": [
+            "hero-section",
+            "hero-section--full"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "hero-bg"
+              ]
+            },
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "hero-content"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "classes": [
+            "ticker-strip"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "ticker-track"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "container--narrow"
+              ]
+            }
+          ]
+        }
+      ],
+      "hash": "47e2fcb4",
+      "mainHash": "0db073ecc313d80c3dd22d967a3be90e51485753e1d06c49b6a227436d6447db"
+    },
+    {
+      "url": "https://wknd-adventures.com/blog/alpine-cycling.html",
+      "path": "/blog/alpine-cycling",
+      "template": "section+section.blog-article-section+section.hero-section+section.inverse-section+section.secondary-section",
+      "meta": {
+        "title": "Six Days Through the High Alps — WKND Adventures",
+        "description": "Six days through the French Alps by loaded touring bike — Galibier, Izoard, Telegraphe, and the descent into Briançon.",
+        "ogTitle": null,
+        "ogDescription": null
+      },
+      "sections": [
+        {
+          "tag": "section",
+          "classes": [
+            "hero-section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "hero-bg"
+              ]
+            },
+            {
+              "tag": "div",
+              "classes": [
+                "hero-content"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "blog-article-section",
+            "section",
+            "utility-padding-top-0"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "blog-article-container",
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "secondary-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "inverse-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        }
+      ],
+      "hash": "560906e1",
+      "mainHash": "785280d8929d81b7e1a8d938d1c73de1d6e1a4e93e98b6162b85a6bfbec00623"
+    },
+    {
+      "url": "https://wknd-adventures.com/blog/desert-survival-guide.html",
+      "path": "/blog/desert-survival-guide",
+      "template": "section+section.blog-article-section+section.hero-section+section.inverse-section+section.secondary-section",
+      "meta": {
+        "title": "48 Hours in the Sonoran: A Field Guide — WKND Adventures",
+        "description": "A field guide to 48 hours in the Sonoran Desert — water, heat management, navigation, wildlife, and the night desert.",
+        "ogTitle": null,
+        "ogDescription": null
+      },
+      "sections": [
+        {
+          "tag": "section",
+          "classes": [
+            "hero-section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "hero-bg"
+              ]
+            },
+            {
+              "tag": "div",
+              "classes": [
+                "hero-content"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "blog-article-section",
+            "section",
+            "utility-padding-top-0"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "blog-article-container",
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "secondary-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "inverse-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        }
+      ],
+      "hash": "b1f754da",
+      "mainHash": "c53d7be8de508b7b766800e40cb3513e9f0efcbf23711f180a1f0e45a77bdf1b"
+    },
+    {
+      "url": "https://wknd-adventures.com/blog/kayaking-norway.html",
+      "path": "/blog/kayaking-norway",
+      "template": "section+section.blog-article-section+section.hero-section+section.inverse-section+section.secondary-section",
+      "meta": {
+        "title": "Lofoten Islands: Arctic Surfing at the Top of the World — WKND Adventures",
+        "description": "Arctic surfing in the Lofoten Islands — cold water preparation, swell windows, neoprene essentials, the best breaks, and what it means to surf under a sky that never goes dark.",
+        "ogTitle": null,
+        "ogDescription": null
+      },
+      "sections": [
+        {
+          "tag": "section",
+          "classes": [
+            "hero-section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "hero-bg"
+              ]
+            },
+            {
+              "tag": "div",
+              "classes": [
+                "hero-content"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "blog-article-section",
+            "section",
+            "utility-padding-top-0"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "blog-article-container",
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "secondary-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "inverse-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        }
+      ],
+      "hash": "3e9a13ef",
+      "mainHash": "e2be671a9074baa79122286f332ad28d43bbd29d99704319765586b105eef2dc"
+    },
+    {
+      "url": "https://wknd-adventures.com/blog/mountain-photography.html",
+      "path": "/blog/mountain-photography",
+      "template": "section+section.blog-article-section+section.hero-section+section.inverse-section+section.secondary-section",
+      "meta": {
+        "title": "The Camera on Your Back — WKND Adventures",
+        "description": "A practical and philosophical guide to carrying a camera in the mountains — what to bring, what it costs you, and whether the trade-off is worth it.",
+        "ogTitle": null,
+        "ogDescription": null
+      },
+      "sections": [
+        {
+          "tag": "section",
+          "classes": [
+            "hero-section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "hero-bg"
+              ]
+            },
+            {
+              "tag": "div",
+              "classes": [
+                "hero-content"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "blog-article-section",
+            "section",
+            "utility-padding-top-0"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "blog-article-container",
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "secondary-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "inverse-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        }
+      ],
+      "hash": "bcaafb6f",
+      "mainHash": "7b5807d7656255a1ef2fb4376b1dc25dcee828121d031b11e1f9adaec977f38d"
+    },
+    {
+      "url": "https://wknd-adventures.com/blog/patagonia-trek.html",
+      "path": "/blog/patagonia-trek",
+      "template": "section+section.blog-article-section+section.hero-section+section.inverse-section+section.secondary-section",
+      "meta": {
+        "title": "W Circuit: 9 Days, 115 km — WKND Adventures",
+        "description": "A day-by-day journal of the W Circuit in Torres del Paine — 9 days, 115 km, and everything the guidebook doesn",
+        "ogTitle": null,
+        "ogDescription": null
+      },
+      "sections": [
+        {
+          "tag": "section",
+          "classes": [
+            "hero-section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "hero-bg"
+              ]
+            },
+            {
+              "tag": "div",
+              "classes": [
+                "hero-content"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "blog-article-section",
+            "section",
+            "utility-padding-top-0"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "blog-article-container",
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "secondary-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "inverse-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        }
+      ],
+      "hash": "bdf4e4a1",
+      "mainHash": "90ba9a0de1953b5688a0ac980567b904e763be10b659aefda4772a9f093a370b"
+    },
+    {
+      "url": "https://wknd-adventures.com/blog/surfing-costa-rica.html",
+      "path": "/blog/surfing-costa-rica",
+      "template": "section+section.blog-article-section+section.hero-section+section.inverse-section+section.secondary-section",
+      "meta": {
+        "title": "Pavones and Playa Negra: Costa Rica Surf Guide — WKND Adventures",
+        "description": "A guide to surfing Pavones and Playa Negra on Costa Rica",
+        "ogTitle": null,
+        "ogDescription": null
+      },
+      "sections": [
+        {
+          "tag": "section",
+          "classes": [
+            "hero-section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "hero-bg"
+              ]
+            },
+            {
+              "tag": "div",
+              "classes": [
+                "hero-content"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "blog-article-section",
+            "section",
+            "utility-padding-top-0"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "blog-article-container",
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "secondary-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "inverse-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        }
+      ],
+      "hash": "411ce984",
+      "mainHash": "d23c0dcd1d525cdbebd26bbf6547e56b96e0a4f83176f68dbfa6b54f707e06d3"
+    },
+    {
+      "url": "https://wknd-adventures.com/blog/ultralight-backpacking.html",
+      "path": "/blog/ultralight-backpacking",
+      "template": "section+section.blog-article-section+section.hero-section+section.inverse-section+section.secondary-section",
+      "meta": {
+        "title": "Sub-10 lb: What to Cut, What to Keep — WKND Adventures",
+        "description": "An honest guide to ultralight backpacking — where the weight actually lives, what to cut, what to keep, and when to ignore all of it.",
+        "ogTitle": null,
+        "ogDescription": null
+      },
+      "sections": [
+        {
+          "tag": "section",
+          "classes": [
+            "hero-section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "hero-bg"
+              ]
+            },
+            {
+              "tag": "div",
+              "classes": [
+                "hero-content"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "blog-article-section",
+            "section",
+            "utility-padding-top-0"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "blog-article-container",
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "secondary-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "inverse-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        }
+      ],
+      "hash": "dc7f67f6",
+      "mainHash": "c92dd5b7c7c0440694c0ebba4dcf07d14c2d14ba38c2c1f8f25718df64e3d3e0"
+    },
+    {
+      "url": "https://wknd-adventures.com/blog/wild-swimming-guide.html",
+      "path": "/blog/wild-swimming-guide",
+      "template": "section+section.blog-article-section+section.hero-section+section.inverse-section+section.secondary-section",
+      "meta": {
+        "title": "Reading a River: The Wild Swimming Guide — WKND Adventures",
+        "description": "A hybrid guide-essay on wild swimming — how to read rivers, understand access and ethics, manage the cold, and find the joy of water that isn",
+        "ogTitle": null,
+        "ogDescription": null
+      },
+      "sections": [
+        {
+          "tag": "section",
+          "classes": [
+            "hero-section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "hero-bg"
+              ]
+            },
+            {
+              "tag": "div",
+              "classes": [
+                "hero-content"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "blog-article-section",
+            "section",
+            "utility-padding-top-0"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "blog-article-container",
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "secondary-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "inverse-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        }
+      ],
+      "hash": "45fcac91",
+      "mainHash": "0912775fa5d91d7295d682bb5a13caf15b936544297d8e253b6271d3a96c982f"
+    },
+    {
+      "url": "https://wknd-adventures.com/blog/winter-mountaineering.html",
+      "path": "/blog/winter-mountaineering",
+      "template": "section+section.blog-article-section+section.hero-section+section.inverse-section+section.secondary-section",
+      "meta": {
+        "title": "Why Cold Routes Demand Warm Minds — WKND Adventures",
+        "description": "A winter mountaineering primer — what changes in winter, technical basics, avalanche awareness, cold starts, and the hardest skill: knowing when to turn around.",
+        "ogTitle": null,
+        "ogDescription": null
+      },
+      "sections": [
+        {
+          "tag": "section",
+          "classes": [
+            "hero-section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "hero-bg"
+              ]
+            },
+            {
+              "tag": "div",
+              "classes": [
+                "hero-content"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "blog-article-section",
+            "section",
+            "utility-padding-top-0"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "blog-article-container",
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "secondary-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "inverse-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        }
+      ],
+      "hash": "740753a",
+      "mainHash": "b015374fa1522495c3cb97be2e0ea4cbfa89dc2e999ecb3ceafdce425f613056"
+    },
+    {
+      "url": "https://wknd-adventures.com/blog/yosemite-rock-climbing.html",
+      "path": "/blog/yosemite-rock-climbing",
+      "template": "section+section.blog-article-section+section.hero-section+section.inverse-section+section.secondary-section",
+      "meta": {
+        "title": "First Light on the Valley — WKND Adventures",
+        "description": "A beginner",
+        "ogTitle": null,
+        "ogDescription": null
+      },
+      "sections": [
+        {
+          "tag": "section",
+          "classes": [
+            "hero-section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "hero-bg"
+              ]
+            },
+            {
+              "tag": "div",
+              "classes": [
+                "hero-content"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "blog-article-section",
+            "section",
+            "utility-padding-top-0"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "blog-article-container",
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "secondary-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "inverse-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        }
+      ],
+      "hash": "1ccea7dc",
+      "mainHash": "e90309cd871e7a7c430a7ff867e06bdb02ce380965d0acf29e93b1169445849f"
+    },
+    {
+      "url": "https://wknd-adventures.com/community.html",
+      "path": "/community",
+      "template": "section+section.accent-section+section.hero-section.hero-section--full+section.inverse-section+section.secondary-section",
+      "meta": {
+        "title": "Community — WKND Adventures",
+        "description": "Join the WKND Adventures community and submit your own stories.",
+        "ogTitle": null,
+        "ogDescription": null
+      },
+      "sections": [
+        {
+          "tag": "section",
+          "classes": [
+            "hero-section",
+            "hero-section--full"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "hero-bg"
+              ]
+            },
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "hero-content"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "inverse-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "utility-text-align-center"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "secondary-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "secondary-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "accent-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "utility-text-align-center"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "inverse-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "utility-text-align-center"
+              ]
+            }
+          ]
+        }
+      ],
+      "hash": "c6d197b2",
+      "mainHash": "f71c9cdadd070d95539adbf2ece128dcf14d5c6fbdf56b60e27a38cc16c20958"
+    },
+    {
+      "url": "https://wknd-adventures.com/destinations.html",
+      "path": "/destinations",
+      "template": "section+section.accent-section+section.hero-section.hero-section--full+section.inverse-section+section.secondary-section",
+      "meta": {
+        "title": "Destinations — WKND Adventures",
+        "description": "Curated regions for outdoor adventure around the world.",
+        "ogTitle": null,
+        "ogDescription": null
+      },
+      "sections": [
+        {
+          "tag": "section",
+          "classes": [
+            "hero-section",
+            "hero-section--full"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "hero-bg"
+              ]
+            },
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "hero-content"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "accent-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "utility-text-align-center"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "secondary-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "secondary-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "inverse-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "container--narrow"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "secondary-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "container--narrow"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "inverse-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "utility-text-align-center"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "inverse-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        }
+      ],
+      "hash": "2eca4685",
+      "mainHash": "e67a227942072fab5c5b2ff78c47d0045d0e8e9286e7eb066968f6d0b83d5463"
+    },
+    {
+      "url": "https://wknd-adventures.com/expeditions.html",
+      "path": "/expeditions",
+      "template": "section+section.accent-section+section.hero-section.hero-section--full+section.inverse-section+section.secondary-section",
+      "meta": {
+        "title": "Expeditions — WKND Adventures",
+        "description": "Multi-day journeys, big summits, and epic adventures.",
+        "ogTitle": null,
+        "ogDescription": null
+      },
+      "sections": [
+        {
+          "tag": "section",
+          "classes": [
+            "hero-section",
+            "hero-section--full"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "hero-bg"
+              ]
+            },
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "hero-content"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "accent-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "container--narrow"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "secondary-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "container--narrow"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "secondary-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "secondary-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "accent-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "container--narrow"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "inverse-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "container--narrow"
+              ]
+            }
+          ]
+        }
+      ],
+      "hash": "3e29c06f",
+      "mainHash": "c694499d536927d64b4184ac8adb05d6d5419d509326319d1070dd88fce5aed2"
+    },
+    {
+      "url": "https://wknd-adventures.com/faq.html",
+      "path": "/faq",
+      "template": "section+section.accent-section+section.hero-section.hero-section--full+section.inverse-section+section.secondary-section",
+      "meta": {
+        "title": "FAQ — WKND Adventures",
+        "description": "Questions about WKND Adventures, planning trips, submitting stories, and more.",
+        "ogTitle": null,
+        "ogDescription": null
+      },
+      "sections": [
+        {
+          "tag": "section",
+          "classes": [
+            "hero-section",
+            "hero-section--full"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "hero-bg"
+              ]
+            },
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "hero-content"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "accent-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "utility-text-align-center"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "secondary-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "secondary-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "secondary-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "inverse-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "utility-text-align-center"
+              ]
+            }
+          ]
+        }
+      ],
+      "hash": "e3f410eb",
+      "mainHash": "a53a5503ea4f76f47918d04de7c2c14bc1df7ecab377d2e5b9b52329106d44d9"
+    },
+    {
+      "url": "https://wknd-adventures.com/field-notes.html",
+      "path": "/field-notes",
+      "template": "section+section.hero-section.hero-section--full+section.inverse-section+section.secondary-section",
+      "meta": {
+        "title": "Field Notes — WKND Adventures",
+        "description": "Photo essays and dispatches from the field.",
+        "ogTitle": null,
+        "ogDescription": null
+      },
+      "sections": [
+        {
+          "tag": "section",
+          "classes": [
+            "hero-section",
+            "hero-section--full"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "hero-bg"
+              ]
+            },
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "hero-content"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "inverse-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "utility-text-align-center"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "secondary-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "inverse-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "container--narrow"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "inverse-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "utility-text-align-center"
+              ]
+            }
+          ]
+        }
+      ],
+      "hash": "10b368f6",
+      "mainHash": "c9f54013fc0b16b98c3c7d47bfd34b7f7dd434e2ae68796daef8f344f67129dd"
+    },
+    {
+      "url": "https://wknd-adventures.com/gear.html",
+      "path": "/gear",
+      "template": "section+section.accent-section+section.hero-section.hero-section--full+section.inverse-section+section.secondary-section",
+      "meta": {
+        "title": "Gear — WKND Adventures",
+        "description": "Tested and verified gear recommendations for outdoor adventures.",
+        "ogTitle": null,
+        "ogDescription": null
+      },
+      "sections": [
+        {
+          "tag": "section",
+          "classes": [
+            "hero-section",
+            "hero-section--full"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "hero-bg"
+              ]
+            },
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "hero-content"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "accent-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "utility-text-align-center"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "secondary-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "secondary-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "container--narrow"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "container--narrow"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "inverse-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "accent-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "utility-text-align-center"
+              ]
+            }
+          ]
+        }
+      ],
+      "hash": "8356cee0",
+      "mainHash": "57b9d7b51f7a28b79ff788dacf0c52d889dbeb205d6396f38018c30c2599db64"
+    },
+    {
+      "url": "https://wknd-adventures.com/sustainability.html",
+      "path": "/sustainability",
+      "template": "section+section.accent-section+section.hero-section.hero-section--full+section.inverse-section+section.secondary-section",
+      "meta": {
+        "title": "Sustainability — WKND Adventures",
+        "description": "Our commitment to preserving wild places and responsible outdoor practices.",
+        "ogTitle": null,
+        "ogDescription": null
+      },
+      "sections": [
+        {
+          "tag": "section",
+          "classes": [
+            "hero-section",
+            "hero-section--full"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "hero-bg"
+              ]
+            },
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "hero-content"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "secondary-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "container--narrow"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "inverse-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "accent-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "utility-text-align-center"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "accent-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "container--narrow"
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "section",
+          "classes": [
+            "accent-section",
+            "section"
+          ],
+          "children": [
+            {
+              "tag": "div",
+              "classes": [
+                "container",
+                "utility-text-align-center"
+              ]
+            }
+          ]
+        }
+      ],
+      "hash": "c5f3cf7e",
+      "mainHash": "198b4556568242a73ba42196e41327149b7536ade793bbff7f2734d9d6712cfc"
+    }
+  ]
+}
