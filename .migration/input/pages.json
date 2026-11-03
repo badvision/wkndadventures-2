@@ -1,0 +1,350 @@
+[
+  {
+    "url": "https://wknd-adventures.com",
+    "path": "/",
+    "template": "section+section.accent-section+section.hero-section.hero-section--full+section.inverse-section+section.secondary-section",
+    "checksum": "d1c92220",
+    "checksumMethod": "bodyHash: CRC32 (hex) over the page <body>: every text node (trimmed, non-blank) and every img/iframe src attribute value, in document order. mainHash: SHA-256 (hex) over the normalized text of the <main> element: document order, tags stripped, whitespace collapsed; null when the page has no <main> element.",
+    "mainHash": "50fb2c96459472ce996ceff59775b771319057e97f9bd3d053fcae9bc0f5a1f5",
+    "sections": [
+      "section.hero-section.hero-section--full",
+      "section.secondary-section",
+      "section",
+      "section.inverse-section",
+      "section",
+      "section.secondary-section",
+      "section.inverse-section",
+      "section.accent-section"
+    ]
+  },
+  {
+    "url": "https://wknd-adventures.com/about.html",
+    "path": "/about.html",
+    "template": "section+section.accent-section+section.hero-section.hero-section--full+section.inverse-section+section.secondary-section",
+    "checksum": "431b22c8",
+    "checksumMethod": "bodyHash: CRC32 (hex) over the page <body>: every text node (trimmed, non-blank) and every img/iframe src attribute value, in document order. mainHash: SHA-256 (hex) over the normalized text of the <main> element: document order, tags stripped, whitespace collapsed; null when the page has no <main> element.",
+    "mainHash": "322b110541c0a656f119ef66565892b21195da21318ce718e7d82c984ccf2bc2",
+    "sections": [
+      "section.hero-section.hero-section--full",
+      "section.accent-section",
+      "section",
+      "section.inverse-section",
+      "section",
+      "section.secondary-section",
+      "section.inverse-section",
+      "section",
+      "section.accent-section"
+    ]
+  },
+  {
+    "url": "https://wknd-adventures.com/adventures.html",
+    "path": "/adventures.html",
+    "template": "section+section.accent-section+section.hero-section.hero-section--full+section.inverse-section+section.secondary-section",
+    "checksum": "cec2dd3e",
+    "checksumMethod": "bodyHash: CRC32 (hex) over the page <body>: every text node (trimmed, non-blank) and every img/iframe src attribute value, in document order. mainHash: SHA-256 (hex) over the normalized text of the <main> element: document order, tags stripped, whitespace collapsed; null when the page has no <main> element.",
+    "mainHash": "bbf279084ccd6cf54e23c768de81e6a49677604dd4c8b4f411f6b5900d1fe4bf",
+    "sections": [
+      "section.hero-section.hero-section--full",
+      "section.accent-section",
+      "section.secondary-section",
+      "section",
+      "section.secondary-section",
+      "section",
+      "section.secondary-section",
+      "section.inverse-section"
+    ]
+  },
+  {
+    "url": "https://wknd-adventures.com/basecamp.html",
+    "path": "/basecamp.html",
+    "template": "section+section.hero-section.hero-section--full",
+    "checksum": "47e2fcb4",
+    "checksumMethod": "bodyHash: CRC32 (hex) over the page <body>: every text node (trimmed, non-blank) and every img/iframe src attribute value, in document order. mainHash: SHA-256 (hex) over the normalized text of the <main> element: document order, tags stripped, whitespace collapsed; null when the page has no <main> element.",
+    "mainHash": "0db073ecc313d80c3dd22d967a3be90e51485753e1d06c49b6a227436d6447db",
+    "sections": [
+      "section.hero-section.hero-section--full",
+      "section",
+      "section"
+    ]
+  },
+  {
+    "url": "https://wknd-adventures.com/blog/alpine-cycling.html",
+    "path": "/blog/alpine-cycling.html",
+    "template": "section+section.blog-article-section+section.hero-section+section.inverse-section+section.secondary-section",
+    "checksum": "560906e1",
+    "checksumMethod": "bodyHash: CRC32 (hex) over the page <body>: every text node (trimmed, non-blank) and every img/iframe src attribute value, in document order. mainHash: SHA-256 (hex) over the normalized text of the <main> element: document order, tags stripped, whitespace collapsed; null when the page has no <main> element.",
+    "mainHash": "785280d8929d81b7e1a8d938d1c73de1d6e1a4e93e98b6162b85a6bfbec00623",
+    "sections": [
+      "section.hero-section",
+      "section.blog-article-section",
+      "section.secondary-section",
+      "section.inverse-section",
+      "section"
+    ]
+  },
+  {
+    "url": "https://wknd-adventures.com/blog/desert-survival-guide.html",
+    "path": "/blog/desert-survival-guide.html",
+    "template": "section+section.blog-article-section+section.hero-section+section.inverse-section+section.secondary-section",
+    "checksum": "b1f754da",
+    "checksumMethod": "bodyHash: CRC32 (hex) over the page <body>: every text node (trimmed, non-blank) and every img/iframe src attribute value, in document order. mainHash: SHA-256 (hex) over the normalized text of the <main> element: document order, tags stripped, whitespace collapsed; null when the page has no <main> element.",
+    "mainHash": "c53d7be8de508b7b766800e40cb3513e9f0efcbf23711f180a1f0e45a77bdf1b",
+    "sections": [
+      "section.hero-section",
+      "section.blog-article-section",
+      "section.secondary-section",
+      "section.inverse-section",
+      "section"
+    ]
+  },
+  {
+    "url": "https://wknd-adventures.com/blog/kayaking-norway.html",
+    "path": "/blog/kayaking-norway.html",
+    "template": "section+section.blog-article-section+section.hero-section+section.inverse-section+section.secondary-section",
+    "checksum": "3e9a13ef",
+    "checksumMethod": "bodyHash: CRC32 (hex) over the page <body>: every text node (trimmed, non-blank) and every img/iframe src attribute value, in document order. mainHash: SHA-256 (hex) over the normalized text of the <main> element: document order, tags stripped, whitespace collapsed; null when the page has no <main> element.",
+    "mainHash": "e2be671a9074baa79122286f332ad28d43bbd29d99704319765586b105eef2dc",
+    "sections": [
+      "section.hero-section",
+      "section.blog-article-section",
+      "section.secondary-section",
+      "section.inverse-section",
+      "section"
+    ]
+  },
+  {
+    "url": "https://wknd-adventures.com/blog/mountain-photography.html",
+    "path": "/blog/mountain-photography.html",
+    "template": "section+section.blog-article-section+section.hero-section+section.inverse-section+section.secondary-section",
+    "checksum": "bcaafb6f",
+    "checksumMethod": "bodyHash: CRC32 (hex) over the page <body>: every text node (trimmed, non-blank) and every img/iframe src attribute value, in document order. mainHash: SHA-256 (hex) over the normalized text of the <main> element: document order, tags stripped, whitespace collapsed; null when the page has no <main> element.",
+    "mainHash": "7b5807d7656255a1ef2fb4376b1dc25dcee828121d031b11e1f9adaec977f38d",
+    "sections": [
+      "section.hero-section",
+      "section.blog-article-section",
+      "section.secondary-section",
+      "section.inverse-section",
+      "section"
+    ]
+  },
+  {
+    "url": "https://wknd-adventures.com/blog/patagonia-trek.html",
+    "path": "/blog/patagonia-trek.html",
+    "template": "section+section.blog-article-section+section.hero-section+section.inverse-section+section.secondary-section",
+    "checksum": "bdf4e4a1",
+    "checksumMethod": "bodyHash: CRC32 (hex) over the page <body>: every text node (trimmed, non-blank) and every img/iframe src attribute value, in document order. mainHash: SHA-256 (hex) over the normalized text of the <main> element: document order, tags stripped, whitespace collapsed; null when the page has no <main> element.",
+    "mainHash": "90ba9a0de1953b5688a0ac980567b904e763be10b659aefda4772a9f093a370b",
+    "sections": [
+      "section.hero-section",
+      "section.blog-article-section",
+      "section.secondary-section",
+      "section.inverse-section",
+      "section"
+    ]
+  },
+  {
+    "url": "https://wknd-adventures.com/blog/surfing-costa-rica.html",
+    "path": "/blog/surfing-costa-rica.html",
+    "template": "section+section.blog-article-section+section.hero-section+section.inverse-section+section.secondary-section",
+    "checksum": "411ce984",
+    "checksumMethod": "bodyHash: CRC32 (hex) over the page <body>: every text node (trimmed, non-blank) and every img/iframe src attribute value, in document order. mainHash: SHA-256 (hex) over the normalized text of the <main> element: document order, tags stripped, whitespace collapsed; null when the page has no <main> element.",
+    "mainHash": "d23c0dcd1d525cdbebd26bbf6547e56b96e0a4f83176f68dbfa6b54f707e06d3",
+    "sections": [
+      "section.hero-section",
+      "section.blog-article-section",
+      "section.secondary-section",
+      "section.inverse-section",
+      "section"
+    ]
+  },
+  {
+    "url": "https://wknd-adventures.com/blog/ultralight-backpacking.html",
+    "path": "/blog/ultralight-backpacking.html",
+    "template": "section+section.blog-article-section+section.hero-section+section.inverse-section+section.secondary-section",
+    "checksum": "dc7f67f6",
+    "checksumMethod": "bodyHash: CRC32 (hex) over the page <body>: every text node (trimmed, non-blank) and every img/iframe src attribute value, in document order. mainHash: SHA-256 (hex) over the normalized text of the <main> element: document order, tags stripped, whitespace collapsed; null when the page has no <main> element.",
+    "mainHash": "c92dd5b7c7c0440694c0ebba4dcf07d14c2d14ba38c2c1f8f25718df64e3d3e0",
+    "sections": [
+      "section.hero-section",
+      "section.blog-article-section",
+      "section.secondary-section",
+      "section.inverse-section",
+      "section"
+    ]
+  },
+  {
+    "url": "https://wknd-adventures.com/blog/wild-swimming-guide.html",
+    "path": "/blog/wild-swimming-guide.html",
+    "template": "section+section.blog-article-section+section.hero-section+section.inverse-section+section.secondary-section",
+    "checksum": "45fcac91",
+    "checksumMethod": "bodyHash: CRC32 (hex) over the page <body>: every text node (trimmed, non-blank) and every img/iframe src attribute value, in document order. mainHash: SHA-256 (hex) over the normalized text of the <main> element: document order, tags stripped, whitespace collapsed; null when the page has no <main> element.",
+    "mainHash": "0912775fa5d91d7295d682bb5a13caf15b936544297d8e253b6271d3a96c982f",
+    "sections": [
+      "section.hero-section",
+      "section.blog-article-section",
+      "section.secondary-section",
+      "section.inverse-section",
+      "section"
+    ]
+  },
+  {
+    "url": "https://wknd-adventures.com/blog/winter-mountaineering.html",
+    "path": "/blog/winter-mountaineering.html",
+    "template": "section+section.blog-article-section+section.hero-section+section.inverse-section+section.secondary-section",
+    "checksum": "740753a",
+    "checksumMethod": "bodyHash: CRC32 (hex) over the page <body>: every text node (trimmed, non-blank) and every img/iframe src attribute value, in document order. mainHash: SHA-256 (hex) over the normalized text of the <main> element: document order, tags stripped, whitespace collapsed; null when the page has no <main> element.",
+    "mainHash": "b015374fa1522495c3cb97be2e0ea4cbfa89dc2e999ecb3ceafdce425f613056",
+    "sections": [
+      "section.hero-section",
+      "section.blog-article-section",
+      "section.secondary-section",
+      "section.inverse-section",
+      "section"
+    ]
+  },
+  {
+    "url": "https://wknd-adventures.com/blog/yosemite-rock-climbing.html",
+    "path": "/blog/yosemite-rock-climbing.html",
+    "template": "section+section.blog-article-section+section.hero-section+section.inverse-section+section.secondary-section",
+    "checksum": "1ccea7dc",
+    "checksumMethod": "bodyHash: CRC32 (hex) over the page <body>: every text node (trimmed, non-blank) and every img/iframe src attribute value, in document order. mainHash: SHA-256 (hex) over the normalized text of the <main> element: document order, tags stripped, whitespace collapsed; null when the page has no <main> element.",
+    "mainHash": "e90309cd871e7a7c430a7ff867e06bdb02ce380965d0acf29e93b1169445849f",
+    "sections": [
+      "section.hero-section",
+      "section.blog-article-section",
+      "section.secondary-section",
+      "section.inverse-section",
+      "section"
+    ]
+  },
+  {
+    "url": "https://wknd-adventures.com/community.html",
+    "path": "/community.html",
+    "template": "section+section.accent-section+section.hero-section.hero-section--full+section.inverse-section+section.secondary-section",
+    "checksum": "c6d197b2",
+    "checksumMethod": "bodyHash: CRC32 (hex) over the page <body>: every text node (trimmed, non-blank) and every img/iframe src attribute value, in document order. mainHash: SHA-256 (hex) over the normalized text of the <main> element: document order, tags stripped, whitespace collapsed; null when the page has no <main> element.",
+    "mainHash": "f71c9cdadd070d95539adbf2ece128dcf14d5c6fbdf56b60e27a38cc16c20958",
+    "sections": [
+      "section.hero-section.hero-section--full",
+      "section.inverse-section",
+      "section",
+      "section.secondary-section",
+      "section",
+      "section.secondary-section",
+      "section.accent-section",
+      "section",
+      "section.inverse-section"
+    ]
+  },
+  {
+    "url": "https://wknd-adventures.com/destinations.html",
+    "path": "/destinations.html",
+    "template": "section+section.accent-section+section.hero-section.hero-section--full+section.inverse-section+section.secondary-section",
+    "checksum": "2eca4685",
+    "checksumMethod": "bodyHash: CRC32 (hex) over the page <body>: every text node (trimmed, non-blank) and every img/iframe src attribute value, in document order. mainHash: SHA-256 (hex) over the normalized text of the <main> element: document order, tags stripped, whitespace collapsed; null when the page has no <main> element.",
+    "mainHash": "e67a227942072fab5c5b2ff78c47d0045d0e8e9286e7eb066968f6d0b83d5463",
+    "sections": [
+      "section.hero-section.hero-section--full",
+      "section.accent-section",
+      "section.secondary-section",
+      "section",
+      "section.secondary-section",
+      "section.inverse-section",
+      "section.secondary-section",
+      "section.inverse-section",
+      "section.inverse-section"
+    ]
+  },
+  {
+    "url": "https://wknd-adventures.com/expeditions.html",
+    "path": "/expeditions.html",
+    "template": "section+section.accent-section+section.hero-section.hero-section--full+section.inverse-section+section.secondary-section",
+    "checksum": "3e29c06f",
+    "checksumMethod": "bodyHash: CRC32 (hex) over the page <body>: every text node (trimmed, non-blank) and every img/iframe src attribute value, in document order. mainHash: SHA-256 (hex) over the normalized text of the <main> element: document order, tags stripped, whitespace collapsed; null when the page has no <main> element.",
+    "mainHash": "c694499d536927d64b4184ac8adb05d6d5419d509326319d1070dd88fce5aed2",
+    "sections": [
+      "section.hero-section.hero-section--full",
+      "section.accent-section",
+      "section",
+      "section.secondary-section",
+      "section.secondary-section",
+      "section",
+      "section.secondary-section",
+      "section.accent-section",
+      "section.inverse-section"
+    ]
+  },
+  {
+    "url": "https://wknd-adventures.com/faq.html",
+    "path": "/faq.html",
+    "template": "section+section.accent-section+section.hero-section.hero-section--full+section.inverse-section+section.secondary-section",
+    "checksum": "e3f410eb",
+    "checksumMethod": "bodyHash: CRC32 (hex) over the page <body>: every text node (trimmed, non-blank) and every img/iframe src attribute value, in document order. mainHash: SHA-256 (hex) over the normalized text of the <main> element: document order, tags stripped, whitespace collapsed; null when the page has no <main> element.",
+    "mainHash": "a53a5503ea4f76f47918d04de7c2c14bc1df7ecab377d2e5b9b52329106d44d9",
+    "sections": [
+      "section.hero-section.hero-section--full",
+      "section.accent-section",
+      "section",
+      "section.secondary-section",
+      "section",
+      "section.secondary-section",
+      "section",
+      "section.secondary-section",
+      "section.inverse-section"
+    ]
+  },
+  {
+    "url": "https://wknd-adventures.com/field-notes.html",
+    "path": "/field-notes.html",
+    "template": "section+section.hero-section.hero-section--full+section.inverse-section+section.secondary-section",
+    "checksum": "10b368f6",
+    "checksumMethod": "bodyHash: CRC32 (hex) over the page <body>: every text node (trimmed, non-blank) and every img/iframe src attribute value, in document order. mainHash: SHA-256 (hex) over the normalized text of the <main> element: document order, tags stripped, whitespace collapsed; null when the page has no <main> element.",
+    "mainHash": "c9f54013fc0b16b98c3c7d47bfd34b7f7dd434e2ae68796daef8f344f67129dd",
+    "sections": [
+      "section.hero-section.hero-section--full",
+      "section.inverse-section",
+      "section.secondary-section",
+      "section.inverse-section",
+      "section",
+      "section.inverse-section"
+    ]
+  },
+  {
+    "url": "https://wknd-adventures.com/gear.html",
+    "path": "/gear.html",
+    "template": "section+section.accent-section+section.hero-section.hero-section--full+section.inverse-section+section.secondary-section",
+    "checksum": "8356cee0",
+    "checksumMethod": "bodyHash: CRC32 (hex) over the page <body>: every text node (trimmed, non-blank) and every img/iframe src attribute value, in document order. mainHash: SHA-256 (hex) over the normalized text of the <main> element: document order, tags stripped, whitespace collapsed; null when the page has no <main> element.",
+    "mainHash": "57b9d7b51f7a28b79ff788dacf0c52d889dbeb205d6396f38018c30c2599db64",
+    "sections": [
+      "section.hero-section.hero-section--full",
+      "section.accent-section",
+      "section.secondary-section",
+      "section",
+      "section.secondary-section",
+      "section",
+      "section",
+      "section.inverse-section",
+      "section.accent-section"
+    ]
+  },
+  {
+    "url": "https://wknd-adventures.com/sustainability.html",
+    "path": "/sustainability.html",
+    "template": "section+section.accent-section+section.hero-section.hero-section--full+section.inverse-section+section.secondary-section",
+    "checksum": "c5f3cf7e",
+    "checksumMethod": "bodyHash: CRC32 (hex) over the page <body>: every text node (trimmed, non-blank) and every img/iframe src attribute value, in document order. mainHash: SHA-256 (hex) over the normalized text of the <main> element: document order, tags stripped, whitespace collapsed; null when the page has no <main> element.",
+    "mainHash": "198b4556568242a73ba42196e41327149b7536ade793bbff7f2734d9d6712cfc",
+    "sections": [
+      "section.hero-section.hero-section--full",
+      "section",
+      "section.secondary-section",
+      "section",
+      "section.inverse-section",
+      "section",
+      "section.accent-section",
+      "section.accent-section",
+      "section.accent-section"
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "sourcePattern": "div.profile-circle",
+    "sourceSelector": "div.team-profile-grid > div.team-profile-row > div.team-profile-col > div.profile-circle",
+    "anchor": "top",
+    "count": 4,
+    "unique": 4,
+    "pages": 1,
+    "reason": "one-off content (appears once or on a single page)"
+  },
+  {
+    "sourcePattern": "div.team-profile-bio",
+    "sourceSelector": "div.team-profile-grid > div.team-profile-row > div.team-profile-bio",
+    "anchor": "top",
+    "count": 4,
+    "unique": 4,
+    "pages": 1,
+    "reason": "one-off content (appears once or on a single page)"
+  },
+  {
+    "sourcePattern": "img.cover-image",
+    "sourceSelector": "div.team-profile-row > div.team-profile-col > div.profile-circle > img.cover-image",
+    "anchor": "top",
+    "count": 4,
+    "unique": 4,
+    "pages": 1,
+    "reason": "one-off content (appears once or on a single page)"
+  },
+  {
+    "sourcePattern": "p.h5-heading.profile-name",
+    "sourceSelector": "div.team-profile-row > div.team-profile-col > div > p.h5-heading.profile-name",
+    "anchor": "top",
+    "count": 4,
+    "unique": 4,
+    "pages": 1,
+    "reason": "one-off content (appears once or on a single page)"
+  }
+]
